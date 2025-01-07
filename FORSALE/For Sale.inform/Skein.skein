@@ -3,15 +3,18 @@
   <generator>Windows Inform 10.1.2</generator>
   <item nodeId="node-1">
     <command xml:space="preserve">For Sale</command>
-    <result xml:space="preserve">Help.&#x000A;&#x000A;For Sale&#x000A;An Interactive Fiction by zlaqafor&#x000A;Release 1 / Serial number 241228 / Inform 7 v10.1.2 / D&#x000A;&#x000A;In&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Help.&#x000A;&#x000A;For Sale&#x000A;An Interactive Fiction by zlaqafor&#x000A;Release 1 / Serial number 250107 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Inside&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-2"/>
       <child nodeId="node-5"/>
+      <child nodeId="node-64"/>
+      <child nodeId="node-69"/>
       <child nodeId="node-24"/>
       <child nodeId="node-28"/>
-      <child nodeId="node-32"/>
+      <child nodeId="node-70"/>
+      <child nodeId="node-34"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -200,6 +203,45 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">go out</command>
+    <result xml:space="preserve">Can't.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">go Out</command>
+    <result xml:space="preserve">Can't.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Can't.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Out&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">land Out</command>
+    <result xml:space="preserve">You walk to Out.&#x000A;&#x000A;Out&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
   <item nodeId="node-24">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Can't.&#x000A;&#x000A;&gt;</result>
@@ -239,28 +281,36 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-60"/>
+      <child nodeId="node-62"/>
+      <child nodeId="node-68"/>
       <child nodeId="node-29"/>
+      <child nodeId="node-31"/>
     </children>
   </item>
-  <item nodeId="node-60">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">In&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-62">
+    <command xml:space="preserve">Out</command>
+    <result xml:space="preserve">Can't.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-61"/>
+      <child nodeId="node-63"/>
     </children>
   </item>
-  <item nodeId="node-61">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Out&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-63">
+    <command xml:space="preserve">Out</command>
+    <result xml:space="preserve">Can't.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">go out</command>
+    <result xml:space="preserve">Can't.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-29">
-    <command xml:space="preserve">out</command>
-    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">In&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -268,69 +318,90 @@
     </children>
   </item>
   <item nodeId="node-30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Out&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Can't.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-31"/>
+      <child nodeId="node-33"/>
     </children>
   </item>
-  <item nodeId="node-31">
+  <item nodeId="node-33">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Out&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-32">
+  <item nodeId="node-70">
+    <command xml:space="preserve">outside</command>
+    <result xml:space="preserve">Can't.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">land Outside</command>
+    <result xml:space="preserve">Can't.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">land Out</command>
+    <result xml:space="preserve">You walk to Outside.&#x000A;&#x000A;Outside&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-34">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Out&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-33"/>
-      <child nodeId="node-40"/>
-      <child nodeId="node-45"/>
-      <child nodeId="node-52"/>
+      <child nodeId="node-35"/>
+      <child nodeId="node-42"/>
+      <child nodeId="node-47"/>
+      <child nodeId="node-54"/>
     </children>
   </item>
-  <item nodeId="node-33">
+  <item nodeId="node-35">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">In&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-34"/>
-      <child nodeId="node-35"/>
+      <child nodeId="node-36"/>
+      <child nodeId="node-37"/>
     </children>
   </item>
-  <item nodeId="node-34">
+  <item nodeId="node-36">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Can't.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-35">
+  <item nodeId="node-37">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Out&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-36"/>
-    </children>
-  </item>
-  <item nodeId="node-36">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Away&#x000A;I can breathe.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-37"/>
-    </children>
-  </item>
-  <item nodeId="node-37">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">His Door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -338,8 +409,8 @@
     </children>
   </item>
   <item nodeId="node-38">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">His Room.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Away&#x000A;I can breathe.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -347,14 +418,17 @@
     </children>
   </item>
   <item nodeId="node-39">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">His Room.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">His Door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
   </item>
   <item nodeId="node-40">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">His Room.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -362,13 +436,10 @@
     </children>
   </item>
   <item nodeId="node-41">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">His Room.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-42"/>
-    </children>
   </item>
   <item nodeId="node-42">
     <command xml:space="preserve">n</command>
@@ -380,7 +451,7 @@
     </children>
   </item>
   <item nodeId="node-43">
-    <command xml:space="preserve">e</command>
+    <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -389,88 +460,88 @@
     </children>
   </item>
   <item nodeId="node-44">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-45">
+  <item nodeId="node-47">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Away&#x000A;I can breathe.&#x000A;&#x000A;Our House.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-46"/>
-      <child nodeId="node-51"/>
+      <child nodeId="node-48"/>
+      <child nodeId="node-53"/>
     </children>
   </item>
-  <item nodeId="node-46">
+  <item nodeId="node-48">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">His Door.&#x000A;He's gone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-47"/>
-      <child nodeId="node-50"/>
+      <child nodeId="node-49"/>
+      <child nodeId="node-52"/>
     </children>
   </item>
-  <item nodeId="node-47">
+  <item nodeId="node-49">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">His Room.&#x000A;Empty.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-48"/>
+      <child nodeId="node-50"/>
     </children>
   </item>
-  <item nodeId="node-48">
+  <item nodeId="node-50">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">His Door.&#x000A;He's gone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-49"/>
+      <child nodeId="node-51"/>
     </children>
   </item>
-  <item nodeId="node-49">
+  <item nodeId="node-51">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Our House.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-50">
+  <item nodeId="node-52">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">By House.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-51">
+  <item nodeId="node-53">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Sidewalk&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-52">
+  <item nodeId="node-54">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Away&#x000A;I can breathe.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-53"/>
-    </children>
-  </item>
-  <item nodeId="node-53">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Near His House.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-54"/>
-    </children>
-  </item>
-  <item nodeId="node-54">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">No.. I can't.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -478,8 +549,8 @@
     </children>
   </item>
   <item nodeId="node-55">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">No.. I can't.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Near His House.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -487,7 +558,7 @@
     </children>
   </item>
   <item nodeId="node-56">
-    <command xml:space="preserve">e</command>
+    <command xml:space="preserve">s</command>
     <result xml:space="preserve">No.. I can't.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -496,7 +567,7 @@
     </children>
   </item>
   <item nodeId="node-57">
-    <command xml:space="preserve">s</command>
+    <command xml:space="preserve">e</command>
     <result xml:space="preserve">No.. I can't.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -505,7 +576,7 @@
     </children>
   </item>
   <item nodeId="node-58">
-    <command xml:space="preserve">w</command>
+    <command xml:space="preserve">e</command>
     <result xml:space="preserve">No.. I can't.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -514,6 +585,24 @@
     </children>
   </item>
   <item nodeId="node-59">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">No.. I can't.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">No.. I can't.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">No.. I can't.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>

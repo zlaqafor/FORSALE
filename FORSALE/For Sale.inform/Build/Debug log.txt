@@ -1,5 +1,5 @@
 Debugging log of inform7
-inform7 was called as: C:\Program Files\Inform\Compilers\inform7 -internal C:\Program Files\Inform\Internal -external C:\Users\tilly\OneDrive\Documents\Inform -project C:\Users\tilly\OneDrive\Documents\GitHub\FORSALE\FORSALE\For Sale.inform -format=Inform6/32d
+inform7 was called as: C:\Program Files\Inform\Compilers\inform7 -internal C:\Program Files\Inform\Internal -external C:\Users\Gage\OneDrive\Documents\Inform -project C:\Users\Gage\OneDrive\Documents\Unreal Projects\cardz\FORSALE\FORSALE\For Sale.inform -format=Inform6/32d
 Reading further switches from file: <no file>
 Completed expert settings file
 Using Inform kit 'BasicInformKit' (priority 0).
@@ -7,7 +7,7 @@ Using Inform kit 'EnglishLanguageKit' (priority 1).
 Using Inform kit 'WorldModelKit' (priority 2).
 Using Inform kit 'CommandParserKit' (priority 3).
 756 Preform nonterminals read from C:\Program Files\Inform\Internal\Languages\English\Syntax.preform
-I've now read your source text, which is 4071 words long.
+I've now read your source text, which is 4046 words long.
 Included: core, naming, instance counting, interactive fiction, spatial model, backdrops, bibliographic data, chronology, devices, mapping, persons, player, regions, scenes, scoring, timed rules, times of day, actions, going, command, showme, multimedia, figures, sounds, glulx external files
 Excluded: 
 I've also read Basic Inform by Graham Nelson, which is 7691 words long.
@@ -42,14 +42,14 @@ Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\CommandPar
 Phase III ... Pre-pass through major nodes
 -----------------------------------------------------
 
-.... MajorNodes__pre_pass() took 6cs
+.... MajorNodes__pre_pass() took 14cs
 
 
 -----------------------------------------------------
 Phase IV ... First pass through major nodes
 -----------------------------------------------------
 
-.... MajorNodes__pass_1() took 3cs
+.... MajorNodes__pass_1() took 5cs
 
 
 -----------------------------------------------------
@@ -87,7 +87,7 @@ Phase IX ... Augment model world
 Phase X ... Phrases and rules
 -----------------------------------------------------
 
-.... ImperativeDefinitions__assess_all() took 2cs
+.... ImperativeDefinitions__assess_all() took 3cs
 
 
 -----------------------------------------------------
@@ -101,7 +101,8 @@ Phase XI ... Generating inter (1)
 Phase XII ... Generating inter (2)
 -----------------------------------------------------
 
-.... InferenceSubjects__emit_all() took 1cs
+.... InferenceSubjects__emit_all() took 2cs
+.... ImperativeDefinitions__compile_first_block() took 1cs
 
 
 ==== Phase XII.1 ... Slashing command grammar ====
@@ -110,38 +111,17 @@ Phase XII ... Generating inter (2)
 
 ==== Phase XII.2 ... Determining command grammar ====
 
+        SENTENCE_NT'understand "[the printed name of any room]" as going by name' {unit: 3} {classified}
+            VERB_NT'understand' {verb 'understand' 3p p act IS_TENSE +ve} {prep2: as} {special meaning: understand-as}
+            UNPARSED_NOUN_NT'"[the printed name of any room]"'
+            UNPARSED_NOUN_NT'going by name'
+        Problem PM_UnknownToken issued from inform7/if-module/Chapter 5/Command Grammar Tokens.w, line 432
 
+          >--> I was unable to understand what you meant by the grammar token 'the
+            printed name of any room' in the sentence 'Understand "[the printed name of
+            any room]" as going by name' (source text, line 442).
 
------------------------------------------------------
-Phase XIII ... Generating inter (3)
------------------------------------------------------
-
-        Problem BelievedImpossible issued from inform7/values-module/Chapter 5/Dash.w, line 2403
-
-          >--> You wrote 'carry out the described motion activity with the player' (source
-            text, line 430): but the ingredients in this phrase do not fit it, and I am
-            confused enough by this that I can't give a very helpful problem message.
-            Sorry about that.
-
-[0048] failed "carry out the ( a - activity on value of kind k ) activity with ( val - k )" (CONSTANT_NT'described motion' {kind: nothing valued property} {property: 'described motion'=list of texts} {meaning: {described motion = PROPERTY_MC}}) (NONLOCAL_VARIABLE_NT'player' {nonlocal: 'player'(var)person} {meaning: {player = VARIABLE_MC}})
-
-    I was trying to match this phrase:
-
-
-      carry out the (described motion - activity) activity with (player - value)
-    
-
-
-    I recognised:
-
-
-    described motion = a lists of texts valued property
-
-
-    player = a non-temporary variable, holding a person
-
-.... Sequence__undertake_queued_tasks() took 86cs
-Compile CPU time: 109 centiseconds
+Compile CPU time: 35 centiseconds
 Total of 3 files written as streams.
 Vacant escapes: %: ..CDE.GH..K.M.O.QR.TU...YZab..e..h.jklm.o.qr......yz0123456789
 Vacant escapes: $: .....F...J..........UVW.....................s.u..x.........789

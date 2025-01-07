@@ -398,9 +398,9 @@ The block climbing rule response (A) is "Can't."
 The block sleeping rule response (A) is "Can't."
 
 
-Start is a room. The printed name of Start is "In". Start is east of Out.
+Start is a room. The printed name of Start is "Inside". Start is east of Out.
 
-Out is a room west of Start and north of Away.
+Out is a room west of Start and north of Away.  The printed name of Out is "Outside".
 
 Away is a room south of Out.
 
@@ -418,18 +418,30 @@ ACT I begins when play begins.
 
 ACT I ends when the location is Away.
 
-To find is a verb. To lack is a verb. To head is a verb. To go is a verb.
+[To find is a verb. To lack is a verb. To head is a verb. To go is a verb.
 
 A person can be staid or hurrying. A person is usually staid.
 A room can be proper-named or improper-named.
 
 A person has a list of objects called the path so far.
-A person has a list of indexed text called described motion.
+A person has a list of indexed text called described motion.]
 	
 
 [ERRORS HERE - TRYING TO LET THE PLAYER GO OUT AT START]
-To say path-walked so far:
-	carry out the describing path activity with the player.
+[To say path-walked so far:
+	carry out the describing path activity with the player.]
+
+
+[TRYING TO LET YOU NAVIGATE BY ROOM NAME]
+Going by name is an action applying to one thing.
+
+Carry out going by name: say "I walk [the noun]."; move the player to the noun.
+
+Understand "[any room]" as going by name.
+
+Understand "[printed name of any room]" as going by name.
+
+
 
 ACT II is a scene. "I can breathe.".
 
