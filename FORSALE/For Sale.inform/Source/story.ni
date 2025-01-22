@@ -2,6 +2,8 @@
 
 [ACT I RESPONSES]
 
+						   [      ]  
+
 The can't go through undescribed doors rule response (A) is "Can't."
 The can't go that way rule response (A) is "Can't."
 The adjust light rule response (A) is "Can't."
@@ -250,10 +252,10 @@ The standard report exiting rule response (A) is "Can't."
 The standard report exiting rule response (B) is "Can't."
 The standard report exiting rule response (C) is "Can't."
 The can't get off things rule response (A) is "Can't."
-The standard report getting off rule response (A) is "Can't."
-The room description heading rule response (A) is "Can't."
-The room description heading rule response (B) is "Can't."
-The room description heading rule response (C) is "Can't."
+The standard report getting off rule response (A) is "..."
+The room description heading rule response (A) is "..."
+The room description heading rule response (B) is "..."
+The room description heading rule response (C) is "..."
 The room description body text rule response (A) is "Can't."
 The other people looking rule response (A) is "Can't."
 The examine directions rule response (A) is "Can't."
@@ -395,10 +397,14 @@ The report waving hands rule response (A) is "Can't."
 The report waving hands rule response (B) is "Can't."
 The block buying rule response (A) is "Can't."
 The block climbing rule response (A) is "Can't."
-The block sleeping rule response (A) is "Can't."
-
+The block sleeping rule response (A) is "Can't."                                   []
 
 Start is a room. The printed name of Start is "Inside". Start is east of Out.
+
+InsideHouse is an enterable scenery container in Start. The printed name of InsideHouse is "Room". The player is in InsideHouse.
+
+Rule for printing the locale description of InsideHouse:
+	do nothing.
 
 Out is a room west of Start and north of Away.  The printed name of Out is "Outside".
 
@@ -435,11 +441,25 @@ A person has a list of indexed text called described motion.]
 [TRYING TO LET YOU NAVIGATE BY ROOM NAME]
 Going by name is an action applying to one thing.
 
-Carry out going by name: say "I walk [the noun]."; move the player to the noun.
+Carry out going by name: say "I go [the noun]."; move the player to the noun.
 
 Understand "[any room]" as going by name.
 
-Understand "[printed name of any room]" as going by name.
+Going inside is an action applying to one thing.
+Going outside is an action applying to one thing.
+
+Carry out going inside: move the player to Start.
+Carry out going outside: move the player to Out.
+
+Getting out of is an action applying to one thing. Understand "get out of [something]" as getting out of. Understand "out " as getting out of. Understand "go out" as getting out of. Understand "go outside" as getting out of.
+
+Carry out getting out of something:
+		try exiting instead.
+
+
+Understand "Inside" as going inside.
+Understand "Out" as going outside.
+Understand  "Outside" as going outside.
 
 
 
@@ -458,3 +478,9 @@ When ACT II begins:
 	now Sidewalk is south of Away;
 	now Away is north of Sidewalk;
 	move the player to Away.
+	
+
+
+
+[A never-ending series of moments]
+[A life she never saw when she gave me to him]
