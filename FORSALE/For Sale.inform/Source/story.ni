@@ -152,9 +152,9 @@ The you-can-also-see rule response (C) is "Can't."
 The you-can-also-see rule response (D) is "Can't."
 The you-can-also-see rule response (E) is "Can't."
 The you-can-also-see rule response (F) is "Can't."
-The use initial appearance in room descriptions rule response (A) is "Can't."
-The describe what's on scenery supporters in room descriptions rule response (A) is "Can't."
-The describe what's on mentioned supporters in room descriptions rule response (A) is "Can't."
+[The use initial appearance in room descriptions rule response (A) is "Can't."]
+[The describe what's on scenery supporters in room descriptions rule response (A) is "Can't."
+The describe what's on mentioned supporters in room descriptions rule response (A) is "Can't."]
 The print empty inventory rule response (A) is "Can't."
 The print standard inventory rule response (A) is "Can't."
 The report other people taking inventory rule response (A) is "Can't."
@@ -188,7 +188,7 @@ The can't put onto what's not a supporter rule response (A) is "Can't."
 The can't put clothes being worn rule response (A) is "Can't."
 The can't put if this exceeds carrying capacity rule response (A) is "Can't."
 The concise report putting rule response (A) is "Can't."
-The standard report putting rule response (A) is "Can't."
+[The standard report putting rule response (A) is "Can't."]
 The can't insert what's already inserted rule response (A) is "Can't."
 The can't insert something into itself rule response (A) is "Can't."
 The can't insert into closed containers rule response (A) is "Can't."
@@ -208,7 +208,7 @@ The can't travel in what's not a vehicle rule response (B) is "Can't."
 The can't go through undescribed doors rule response (A) is "Can't."
 The can't go through closed doors rule response (A) is "Can't."
 The can't go that way rule response (B) is "Can't."
-The describe room gone into rule response (A) is "Can't."
+[The describe room gone into rule response (A) is "Can't."
 The describe room gone into rule response (B)  is "Can't."
 The describe room gone into rule response (C) is "Can't."
 The describe room gone into rule response (D) is "Can't."
@@ -226,7 +226,7 @@ The describe room gone into rule response (O) is "Can't."
 The describe room gone into rule response (P) is "Can't."
 The describe room gone into rule response (Q) is "Can't."
 The describe room gone into rule response (R) is "Can't."
-The describe room gone into rule response (S) is "Can't."
+The describe room gone into rule response (S) is "Can't."]
 The can't enter what's already entered rule response (A) is "Can't."
 The can't enter what's already entered rule response (B) is "Can't."
 The can't enter what's not enterable rule response (A) is "Can't."
@@ -242,15 +242,15 @@ The implicitly pass through other barriers rule response (B) is "Can't."
 The implicitly pass through other barriers rule response (C) is "Can't."
 The implicitly pass through other barriers rule response (D) is "Can't."
 The implicitly pass through other barriers rule response (E) is "Can't."
-The standard report entering rule response (A) is "Can't."
+[The standard report entering rule response (A) is "Can't."
 The standard report entering rule response (B) is "Can't."
 The standard report entering rule response (C) is "Can't."
 The standard report entering rule response (D) is "Can't."
 The can't exit when not inside anything rule response (A) is "Can't."
-The can't exit closed containers rule response (A) is "Can't."
-The standard report exiting rule response (A) is "Can't."
-The standard report exiting rule response (B) is "Can't."
-The standard report exiting rule response (C) is "Can't."
+The can't exit closed containers rule response (A) is "Can't."]
+The standard report exiting rule response (A) is "I'm out..."
+The standard report exiting rule response (B) is "I'm out..."
+The standard report exiting rule response (C) is "I'm out..."
 The can't get off things rule response (A) is "Can't."
 The standard report getting off rule response (A) is "..."
 The room description heading rule response (A) is "..."
@@ -397,7 +397,7 @@ The report waving hands rule response (A) is "Can't."
 The report waving hands rule response (B) is "Can't."
 The block buying rule response (A) is "Can't."
 The block climbing rule response (A) is "Can't."
-The block sleeping rule response (A) is "Can't."                                   []
+The block sleeping rule response (A) is "Can't."                                 []
 
 Start is a room. The printed name of Start is "Inside". Start is east of Out.
 
@@ -406,7 +406,7 @@ InsideHouse is an enterable scenery container in Start. The printed name of Insi
 Rule for printing the locale description of InsideHouse:
 	do nothing.
 
-Out is a room west of Start and north of Away.  The printed name of Out is "Outside".
+Out is a room west of Start and north of Away.  The printed name of Out is "The Porch".
 
 Away is a room south of Out.
 
@@ -451,15 +451,28 @@ Going outside is an action applying to one thing.
 Carry out going inside: move the player to Start.
 Carry out going outside: move the player to Out.
 
-Getting out of is an action applying to one thing. Understand "get out of [something]" as getting out of. Understand "out " as getting out of. Understand "go out" as getting out of. Understand "go outside" as getting out of.
-
-Carry out getting out of something:
-		try exiting instead.
-
-
 Understand "Inside" as going inside.
 Understand "Out" as going outside.
 Understand  "Outside" as going outside.
+
+
+Getting out of is an action applying to one thing. 
+
+Getting out of without a noun supplied is an action applying to nothing.
+
+Check an actor getting out of without a noun supplied (this is the InsideHouse rule):
+	if the player is enclosed by InsideHouse:
+		convert to the getting out of action on the player.
+		
+Understand "get out of [something]" as getting out of.
+Understand "get out" as getting out of without a noun supplied.
+Understand "out " as getting out of without a noun supplied. 
+Understand "outside" as getting out of without a noun supplied. 
+Understand "go out" as getting out of without a noun supplied. 
+Understand "go outside" as getting out of without a noun supplied.
+
+Carry out getting out of something:
+	try exiting instead.
 
 
 

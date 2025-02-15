@@ -757,8 +757,8 @@ Constant property_id_U50 = 90;
 Constant property_id_U51 = 91;
 Constant property_id_U52 = 92;
 Constant property_id_U53 = 93;
-Constant CCOUNT_ACTION_NAME = 104;
-Constant AD_RECORDS = 104;
+Constant CCOUNT_ACTION_NAME = 105;
+Constant AD_RECORDS = 105;
 Constant NO_PAST_TENSE_CONDS = 0;
 Constant NO_PAST_TENSE_ACTIONS = 0;
 Constant BASE_KIND_HWM = 68;
@@ -766,7 +766,7 @@ Constant RUCKSACK_CLASS = K15_player_s_holdall;
 Constant NO_EXTERNAL_FILES = 0;
 Constant CCOUNT_PROPERTY = 169;
 Constant CCOUNT_BINARY_PREDICATE = 119;
-Constant NUMBER_RULEBOOKS_CREATED = 378;
+Constant NUMBER_RULEBOOKS_CREATED = 381;
 Constant NO_RESPONSES = 393;
 Constant RANKING_TABLE = 0;
 Constant NO_USE_OPTIONS = 28;
@@ -2588,6 +2588,13 @@ Constant call_U1980 = EMPTY_RULEBOOK;
 Constant rulebook_id_U378 = 377;
 Constant action_id_U81 = 80;
 Constant var_id_U115 = 20080;
+Constant rulebook_id_U379 = 378;
+Constant call_U1982 = EMPTY_RULEBOOK;
+Constant rulebook_id_U380 = 379;
+Constant call_U1983 = EMPTY_RULEBOOK;
+Constant rulebook_id_U381 = 380;
+Constant action_id_U82 = 81;
+Constant var_id_U116 = 20081;
 Constant anchor_U350 = 1105;
 Constant anchor_U351 = 1105;
 Constant anchor_U352 = 1105;
@@ -2595,6 +2602,7 @@ Constant anchor_U353 = 1105;
 Constant anchor_U354 = 1105;
 Constant anchor_U355 = 1105;
 Constant anchor_U356 = 1105;
+Constant anchor_U357 = 1105;
 Release 1;
 Constant No_Directions = 12;
 Constant line_ref_U1 = 561;
@@ -2771,10 +2779,12 @@ Constant line_ref_U171 = 561;
 Constant line_ref_U172 = 561;
 Constant line_ref_U173 = 561;
 Constant line_ref_U174 = 561;
-Constant NO_VERB_VERB_DEFINED = 1;
 Constant line_ref_U175 = 561;
+Constant NO_VERB_VERB_DEFINED = 1;
 Constant line_ref_U176 = 561;
 Constant line_ref_U177 = 561;
+Constant line_ref_U178 = 561;
+Constant line_ref_U179 = 561;
 Constant KIT_CONFIGURATION_BITMAP = 320;
 Constant KIT_CONFIGURATION_LOOKMODE = 2;
 Constant MAX_FRAME_SIZE_NEEDED = 6;
@@ -3716,7 +3726,6 @@ Constant Computed_Constant_Value_15_U2 = 1;
 Constant Computed_Constant_Value_17_U2 = 1;
 Constant Computed_Constant_Value_19_U2 = 1;
 Constant Computed_Constant_Value_21_U2 = 1;
-Constant action_id_U82 = 81;
 Constant action_id_U83 = 82;
 Constant action_id_U84 = 83;
 Constant action_id_U85 = 84;
@@ -3739,6 +3748,7 @@ Constant action_id_U101 = 100;
 Constant action_id_U102 = 101;
 Constant action_id_U103 = 102;
 Constant action_id_U104 = 103;
+Constant action_id_U105 = 104;
 Constant COMMANDPARSERKIT = 1;
 Constant STUCK_PE = 1;
 Constant UPTO_PE = 2;
@@ -3790,7 +3800,7 @@ Constant Computed_Constant_Value_0_U4 = 1;
 Constant EMPTY_TEXT_PACKED = "";
 Constant I7_VERSION_NUMBER = "10.1.2";
 Constant I7_FULL_VERSION_NUMBER = "10.1.2";
-Serial "250122";
+Serial "250214";
 Constant alphabetised_text_0 = ">";
 Constant alphabetised_text_1 = "An Interactive Fiction";
 Constant alphabetised_text_2 = "As good-looking as ever.";
@@ -3815,22 +3825,23 @@ Constant alphabetised_text_20 = "QUIT";
 Constant alphabetised_text_21 = "RESTART";
 Constant alphabetised_text_22 = "RESTORE a saved game";
 Constant alphabetised_text_23 = "Room";
-Constant alphabetised_text_24 = "The Sidewalk.";
-Constant alphabetised_text_25 = "UNDO the last command";
-Constant alphabetised_text_26 = "Yourself";
+Constant alphabetised_text_24 = "The Porch";
+Constant alphabetised_text_25 = "The Sidewalk.";
+Constant alphabetised_text_26 = "UNDO the last command";
+Constant alphabetised_text_27 = "Yourself";
 Constant outcome_allow_access_U1 = "allow access";
 Constant outcome_allow_startup_U1 = "allow startup";
-Constant alphabetised_text_27 = "animals";
-Constant alphabetised_text_28 = "backdrops";
-Constant alphabetised_text_29 = "containers";
+Constant alphabetised_text_28 = "animals";
+Constant alphabetised_text_29 = "backdrops";
+Constant alphabetised_text_30 = "containers";
 Constant outcome_deny_access_U1 = "deny access";
 Constant outcome_deny_startup_U1 = "deny startup";
-Constant alphabetised_text_30 = "devices";
-Constant alphabetised_text_31 = "directions";
-Constant alphabetised_text_32 = "doors";
-Constant alphabetised_text_33 = "down";
-Constant alphabetised_text_34 = "east";
-Constant alphabetised_text_35 = "inside";
+Constant alphabetised_text_31 = "devices";
+Constant alphabetised_text_32 = "directions";
+Constant alphabetised_text_33 = "doors";
+Constant alphabetised_text_34 = "down";
+Constant alphabetised_text_35 = "east";
+Constant alphabetised_text_36 = "inside";
 Constant outcome_it_does_U1 = "it does";
 Constant outcome_it_does_not_U1 = "it does not";
 Constant outcome_it_is_likely_U1 = "it is likely";
@@ -3838,30 +3849,30 @@ Constant outcome_it_is_possible_U1 = "it is possible";
 Constant outcome_it_is_unlikely_U1 = "it is unlikely";
 Constant outcome_it_is_very_likely_U1 = "it is very likely";
 Constant outcome_it_is_very_unlikely_U1 = "it is very unlikely";
-Constant alphabetised_text_36 = "men";
-Constant alphabetised_text_37 = "north";
-Constant alphabetised_text_38 = "northeast";
-Constant alphabetised_text_39 = "northwest";
-Constant alphabetised_text_40 = "outside";
-Constant alphabetised_text_41 = "people";
+Constant alphabetised_text_37 = "men";
+Constant alphabetised_text_38 = "north";
+Constant alphabetised_text_39 = "northeast";
+Constant alphabetised_text_40 = "northwest";
+Constant alphabetised_text_41 = "outside";
+Constant alphabetised_text_42 = "people";
 Constant outcome_persuasion_fails_U1 = "persuasion fails";
 Constant outcome_persuasion_succeeds_U1 = "persuasion succeeds";
-Constant alphabetised_text_42 = "player's holdalls";
-Constant alphabetised_text_43 = "regions";
-Constant alphabetised_text_44 = "see some suggestions for AMUSING things to do";
-Constant alphabetised_text_45 = "south";
-Constant alphabetised_text_46 = "southeast";
-Constant alphabetised_text_47 = "southwest";
-Constant alphabetised_text_48 = "supporters";
-Constant alphabetised_text_49 = "the";
+Constant alphabetised_text_43 = "player's holdalls";
+Constant alphabetised_text_44 = "regions";
+Constant alphabetised_text_45 = "see some suggestions for AMUSING things to do";
+Constant alphabetised_text_46 = "south";
+Constant alphabetised_text_47 = "southeast";
+Constant alphabetised_text_48 = "southwest";
+Constant alphabetised_text_49 = "supporters";
+Constant alphabetised_text_50 = "the";
 Constant outcome_there_is_insufficien_U1 = "there is insufficient light";
 Constant outcome_there_is_sufficient__U1 = "there is sufficient light";
-Constant alphabetised_text_50 = "up";
-Constant alphabetised_text_51 = "vehicles";
-Constant alphabetised_text_52 = "west";
-Constant alphabetised_text_53 = "women";
-Constant alphabetised_text_54 = "yourself";
-Constant alphabetised_text_55 = "zlaqafor";
+Constant alphabetised_text_51 = "up";
+Constant alphabetised_text_52 = "vehicles";
+Constant alphabetised_text_53 = "west";
+Constant alphabetised_text_54 = "women";
+Constant alphabetised_text_55 = "yourself";
+Constant alphabetised_text_56 = "zlaqafor";
 Constant abilities_U1 = (RELS_TEST);
 Constant abilities_U2 = (RELS_TEST);
 Constant abilities_U4 = (RELS_TEST);
@@ -3869,47 +3880,47 @@ Constant abilities_U5 = (RELS_TEST);
 Constant V1_starting_the_virtual_mach = activity_id_U1;
 Constant V2_printing_the_name = activity_id_U2;
 Constant V3_printing_the_plural_name = activity_id_U3;
-Constant text_U1 = alphabetised_text_37;
-Constant text_U2 = alphabetised_text_49;
-Constant text_U3 = alphabetised_text_31;
-Constant text_U4 = alphabetised_text_38;
-Constant text_U5 = alphabetised_text_49;
-Constant text_U6 = alphabetised_text_31;
-Constant text_U7 = alphabetised_text_39;
-Constant text_U8 = alphabetised_text_49;
-Constant text_U9 = alphabetised_text_31;
-Constant text_U10 = alphabetised_text_45;
-Constant text_U11 = alphabetised_text_49;
-Constant text_U12 = alphabetised_text_31;
-Constant text_U13 = alphabetised_text_46;
-Constant text_U14 = alphabetised_text_49;
-Constant text_U15 = alphabetised_text_31;
-Constant text_U16 = alphabetised_text_47;
-Constant text_U17 = alphabetised_text_49;
-Constant text_U18 = alphabetised_text_31;
-Constant text_U19 = alphabetised_text_34;
-Constant text_U20 = alphabetised_text_49;
-Constant text_U21 = alphabetised_text_31;
-Constant text_U22 = alphabetised_text_52;
-Constant text_U23 = alphabetised_text_49;
-Constant text_U24 = alphabetised_text_31;
-Constant text_U25 = alphabetised_text_50;
-Constant text_U26 = alphabetised_text_49;
-Constant text_U27 = alphabetised_text_31;
-Constant text_U28 = alphabetised_text_33;
-Constant text_U29 = alphabetised_text_49;
-Constant text_U30 = alphabetised_text_31;
-Constant text_U31 = alphabetised_text_35;
-Constant text_U32 = alphabetised_text_49;
-Constant text_U33 = alphabetised_text_31;
-Constant text_U34 = alphabetised_text_40;
-Constant text_U35 = alphabetised_text_49;
-Constant text_U36 = alphabetised_text_31;
-Constant text_U37 = alphabetised_text_54;
+Constant text_U1 = alphabetised_text_38;
+Constant text_U2 = alphabetised_text_50;
+Constant text_U3 = alphabetised_text_32;
+Constant text_U4 = alphabetised_text_39;
+Constant text_U5 = alphabetised_text_50;
+Constant text_U6 = alphabetised_text_32;
+Constant text_U7 = alphabetised_text_40;
+Constant text_U8 = alphabetised_text_50;
+Constant text_U9 = alphabetised_text_32;
+Constant text_U10 = alphabetised_text_46;
+Constant text_U11 = alphabetised_text_50;
+Constant text_U12 = alphabetised_text_32;
+Constant text_U13 = alphabetised_text_47;
+Constant text_U14 = alphabetised_text_50;
+Constant text_U15 = alphabetised_text_32;
+Constant text_U16 = alphabetised_text_48;
+Constant text_U17 = alphabetised_text_50;
+Constant text_U18 = alphabetised_text_32;
+Constant text_U19 = alphabetised_text_35;
+Constant text_U20 = alphabetised_text_50;
+Constant text_U21 = alphabetised_text_32;
+Constant text_U22 = alphabetised_text_53;
+Constant text_U23 = alphabetised_text_50;
+Constant text_U24 = alphabetised_text_32;
+Constant text_U25 = alphabetised_text_51;
+Constant text_U26 = alphabetised_text_50;
+Constant text_U27 = alphabetised_text_32;
+Constant text_U28 = alphabetised_text_34;
+Constant text_U29 = alphabetised_text_50;
+Constant text_U30 = alphabetised_text_32;
+Constant text_U31 = alphabetised_text_36;
+Constant text_U32 = alphabetised_text_50;
+Constant text_U33 = alphabetised_text_32;
+Constant text_U34 = alphabetised_text_41;
+Constant text_U35 = alphabetised_text_50;
+Constant text_U36 = alphabetised_text_32;
+Constant text_U37 = alphabetised_text_55;
 Constant text_U38 = alphabetised_text_2;
-Constant text_U39 = alphabetised_text_26;
-Constant text_U40 = alphabetised_text_54;
-Constant text_U41 = alphabetised_text_41;
+Constant text_U39 = alphabetised_text_27;
+Constant text_U40 = alphabetised_text_55;
+Constant text_U41 = alphabetised_text_42;
 Constant RBNO0_OUTCOME_U1 = outcome_it_is_very_unlikely_U1;
 Constant RBNO4_OUTCOME_U1 = outcome_it_is_very_likely_U1;
 Constant RBNO3_OUTCOME_U1 = outcome_it_is_likely_U1;
@@ -3946,39 +3957,39 @@ Constant V31_handling_the_final_questi = activity_id_U31;
 Constant V32_printing_the_locale_descr = activity_id_U32;
 Constant V33_choosing_notable_locale_o = activity_id_U33;
 Constant V34_printing_a_locale_paragra = activity_id_U34;
-Constant text_U42 = alphabetised_text_31;
+Constant text_U42 = alphabetised_text_32;
 Constant K4_door_First = nothing;
-Constant text_U43 = alphabetised_text_32;
-Constant text_U44 = alphabetised_text_29;
+Constant text_U43 = alphabetised_text_33;
+Constant text_U44 = alphabetised_text_30;
 Constant K6_supporter_First = nothing;
-Constant text_U45 = alphabetised_text_48;
+Constant text_U45 = alphabetised_text_49;
 Constant K7_backdrop_First = nothing;
-Constant text_U46 = alphabetised_text_28;
-Constant text_U47 = alphabetised_text_41;
+Constant text_U46 = alphabetised_text_29;
+Constant text_U47 = alphabetised_text_42;
 Constant K9_region_First = nothing;
-Constant text_U48 = alphabetised_text_43;
+Constant text_U48 = alphabetised_text_44;
 Constant K10_man_First = nothing;
-Constant text_U49 = alphabetised_text_36;
+Constant text_U49 = alphabetised_text_37;
 Constant K11_woman_First = nothing;
-Constant text_U50 = alphabetised_text_53;
+Constant text_U50 = alphabetised_text_54;
 Constant K12_animal_First = nothing;
-Constant text_U51 = alphabetised_text_27;
+Constant text_U51 = alphabetised_text_28;
 Constant K13_device_First = nothing;
-Constant text_U52 = alphabetised_text_30;
+Constant text_U52 = alphabetised_text_31;
 Constant K14_vehicle_First = nothing;
-Constant text_U53 = alphabetised_text_51;
+Constant text_U53 = alphabetised_text_52;
 Constant K15_player_s_holdall_First = nothing;
-Constant text_U54 = alphabetised_text_42;
+Constant text_U54 = alphabetised_text_43;
 Constant text_U55 = alphabetised_text_0;
-Constant text_U56 = alphabetised_text_55;
+Constant text_U56 = alphabetised_text_56;
 Constant text_U57 = alphabetised_text_1;
 Constant text_U58 = alphabetised_text_4;
 Constant column_identity_U1 = table_column_id_U1;
 Constant text_U59 = alphabetised_text_21;
 Constant text_U60 = alphabetised_text_22;
-Constant text_U61 = alphabetised_text_44;
+Constant text_U61 = alphabetised_text_45;
 Constant text_U62 = alphabetised_text_20;
-Constant text_U63 = alphabetised_text_25;
+Constant text_U63 = alphabetised_text_26;
 Constant column_identity_U2 = table_column_id_U2;
 Constant column_identity_U3 = table_column_id_U3;
 Constant column_identity_U4 = table_column_id_U4;
@@ -3986,26 +3997,27 @@ Constant column_identity_U5 = table_column_id_U5;
 Constant column_identity_U6 = table_column_id_U6;
 Constant column_identity_U7 = table_column_id_U7;
 Constant text_U64 = alphabetised_text_13;
-Constant text_U65 = alphabetised_text_19;
+Constant text_U65 = alphabetised_text_24;
 Constant text_U66 = alphabetised_text_23;
-Constant text_U67 = alphabetised_text_29;
+Constant text_U67 = alphabetised_text_30;
 Constant text_U68 = alphabetised_text_3;
-Constant text_U69 = alphabetised_text_24;
+Constant text_U69 = alphabetised_text_25;
 Constant text_U70 = alphabetised_text_16;
 Constant text_U71 = alphabetised_text_7;
 Constant text_U72 = alphabetised_text_12;
 Constant text_U73 = alphabetised_text_15;
 Constant text_U74 = alphabetised_text_9;
-Constant text_U75 = alphabetised_text_14;
-Constant text_U76 = alphabetised_text_8;
-Constant text_U77 = alphabetised_text_18;
-Constant text_U78 = alphabetised_text_10;
-Constant text_U79 = alphabetised_text_6;
-Constant text_U80 = alphabetised_text_11;
-Constant text_U81 = alphabetised_text_17;
-Constant text_U82 = alphabetised_text_5;
-Constant text_U83 = alphabetised_text_1;
-Constant text_U84 = alphabetised_text_55;
+Constant text_U75 = alphabetised_text_19;
+Constant text_U76 = alphabetised_text_14;
+Constant text_U77 = alphabetised_text_8;
+Constant text_U78 = alphabetised_text_18;
+Constant text_U79 = alphabetised_text_10;
+Constant text_U80 = alphabetised_text_6;
+Constant text_U81 = alphabetised_text_11;
+Constant text_U82 = alphabetised_text_17;
+Constant text_U83 = alphabetised_text_5;
+Constant text_U84 = alphabetised_text_1;
+Constant text_U85 = alphabetised_text_56;
 Constant GPR_REPARSE = REPARSE_CODE;
 Constant TABLE_NOVALUE = IMPROBABLE_VALUE;
 Constant RC_INFINITY = MAX_POSITIVE_NUMBER;
@@ -4115,9 +4127,9 @@ Constant Computed_Constant_Value_23_U1 = (BLK_DATA_OFFSET + Computed_Constant_Va
 Constant VALENCY_MASK = Computed_Constant_Value_60_U1;
 Constant Computed_Constant_Value_39_U1 = (Computed_Constant_Value_38_U1 * TEXT_TY_NoBuffers);
 Constant BLK_DATA_MULTI_OFFSET = Computed_Constant_Value_23_U1;
-Constant Story = bc_U199;
-Constant Headline = bc_U200;
-Constant Story_Author = bc_U201;
+Constant Story = bc_U200;
+Constant Headline = bc_U201;
+Constant Story_Author = bc_U202;
 Constant Computed_Constant_Value_24_U1 = (MEMORY_HEAP_SIZE + BLK_DATA_MULTI_OFFSET);
 Constant abilities_U3 = (RELS_TEST + RELS_LOOKUP_ANY + RELS_LOOKUP_ALL_X + RELS_LOOKUP_ALL_X + RELS_LIST + RELS_ASSERT_TRUE + RELS_ASSERT_FALSE + RELS_LOOKUP_ANY);
 Constant abilities_U6 = (RELS_TEST + RELS_LOOKUP_ANY + RELS_LOOKUP_ALL_X + RELS_LOOKUP_ALL_X + RELS_LIST + RELS_ASSERT_TRUE + RELS_ASSERT_FALSE + RELS_LOOKUP_ANY);
@@ -4268,8 +4280,8 @@ Array DK7_relation_of_supporters_t --> [ RELATION_TY; 2; OBJECT_TY; OBJECT_TY; ]
 Array DK8_relation_of_things --> [ RELATION_TY; 2; OBJECT_TY; OBJECT_TY; ];
 Array DK9_relation_of_people_to_th --> [ RELATION_TY; 2; OBJECT_TY; OBJECT_TY; ];
 Array ActionHappened --> [ 0; 0; 0; 0; 0; 0; 0; 0; ];
-Array ActionCoding --> [ ##Inv; ##Take; ##Remove; ##Drop; ##PutOn; ##Insert; ##Eat; ##Go; ##Enter; ##Exit; ##GetOff; ##Look; ##Examine; ##LookUnder; ##Search; ##Consult; ##Lock; ##Unlock; ##SwitchOn; ##SwitchOff; ##Open; ##Close; ##Wear; ##Disrobe; ##Give; ##Show; ##WakeOther; ##ThrowAt; ##Attack; ##Kiss; ##Answer; ##Tell; ##Ask; ##AskFor; ##Wait; ##Touch; ##Wave; ##Pull; ##Push; ##Turn; ##PushDir; ##Squeeze; ##Yes; ##No; ##Burn; ##Wake; ##Think; ##Smell; ##Listen; ##Taste; ##Cut; ##Jump; ##Tie; ##Drink; ##Sorry; ##Swing; ##Rub; ##SetTo; ##WaveHands; ##Buy; ##Climb; ##Sleep; ##Quit; ##Save; ##Restore; ##Restart; ##Verify; ##ScriptOn; ##ScriptOff; ##Version; ##Score; ##LMode3; ##LMode2; ##LMode1; ##NotifyOn; ##NotifyOff; ##Pronouns; ##A_going_by_name; ##A_going_inside; ##A_going_outside; ##A_getting_out_of; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; ];
-Array ActionData table [ ##Inv; 0; OBJECT_TY; OBJECT_TY; 0; 20000; ##Take; 9; OBJECT_TY; OBJECT_TY; 0; 20001; ##Remove; 27; OBJECT_TY; OBJECT_TY; 0; 20002; ##Drop; 9; OBJECT_TY; OBJECT_TY; 0; 20003; ##PutOn; 27; OBJECT_TY; OBJECT_TY; 0; 20004; ##Insert; 27; OBJECT_TY; OBJECT_TY; 0; 20005; ##Eat; 9; OBJECT_TY; OBJECT_TY; 0; 20006; ##Go; 8; OBJECT_TY; OBJECT_TY; call_U547; 20007; ##Enter; 9; OBJECT_TY; OBJECT_TY; 0; 20008; ##Exit; 0; OBJECT_TY; OBJECT_TY; call_U554; 20009; ##GetOff; 9; OBJECT_TY; OBJECT_TY; 0; 20010; ##Look; 0; OBJECT_TY; OBJECT_TY; call_U561; 20011; ##Examine; 12; OBJECT_TY; OBJECT_TY; call_U565; 20012; ##LookUnder; 12; OBJECT_TY; OBJECT_TY; 0; 20013; ##Search; 13; OBJECT_TY; OBJECT_TY; 0; 20014; ##Consult; 25; OBJECT_TY; UNDERSTANDING_TY; 0; 20015; ##Lock; 155; OBJECT_TY; OBJECT_TY; 0; 20016; ##Unlock; 155; OBJECT_TY; OBJECT_TY; 0; 20017; ##SwitchOn; 9; OBJECT_TY; OBJECT_TY; 0; 20018; ##SwitchOff; 9; OBJECT_TY; OBJECT_TY; 0; 20019; ##Open; 9; OBJECT_TY; OBJECT_TY; 0; 20020; ##Close; 9; OBJECT_TY; OBJECT_TY; 0; 20021; ##Wear; 73; OBJECT_TY; OBJECT_TY; 0; 20022; ##Disrobe; 9; OBJECT_TY; OBJECT_TY; 0; 20023; ##Give; 91; OBJECT_TY; OBJECT_TY; 0; 20024; ##Show; 89; OBJECT_TY; OBJECT_TY; 0; 20025; ##WakeOther; 9; OBJECT_TY; OBJECT_TY; 0; 20026; ##ThrowAt; 89; OBJECT_TY; OBJECT_TY; 0; 20027; ##Attack; 9; OBJECT_TY; OBJECT_TY; 0; 20028; ##Kiss; 9; OBJECT_TY; OBJECT_TY; 0; 20029; ##Answer; 25; OBJECT_TY; UNDERSTANDING_TY; 0; 20030; ##Tell; 25; OBJECT_TY; UNDERSTANDING_TY; 0; 20031; ##Ask; 25; OBJECT_TY; UNDERSTANDING_TY; 0; 20032; ##AskFor; 27; OBJECT_TY; OBJECT_TY; 0; 20033; ##Wait; 0; OBJECT_TY; OBJECT_TY; 0; 20034; ##Touch; 9; OBJECT_TY; OBJECT_TY; 0; 20035; ##Wave; 9; OBJECT_TY; OBJECT_TY; 0; 20036; ##Pull; 9; OBJECT_TY; OBJECT_TY; 0; 20037; ##Push; 9; OBJECT_TY; OBJECT_TY; 0; 20038; ##Turn; 9; OBJECT_TY; OBJECT_TY; 0; 20039; ##PushDir; 25; OBJECT_TY; OBJECT_TY; 0; 20040; ##Squeeze; 9; OBJECT_TY; OBJECT_TY; 0; 20041; ##Yes; 0; OBJECT_TY; OBJECT_TY; 0; 20042; ##No; 0; OBJECT_TY; OBJECT_TY; 0; 20043; ##Burn; 9; OBJECT_TY; OBJECT_TY; 0; 20044; ##Wake; 0; OBJECT_TY; OBJECT_TY; 0; 20045; ##Think; 0; OBJECT_TY; OBJECT_TY; 0; 20046; ##Smell; 9; OBJECT_TY; OBJECT_TY; 0; 20047; ##Listen; 9; OBJECT_TY; OBJECT_TY; 0; 20048; ##Taste; 9; OBJECT_TY; OBJECT_TY; 0; 20049; ##Cut; 9; OBJECT_TY; OBJECT_TY; 0; 20050; ##Jump; 0; OBJECT_TY; OBJECT_TY; 0; 20051; ##Tie; 27; OBJECT_TY; OBJECT_TY; 0; 20052; ##Drink; 9; OBJECT_TY; OBJECT_TY; 0; 20053; ##Sorry; 0; OBJECT_TY; OBJECT_TY; 0; 20054; ##Swing; 9; OBJECT_TY; OBJECT_TY; 0; 20055; ##Rub; 9; OBJECT_TY; OBJECT_TY; 0; 20056; ##SetTo; 25; OBJECT_TY; UNDERSTANDING_TY; 0; 20057; ##WaveHands; 0; OBJECT_TY; OBJECT_TY; 0; 20058; ##Buy; 9; OBJECT_TY; OBJECT_TY; 0; 20059; ##Climb; 9; OBJECT_TY; OBJECT_TY; 0; 20060; ##Sleep; 0; OBJECT_TY; OBJECT_TY; 0; 20061; ##Quit; 32; OBJECT_TY; OBJECT_TY; 0; 20062; ##Save; 32; OBJECT_TY; OBJECT_TY; 0; 20063; ##Restore; 32; OBJECT_TY; OBJECT_TY; 0; 20064; ##Restart; 32; OBJECT_TY; OBJECT_TY; 0; 20065; ##Verify; 32; OBJECT_TY; OBJECT_TY; 0; 20066; ##ScriptOn; 32; OBJECT_TY; OBJECT_TY; 0; 20067; ##ScriptOff; 32; OBJECT_TY; OBJECT_TY; 0; 20068; ##Version; 32; OBJECT_TY; OBJECT_TY; 0; 20069; ##Score; 32; OBJECT_TY; OBJECT_TY; 0; 20070; ##LMode3; 32; OBJECT_TY; OBJECT_TY; 0; 20071; ##LMode2; 32; OBJECT_TY; OBJECT_TY; 0; 20072; ##LMode1; 32; OBJECT_TY; OBJECT_TY; 0; 20073; ##NotifyOn; 32; OBJECT_TY; OBJECT_TY; 0; 20074; ##NotifyOff; 32; OBJECT_TY; OBJECT_TY; 0; 20075; ##Pronouns; 32; OBJECT_TY; OBJECT_TY; 0; 20076; ##A_going_by_name; 9; OBJECT_TY; OBJECT_TY; 0; 20077; ##A_going_inside; 9; OBJECT_TY; OBJECT_TY; 0; 20078; ##A_going_outside; 9; OBJECT_TY; OBJECT_TY; 0; 20079; ##A_getting_out_of; 9; OBJECT_TY; OBJECT_TY; 0; 20080; 0; 0; 0; 0; 0; 20081; 0; 0; 0; 0; 0; 20082; 0; 0; 0; 0; 0; 20083; 0; 0; 0; 0; 0; 20084; 0; 0; 0; 0; 0; 20085; 0; 0; 0; 0; 0; 20086; 0; 0; 0; 0; 0; 20087; 0; 0; 0; 0; 0; 20088; 0; 0; 0; 0; 0; 20089; 0; 0; 0; 0; 0; 20090; 0; 0; 0; 0; 0; 20091; 0; 0; 0; 0; 0; 20092; 0; 0; 0; 0; 0; 20093; 0; 0; 0; 0; 0; 20094; 0; 0; 0; 0; 0; 20095; 0; 0; 0; 0; 0; 20096; 0; 0; 0; 0; 0; 20097; 0; 0; 0; 0; 0; 20098; 0; 0; 0; 0; 0; 20099; 0; 0; 0; 0; 0; 20100; 0; 0; 0; 0; 0; 20101; 0; 0; 0; 0; 0; 20102; 0; 0; 0; 0; 0; 20103; 0; ];
+Array ActionCoding --> [ ##Inv; ##Take; ##Remove; ##Drop; ##PutOn; ##Insert; ##Eat; ##Go; ##Enter; ##Exit; ##GetOff; ##Look; ##Examine; ##LookUnder; ##Search; ##Consult; ##Lock; ##Unlock; ##SwitchOn; ##SwitchOff; ##Open; ##Close; ##Wear; ##Disrobe; ##Give; ##Show; ##WakeOther; ##ThrowAt; ##Attack; ##Kiss; ##Answer; ##Tell; ##Ask; ##AskFor; ##Wait; ##Touch; ##Wave; ##Pull; ##Push; ##Turn; ##PushDir; ##Squeeze; ##Yes; ##No; ##Burn; ##Wake; ##Think; ##Smell; ##Listen; ##Taste; ##Cut; ##Jump; ##Tie; ##Drink; ##Sorry; ##Swing; ##Rub; ##SetTo; ##WaveHands; ##Buy; ##Climb; ##Sleep; ##Quit; ##Save; ##Restore; ##Restart; ##Verify; ##ScriptOn; ##ScriptOff; ##Version; ##Score; ##LMode3; ##LMode2; ##LMode1; ##NotifyOn; ##NotifyOff; ##Pronouns; ##A_going_by_name; ##A_going_inside; ##A_going_outside; ##A_getting_out_of; ##A_getting_out_of_withou; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; ];
+Array ActionData table [ ##Inv; 0; OBJECT_TY; OBJECT_TY; 0; 20000; ##Take; 9; OBJECT_TY; OBJECT_TY; 0; 20001; ##Remove; 27; OBJECT_TY; OBJECT_TY; 0; 20002; ##Drop; 9; OBJECT_TY; OBJECT_TY; 0; 20003; ##PutOn; 27; OBJECT_TY; OBJECT_TY; 0; 20004; ##Insert; 27; OBJECT_TY; OBJECT_TY; 0; 20005; ##Eat; 9; OBJECT_TY; OBJECT_TY; 0; 20006; ##Go; 8; OBJECT_TY; OBJECT_TY; call_U547; 20007; ##Enter; 9; OBJECT_TY; OBJECT_TY; 0; 20008; ##Exit; 0; OBJECT_TY; OBJECT_TY; call_U554; 20009; ##GetOff; 9; OBJECT_TY; OBJECT_TY; 0; 20010; ##Look; 0; OBJECT_TY; OBJECT_TY; call_U561; 20011; ##Examine; 12; OBJECT_TY; OBJECT_TY; call_U565; 20012; ##LookUnder; 12; OBJECT_TY; OBJECT_TY; 0; 20013; ##Search; 13; OBJECT_TY; OBJECT_TY; 0; 20014; ##Consult; 25; OBJECT_TY; UNDERSTANDING_TY; 0; 20015; ##Lock; 155; OBJECT_TY; OBJECT_TY; 0; 20016; ##Unlock; 155; OBJECT_TY; OBJECT_TY; 0; 20017; ##SwitchOn; 9; OBJECT_TY; OBJECT_TY; 0; 20018; ##SwitchOff; 9; OBJECT_TY; OBJECT_TY; 0; 20019; ##Open; 9; OBJECT_TY; OBJECT_TY; 0; 20020; ##Close; 9; OBJECT_TY; OBJECT_TY; 0; 20021; ##Wear; 73; OBJECT_TY; OBJECT_TY; 0; 20022; ##Disrobe; 9; OBJECT_TY; OBJECT_TY; 0; 20023; ##Give; 91; OBJECT_TY; OBJECT_TY; 0; 20024; ##Show; 89; OBJECT_TY; OBJECT_TY; 0; 20025; ##WakeOther; 9; OBJECT_TY; OBJECT_TY; 0; 20026; ##ThrowAt; 89; OBJECT_TY; OBJECT_TY; 0; 20027; ##Attack; 9; OBJECT_TY; OBJECT_TY; 0; 20028; ##Kiss; 9; OBJECT_TY; OBJECT_TY; 0; 20029; ##Answer; 25; OBJECT_TY; UNDERSTANDING_TY; 0; 20030; ##Tell; 25; OBJECT_TY; UNDERSTANDING_TY; 0; 20031; ##Ask; 25; OBJECT_TY; UNDERSTANDING_TY; 0; 20032; ##AskFor; 27; OBJECT_TY; OBJECT_TY; 0; 20033; ##Wait; 0; OBJECT_TY; OBJECT_TY; 0; 20034; ##Touch; 9; OBJECT_TY; OBJECT_TY; 0; 20035; ##Wave; 9; OBJECT_TY; OBJECT_TY; 0; 20036; ##Pull; 9; OBJECT_TY; OBJECT_TY; 0; 20037; ##Push; 9; OBJECT_TY; OBJECT_TY; 0; 20038; ##Turn; 9; OBJECT_TY; OBJECT_TY; 0; 20039; ##PushDir; 25; OBJECT_TY; OBJECT_TY; 0; 20040; ##Squeeze; 9; OBJECT_TY; OBJECT_TY; 0; 20041; ##Yes; 0; OBJECT_TY; OBJECT_TY; 0; 20042; ##No; 0; OBJECT_TY; OBJECT_TY; 0; 20043; ##Burn; 9; OBJECT_TY; OBJECT_TY; 0; 20044; ##Wake; 0; OBJECT_TY; OBJECT_TY; 0; 20045; ##Think; 0; OBJECT_TY; OBJECT_TY; 0; 20046; ##Smell; 9; OBJECT_TY; OBJECT_TY; 0; 20047; ##Listen; 9; OBJECT_TY; OBJECT_TY; 0; 20048; ##Taste; 9; OBJECT_TY; OBJECT_TY; 0; 20049; ##Cut; 9; OBJECT_TY; OBJECT_TY; 0; 20050; ##Jump; 0; OBJECT_TY; OBJECT_TY; 0; 20051; ##Tie; 27; OBJECT_TY; OBJECT_TY; 0; 20052; ##Drink; 9; OBJECT_TY; OBJECT_TY; 0; 20053; ##Sorry; 0; OBJECT_TY; OBJECT_TY; 0; 20054; ##Swing; 9; OBJECT_TY; OBJECT_TY; 0; 20055; ##Rub; 9; OBJECT_TY; OBJECT_TY; 0; 20056; ##SetTo; 25; OBJECT_TY; UNDERSTANDING_TY; 0; 20057; ##WaveHands; 0; OBJECT_TY; OBJECT_TY; 0; 20058; ##Buy; 9; OBJECT_TY; OBJECT_TY; 0; 20059; ##Climb; 9; OBJECT_TY; OBJECT_TY; 0; 20060; ##Sleep; 0; OBJECT_TY; OBJECT_TY; 0; 20061; ##Quit; 32; OBJECT_TY; OBJECT_TY; 0; 20062; ##Save; 32; OBJECT_TY; OBJECT_TY; 0; 20063; ##Restore; 32; OBJECT_TY; OBJECT_TY; 0; 20064; ##Restart; 32; OBJECT_TY; OBJECT_TY; 0; 20065; ##Verify; 32; OBJECT_TY; OBJECT_TY; 0; 20066; ##ScriptOn; 32; OBJECT_TY; OBJECT_TY; 0; 20067; ##ScriptOff; 32; OBJECT_TY; OBJECT_TY; 0; 20068; ##Version; 32; OBJECT_TY; OBJECT_TY; 0; 20069; ##Score; 32; OBJECT_TY; OBJECT_TY; 0; 20070; ##LMode3; 32; OBJECT_TY; OBJECT_TY; 0; 20071; ##LMode2; 32; OBJECT_TY; OBJECT_TY; 0; 20072; ##LMode1; 32; OBJECT_TY; OBJECT_TY; 0; 20073; ##NotifyOn; 32; OBJECT_TY; OBJECT_TY; 0; 20074; ##NotifyOff; 32; OBJECT_TY; OBJECT_TY; 0; 20075; ##Pronouns; 32; OBJECT_TY; OBJECT_TY; 0; 20076; ##A_going_by_name; 9; OBJECT_TY; OBJECT_TY; 0; 20077; ##A_going_inside; 9; OBJECT_TY; OBJECT_TY; 0; 20078; ##A_going_outside; 9; OBJECT_TY; OBJECT_TY; 0; 20079; ##A_getting_out_of; 9; OBJECT_TY; OBJECT_TY; 0; 20080; ##A_getting_out_of_withou; 0; OBJECT_TY; OBJECT_TY; 0; 20081; 0; 0; 0; 0; 0; 20082; 0; 0; 0; 0; 0; 20083; 0; 0; 0; 0; 0; 20084; 0; 0; 0; 0; 0; 20085; 0; 0; 0; 0; 0; 20086; 0; 0; 0; 0; 0; 20087; 0; 0; 0; 0; 0; 20088; 0; 0; 0; 0; 0; 20089; 0; 0; 0; 0; 0; 20090; 0; 0; 0; 0; 0; 20091; 0; 0; 0; 0; 0; 20092; 0; 0; 0; 0; 0; 20093; 0; 0; 0; 0; 0; 20094; 0; 0; 0; 0; 0; 20095; 0; 0; 0; 0; 0; 20096; 0; 0; 0; 0; 0; 20097; 0; 0; 0; 0; 0; 20098; 0; 0; 0; 0; 0; 20099; 0; 0; 0; 0; 0; 20100; 0; 0; 0; 0; 0; 20101; 0; 0; 0; 0; 0; 20102; 0; 0; 0; 0; 0; 20103; 0; 0; 0; 0; 0; 20104; 0; ];
 Array Activity_after_rulebooks --> [ rulebook_id_U5; rulebook_id_U8; rulebook_id_U11; rulebook_id_U41; rulebook_id_U44; rulebook_id_U47; rulebook_id_U50; rulebook_id_U53; rulebook_id_U56; rulebook_id_U59; rulebook_id_U62; rulebook_id_U65; rulebook_id_U68; rulebook_id_U71; rulebook_id_U74; rulebook_id_U77; rulebook_id_U80; rulebook_id_U83; rulebook_id_U86; rulebook_id_U89; rulebook_id_U92; rulebook_id_U95; rulebook_id_U98; rulebook_id_U101; rulebook_id_U104; rulebook_id_U107; rulebook_id_U110; rulebook_id_U113; rulebook_id_U116; rulebook_id_U119; rulebook_id_U122; rulebook_id_U125; rulebook_id_U128; rulebook_id_U131; ];
 Array Activity_atb_rulebooks -> [ 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 1; 0; 1; 1; 1; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; ];
 Array Activity_before_rulebooks --> [ rulebook_id_U3; rulebook_id_U6; rulebook_id_U9; rulebook_id_U39; rulebook_id_U42; rulebook_id_U45; rulebook_id_U48; rulebook_id_U51; rulebook_id_U54; rulebook_id_U57; rulebook_id_U60; rulebook_id_U63; rulebook_id_U66; rulebook_id_U69; rulebook_id_U72; rulebook_id_U75; rulebook_id_U78; rulebook_id_U81; rulebook_id_U84; rulebook_id_U87; rulebook_id_U90; rulebook_id_U93; rulebook_id_U96; rulebook_id_U99; rulebook_id_U102; rulebook_id_U105; rulebook_id_U108; rulebook_id_U111; rulebook_id_U114; rulebook_id_U117; rulebook_id_U120; rulebook_id_U123; rulebook_id_U126; rulebook_id_U129; ];
@@ -4283,9 +4295,9 @@ Array KindHierarchy --> [ K0_kind; 0; K1_room; 0; K2_thing; 0; K3_direction; 0; 
 Array ResourceIDsOfFigures --> [ 0; 1; 0; ];
 Array ResourceIDsOfSounds --> [ 0; 0; ];
 Array TableOfExternalFiles --> [ 0; 0; ];
-Array RulebookNames --> [ "Startup rulebook"; "Shutdown rulebook"; "before starting the virtual machine rulebook"; "for starting the virtual machine rulebook"; "after starting the virtual machine rulebook"; "before printing the name rulebook"; "for printing the name rulebook"; "after printing the name rulebook"; "before printing the plural name rulebook"; "for printing the plural name rulebook"; "after printing the plural name rulebook"; "Turn sequence rulebook"; "Scene changing rulebook"; "When play begins rulebook"; "When play ends rulebook"; "When scene begins rulebook"; "When scene ends rulebook"; "Every turn rulebook"; "Action-processing rulebook"; "Setting action variables rulebook"; "specific action-processing rulebook"; "player's action awareness rulebook"; "Accessibility rulebook"; "Reaching inside rulebook"; "Reaching outside rulebook"; "Visibility rulebook"; "Persuasion rulebook"; "Unsuccessful attempt by rulebook"; "Before rulebook"; "Instead rulebook"; "Check rulebook"; "Carry out rulebook"; "After rulebook"; "Report rulebook"; "does the player mean rulebook"; "multiple action processing rulebook"; "when Entire Game begins rulebook"; "when Entire Game ends rulebook"; "before issuing the response text rulebook"; "for issuing the response text rulebook"; "after issuing the response text rulebook"; "before printing a number rulebook"; "for printing a number rulebook"; "after printing a number rulebook"; "before printing room description details rulebook"; "for printing room description details rulebook"; "after printing room description details rulebook"; "before printing inventory details rulebook"; "for printing inventory details rulebook"; "after printing inventory details rulebook"; "before listing contents rulebook"; "for listing contents rulebook"; "after listing contents rulebook"; "before grouping together rulebook"; "for grouping together rulebook"; "after grouping together rulebook"; "before writing a paragraph about rulebook"; "for writing a paragraph about rulebook"; "after writing a paragraph about rulebook"; "before listing nondescript items rulebook"; "for listing nondescript items rulebook"; "after listing nondescript items rulebook"; "before printing the name of a dark room rulebook"; "for printing the name of a dark room rulebook"; "after printing the name of a dark room rulebook"; "before printing the description of a dark room rulebook"; "for printing the description of a dark room rulebook"; "after printing the description of a dark room rulebook"; "before printing the announcement of darkness rulebook"; "for printing the announcement of darkness rulebook"; "after printing the announcement of darkness rulebook"; "before printing the announcement of light rulebook"; "for printing the announcement of light rulebook"; "after printing the announcement of light rulebook"; "before printing a refusal to act in the dark rulebook"; "for printing a refusal to act in the dark rulebook"; "after printing a refusal to act in the dark rulebook"; "before constructing the status line rulebook"; "for constructing the status line rulebook"; "after constructing the status line rulebook"; "before printing the banner text rulebook"; "for printing the banner text rulebook"; "after printing the banner text rulebook"; "before reading a command rulebook"; "for reading a command rulebook"; "after reading a command rulebook"; "before deciding the scope rulebook"; "for deciding the scope rulebook"; "after deciding the scope rulebook"; "before deciding the concealed possessions rulebook"; "for deciding the concealed possessions rulebook"; "after deciding the concealed possessions rulebook"; "before deciding whether all includes rulebook"; "for deciding whether all includes rulebook"; "after deciding whether all includes rulebook"; "before clarifying the parser's choice rulebook"; "for clarifying the parser's choice rulebook"; "after clarifying the parser's choice rulebook"; "before asking which do you mean rulebook"; "for asking which do you mean rulebook"; "after asking which do you mean rulebook"; "before printing a parser error rulebook"; "for printing a parser error rulebook"; "after printing a parser error rulebook"; "before supplying a missing noun rulebook"; "for supplying a missing noun rulebook"; "after supplying a missing noun rulebook"; "before supplying a missing second noun rulebook"; "for supplying a missing second noun rulebook"; "after supplying a missing second noun rulebook"; "before implicitly taking rulebook"; "for implicitly taking rulebook"; "after implicitly taking rulebook"; "before amusing a victorious player rulebook"; "for amusing a victorious player rulebook"; "after amusing a victorious player rulebook"; "before printing the player's obituary rulebook"; "for printing the player's obituary rulebook"; "after printing the player's obituary rulebook"; "before handling the final question rulebook"; "for handling the final question rulebook"; "after handling the final question rulebook"; "before printing the locale description rulebook"; "for printing the locale description rulebook"; "after printing the locale description rulebook"; "before choosing notable locale objects rulebook"; "for choosing notable locale objects rulebook"; "after choosing notable locale objects rulebook"; "before printing a locale paragraph about rulebook"; "for printing a locale paragraph about rulebook"; "after printing a locale paragraph about rulebook"; "check taking inventory rulebook"; "carry out taking inventory rulebook"; "report taking inventory rulebook"; "check taking rulebook"; "carry out taking rulebook"; "report taking rulebook"; "check removing it from rulebook"; "carry out removing it from rulebook"; "report removing it from rulebook"; "check dropping rulebook"; "carry out dropping rulebook"; "report dropping rulebook"; "check putting it on rulebook"; "carry out putting it on rulebook"; "report putting it on rulebook"; "check inserting it into rulebook"; "carry out inserting it into rulebook"; "report inserting it into rulebook"; "check eating rulebook"; "carry out eating rulebook"; "report eating rulebook"; "check going rulebook"; "carry out going rulebook"; "report going rulebook"; "check entering rulebook"; "carry out entering rulebook"; "report entering rulebook"; "check exiting rulebook"; "carry out exiting rulebook"; "report exiting rulebook"; "check getting off rulebook"; "carry out getting off rulebook"; "report getting off rulebook"; "check looking rulebook"; "carry out looking rulebook"; "report looking rulebook"; "check examining rulebook"; "carry out examining rulebook"; "report examining rulebook"; "check looking under rulebook"; "carry out looking under rulebook"; "report looking under rulebook"; "check searching rulebook"; "carry out searching rulebook"; "report searching rulebook"; "check consulting it about rulebook"; "carry out consulting it about rulebook"; "report consulting it about rulebook"; "check locking it with rulebook"; "carry out locking it with rulebook"; "report locking it with rulebook"; "check unlocking it with rulebook"; "carry out unlocking it with rulebook"; "report unlocking it with rulebook"; "check switching on rulebook"; "carry out switching on rulebook"; "report switching on rulebook"; "check switching off rulebook"; "carry out switching off rulebook"; "report switching off rulebook"; "check opening rulebook"; "carry out opening rulebook"; "report opening rulebook"; "check closing rulebook"; "carry out closing rulebook"; "report closing rulebook"; "check wearing rulebook"; "carry out wearing rulebook"; "report wearing rulebook"; "check taking off rulebook"; "carry out taking off rulebook"; "report taking off rulebook"; "check giving it to rulebook"; "carry out giving it to rulebook"; "report giving it to rulebook"; "check showing it to rulebook"; "carry out showing it to rulebook"; "report showing it to rulebook"; "check waking rulebook"; "carry out waking rulebook"; "report waking rulebook"; "check throwing it at rulebook"; "carry out throwing it at rulebook"; "report throwing it at rulebook"; "check attacking rulebook"; "carry out attacking rulebook"; "report attacking rulebook"; "check kissing rulebook"; "carry out kissing rulebook"; "report kissing rulebook"; "check answering it that rulebook"; "carry out answering it that rulebook"; "report answering it that rulebook"; "check telling it about rulebook"; "carry out telling it about rulebook"; "report telling it about rulebook"; "check asking it about rulebook"; "carry out asking it about rulebook"; "report asking it about rulebook"; "check asking it for rulebook"; "carry out asking it for rulebook"; "report asking it for rulebook"; "check waiting rulebook"; "carry out waiting rulebook"; "report waiting rulebook"; "check touching rulebook"; "carry out touching rulebook"; "report touching rulebook"; "check waving rulebook"; "carry out waving rulebook"; "report waving rulebook"; "check pulling rulebook"; "carry out pulling rulebook"; "report pulling rulebook"; "check pushing rulebook"; "carry out pushing rulebook"; "report pushing rulebook"; "check turning rulebook"; "carry out turning rulebook"; "report turning rulebook"; "check pushing it to rulebook"; "carry out pushing it to rulebook"; "report pushing it to rulebook"; "check squeezing rulebook"; "carry out squeezing rulebook"; "report squeezing rulebook"; "check saying yes rulebook"; "carry out saying yes rulebook"; "report saying yes rulebook"; "check saying no rulebook"; "carry out saying no rulebook"; "report saying no rulebook"; "check burning rulebook"; "carry out burning rulebook"; "report burning rulebook"; "check waking up rulebook"; "carry out waking up rulebook"; "report waking up rulebook"; "check thinking rulebook"; "carry out thinking rulebook"; "report thinking rulebook"; "check smelling rulebook"; "carry out smelling rulebook"; "report smelling rulebook"; "check listening to rulebook"; "carry out listening to rulebook"; "report listening to rulebook"; "check tasting rulebook"; "carry out tasting rulebook"; "report tasting rulebook"; "check cutting rulebook"; "carry out cutting rulebook"; "report cutting rulebook"; "check jumping rulebook"; "carry out jumping rulebook"; "report jumping rulebook"; "check tying it to rulebook"; "carry out tying it to rulebook"; "report tying it to rulebook"; "check drinking rulebook"; "carry out drinking rulebook"; "report drinking rulebook"; "check saying sorry rulebook"; "carry out saying sorry rulebook"; "report saying sorry rulebook"; "check swinging rulebook"; "carry out swinging rulebook"; "report swinging rulebook"; "check rubbing rulebook"; "carry out rubbing rulebook"; "report rubbing rulebook"; "check setting it to rulebook"; "carry out setting it to rulebook"; "report setting it to rulebook"; "check waving hands rulebook"; "carry out waving hands rulebook"; "report waving hands rulebook"; "check buying rulebook"; "carry out buying rulebook"; "report buying rulebook"; "check climbing rulebook"; "carry out climbing rulebook"; "report climbing rulebook"; "check sleeping rulebook"; "carry out sleeping rulebook"; "report sleeping rulebook"; "check quitting the game rulebook"; "carry out quitting the game rulebook"; "report quitting the game rulebook"; "check saving the game rulebook"; "carry out saving the game rulebook"; "report saving the game rulebook"; "check restoring the game rulebook"; "carry out restoring the game rulebook"; "report restoring the game rulebook"; "check restarting the game rulebook"; "carry out restarting the game rulebook"; "report restarting the game rulebook"; "check verifying the story file rulebook"; "carry out verifying the story file rulebook"; "report verifying the story file rulebook"; "check switching the story transcript on rulebook"; "carry out switching the story transcript on rulebook"; "report switching the story transcript on rulebook"; "check switching the story transcript off rulebook"; "carry out switching the story transcript off rulebook"; "report switching the story transcript off rulebook"; "check requesting the story file version rulebook"; "carry out requesting the story file version rulebook"; "report requesting the story file version rulebook"; "check requesting the score rulebook"; "carry out requesting the score rulebook"; "report requesting the score rulebook"; "check preferring abbreviated room descriptions rulebook"; "carry out preferring abbreviated room descriptions rulebook"; "report preferring abbreviated room descriptions rulebook"; "check preferring unabbreviated room descriptions rulebook"; "carry out preferring unabbreviated room descriptions rulebook"; "report preferring unabbreviated room descriptions rulebook"; "check preferring sometimes abbreviated room descriptions rulebook"; "carry out preferring sometimes abbreviated room descriptions rulebook"; "report preferring sometimes abbreviated room descriptions rulebook"; "check switching score notification on rulebook"; "carry out switching score notification on rulebook"; "report switching score notification on rulebook"; "check switching score notification off rulebook"; "carry out switching score notification off rulebook"; "report switching score notification off rulebook"; "check requesting the pronoun meanings rulebook"; "carry out requesting the pronoun meanings rulebook"; "report requesting the pronoun meanings rulebook"; "when ACT I begins rulebook"; "when ACT I ends rulebook"; "when ACT II begins rulebook"; "when ACT II ends rulebook"; "check going by name rulebook"; "carry out going by name rulebook"; "report going by name rulebook"; "check going inside rulebook"; "carry out going inside rulebook"; "report going inside rulebook"; "check going outside rulebook"; "carry out going outside rulebook"; "report going outside rulebook"; "check getting out of rulebook"; "carry out getting out of rulebook"; "report getting out of rulebook"; ];
-Array rulebook_var_creators --> [ 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; call_U409; 0; call_U412; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; ];
-Array rulebooks_array --> [ call_U134; call_U135; call_U136; call_U137; call_U138; call_U139; call_U140; call_U141; call_U142; call_U143; call_U144; call_U401; call_U402; call_U403; call_U404; call_U405; call_U406; call_U407; call_U408; call_U410; call_U411; call_U413; call_U414; call_U415; call_U416; call_U417; call_U418; call_U419; call_U420; call_U421; call_U422; call_U423; call_U424; call_U425; call_U426; call_U427; call_U428; call_U429; call_U430; call_U431; call_U432; call_U433; call_U434; call_U435; call_U436; call_U437; call_U438; call_U439; call_U440; call_U441; call_U442; call_U443; call_U444; call_U445; call_U446; call_U447; call_U448; call_U449; call_U450; call_U451; call_U452; call_U453; call_U454; call_U455; call_U456; call_U457; call_U458; call_U459; call_U460; call_U461; call_U462; call_U463; call_U464; call_U465; call_U466; call_U467; call_U468; call_U469; call_U470; call_U471; call_U472; call_U473; call_U474; call_U475; call_U476; call_U477; call_U478; call_U479; call_U480; call_U481; call_U482; call_U483; call_U484; call_U485; call_U486; call_U487; call_U488; call_U489; call_U490; call_U491; call_U492; call_U493; call_U494; call_U495; call_U496; call_U497; call_U498; call_U499; call_U500; call_U501; call_U502; call_U503; call_U504; call_U505; call_U506; call_U507; call_U508; call_U509; call_U510; call_U511; call_U512; call_U513; call_U514; call_U515; call_U516; call_U517; call_U518; call_U519; call_U520; call_U521; call_U522; call_U523; call_U524; call_U525; call_U526; call_U527; call_U528; call_U529; call_U530; call_U531; call_U532; call_U533; call_U534; call_U535; call_U536; call_U537; call_U538; call_U539; call_U540; call_U541; call_U542; call_U543; call_U544; call_U545; call_U546; call_U548; call_U549; call_U550; call_U551; call_U552; call_U553; call_U555; call_U556; call_U557; call_U558; call_U559; call_U560; call_U562; call_U563; call_U564; call_U566; call_U567; call_U568; call_U569; call_U570; call_U571; call_U572; call_U573; call_U574; call_U575; call_U576; call_U577; call_U578; call_U579; call_U580; call_U581; call_U582; call_U583; call_U584; call_U585; call_U586; call_U587; call_U588; call_U589; call_U590; call_U591; call_U592; call_U593; call_U594; call_U595; call_U596; call_U597; call_U598; call_U599; call_U600; call_U601; call_U602; call_U603; call_U604; call_U605; call_U606; call_U607; call_U608; call_U609; call_U610; call_U611; call_U612; call_U613; call_U614; call_U615; call_U616; call_U617; call_U618; call_U619; call_U620; call_U621; call_U622; call_U623; call_U624; call_U625; call_U626; call_U627; call_U628; call_U629; call_U630; call_U631; call_U632; call_U633; call_U634; call_U635; call_U636; call_U637; call_U638; call_U639; call_U640; call_U641; call_U642; call_U643; call_U644; call_U645; call_U646; call_U647; call_U648; call_U649; call_U650; call_U651; call_U652; call_U653; call_U654; call_U655; call_U656; call_U657; call_U658; call_U659; call_U660; call_U661; call_U662; call_U663; call_U664; call_U665; call_U666; call_U667; call_U668; call_U669; call_U670; call_U671; call_U672; call_U673; call_U674; call_U675; call_U676; call_U677; call_U678; call_U679; call_U680; call_U681; call_U682; call_U683; call_U684; call_U685; call_U686; call_U687; call_U688; call_U689; call_U690; call_U691; call_U692; call_U693; call_U694; call_U695; call_U696; call_U697; call_U698; call_U699; call_U700; call_U701; call_U702; call_U703; call_U704; call_U705; call_U706; call_U707; call_U708; call_U709; call_U710; call_U711; call_U712; call_U713; call_U714; call_U715; call_U716; call_U717; call_U718; call_U719; call_U720; call_U721; call_U722; call_U723; call_U724; call_U725; call_U726; call_U727; call_U728; call_U729; call_U730; call_U731; call_U732; call_U733; call_U734; call_U735; call_U736; call_U737; call_U738; call_U739; call_U740; call_U741; call_U742; call_U743; call_U744; call_U745; call_U746; call_U747; call_U748; call_U749; call_U750; call_U751; call_U752; call_U753; call_U754; call_U755; call_U756; call_U757; call_U1965; call_U1966; call_U1967; call_U1968; call_U1969; call_U1970; call_U1971; call_U1972; call_U1973; call_U1974; call_U1975; call_U1976; call_U1977; call_U1978; call_U1979; call_U1980; 0; ];
+Array RulebookNames --> [ "Startup rulebook"; "Shutdown rulebook"; "before starting the virtual machine rulebook"; "for starting the virtual machine rulebook"; "after starting the virtual machine rulebook"; "before printing the name rulebook"; "for printing the name rulebook"; "after printing the name rulebook"; "before printing the plural name rulebook"; "for printing the plural name rulebook"; "after printing the plural name rulebook"; "Turn sequence rulebook"; "Scene changing rulebook"; "When play begins rulebook"; "When play ends rulebook"; "When scene begins rulebook"; "When scene ends rulebook"; "Every turn rulebook"; "Action-processing rulebook"; "Setting action variables rulebook"; "specific action-processing rulebook"; "player's action awareness rulebook"; "Accessibility rulebook"; "Reaching inside rulebook"; "Reaching outside rulebook"; "Visibility rulebook"; "Persuasion rulebook"; "Unsuccessful attempt by rulebook"; "Before rulebook"; "Instead rulebook"; "Check rulebook"; "Carry out rulebook"; "After rulebook"; "Report rulebook"; "does the player mean rulebook"; "multiple action processing rulebook"; "when Entire Game begins rulebook"; "when Entire Game ends rulebook"; "before issuing the response text rulebook"; "for issuing the response text rulebook"; "after issuing the response text rulebook"; "before printing a number rulebook"; "for printing a number rulebook"; "after printing a number rulebook"; "before printing room description details rulebook"; "for printing room description details rulebook"; "after printing room description details rulebook"; "before printing inventory details rulebook"; "for printing inventory details rulebook"; "after printing inventory details rulebook"; "before listing contents rulebook"; "for listing contents rulebook"; "after listing contents rulebook"; "before grouping together rulebook"; "for grouping together rulebook"; "after grouping together rulebook"; "before writing a paragraph about rulebook"; "for writing a paragraph about rulebook"; "after writing a paragraph about rulebook"; "before listing nondescript items rulebook"; "for listing nondescript items rulebook"; "after listing nondescript items rulebook"; "before printing the name of a dark room rulebook"; "for printing the name of a dark room rulebook"; "after printing the name of a dark room rulebook"; "before printing the description of a dark room rulebook"; "for printing the description of a dark room rulebook"; "after printing the description of a dark room rulebook"; "before printing the announcement of darkness rulebook"; "for printing the announcement of darkness rulebook"; "after printing the announcement of darkness rulebook"; "before printing the announcement of light rulebook"; "for printing the announcement of light rulebook"; "after printing the announcement of light rulebook"; "before printing a refusal to act in the dark rulebook"; "for printing a refusal to act in the dark rulebook"; "after printing a refusal to act in the dark rulebook"; "before constructing the status line rulebook"; "for constructing the status line rulebook"; "after constructing the status line rulebook"; "before printing the banner text rulebook"; "for printing the banner text rulebook"; "after printing the banner text rulebook"; "before reading a command rulebook"; "for reading a command rulebook"; "after reading a command rulebook"; "before deciding the scope rulebook"; "for deciding the scope rulebook"; "after deciding the scope rulebook"; "before deciding the concealed possessions rulebook"; "for deciding the concealed possessions rulebook"; "after deciding the concealed possessions rulebook"; "before deciding whether all includes rulebook"; "for deciding whether all includes rulebook"; "after deciding whether all includes rulebook"; "before clarifying the parser's choice rulebook"; "for clarifying the parser's choice rulebook"; "after clarifying the parser's choice rulebook"; "before asking which do you mean rulebook"; "for asking which do you mean rulebook"; "after asking which do you mean rulebook"; "before printing a parser error rulebook"; "for printing a parser error rulebook"; "after printing a parser error rulebook"; "before supplying a missing noun rulebook"; "for supplying a missing noun rulebook"; "after supplying a missing noun rulebook"; "before supplying a missing second noun rulebook"; "for supplying a missing second noun rulebook"; "after supplying a missing second noun rulebook"; "before implicitly taking rulebook"; "for implicitly taking rulebook"; "after implicitly taking rulebook"; "before amusing a victorious player rulebook"; "for amusing a victorious player rulebook"; "after amusing a victorious player rulebook"; "before printing the player's obituary rulebook"; "for printing the player's obituary rulebook"; "after printing the player's obituary rulebook"; "before handling the final question rulebook"; "for handling the final question rulebook"; "after handling the final question rulebook"; "before printing the locale description rulebook"; "for printing the locale description rulebook"; "after printing the locale description rulebook"; "before choosing notable locale objects rulebook"; "for choosing notable locale objects rulebook"; "after choosing notable locale objects rulebook"; "before printing a locale paragraph about rulebook"; "for printing a locale paragraph about rulebook"; "after printing a locale paragraph about rulebook"; "check taking inventory rulebook"; "carry out taking inventory rulebook"; "report taking inventory rulebook"; "check taking rulebook"; "carry out taking rulebook"; "report taking rulebook"; "check removing it from rulebook"; "carry out removing it from rulebook"; "report removing it from rulebook"; "check dropping rulebook"; "carry out dropping rulebook"; "report dropping rulebook"; "check putting it on rulebook"; "carry out putting it on rulebook"; "report putting it on rulebook"; "check inserting it into rulebook"; "carry out inserting it into rulebook"; "report inserting it into rulebook"; "check eating rulebook"; "carry out eating rulebook"; "report eating rulebook"; "check going rulebook"; "carry out going rulebook"; "report going rulebook"; "check entering rulebook"; "carry out entering rulebook"; "report entering rulebook"; "check exiting rulebook"; "carry out exiting rulebook"; "report exiting rulebook"; "check getting off rulebook"; "carry out getting off rulebook"; "report getting off rulebook"; "check looking rulebook"; "carry out looking rulebook"; "report looking rulebook"; "check examining rulebook"; "carry out examining rulebook"; "report examining rulebook"; "check looking under rulebook"; "carry out looking under rulebook"; "report looking under rulebook"; "check searching rulebook"; "carry out searching rulebook"; "report searching rulebook"; "check consulting it about rulebook"; "carry out consulting it about rulebook"; "report consulting it about rulebook"; "check locking it with rulebook"; "carry out locking it with rulebook"; "report locking it with rulebook"; "check unlocking it with rulebook"; "carry out unlocking it with rulebook"; "report unlocking it with rulebook"; "check switching on rulebook"; "carry out switching on rulebook"; "report switching on rulebook"; "check switching off rulebook"; "carry out switching off rulebook"; "report switching off rulebook"; "check opening rulebook"; "carry out opening rulebook"; "report opening rulebook"; "check closing rulebook"; "carry out closing rulebook"; "report closing rulebook"; "check wearing rulebook"; "carry out wearing rulebook"; "report wearing rulebook"; "check taking off rulebook"; "carry out taking off rulebook"; "report taking off rulebook"; "check giving it to rulebook"; "carry out giving it to rulebook"; "report giving it to rulebook"; "check showing it to rulebook"; "carry out showing it to rulebook"; "report showing it to rulebook"; "check waking rulebook"; "carry out waking rulebook"; "report waking rulebook"; "check throwing it at rulebook"; "carry out throwing it at rulebook"; "report throwing it at rulebook"; "check attacking rulebook"; "carry out attacking rulebook"; "report attacking rulebook"; "check kissing rulebook"; "carry out kissing rulebook"; "report kissing rulebook"; "check answering it that rulebook"; "carry out answering it that rulebook"; "report answering it that rulebook"; "check telling it about rulebook"; "carry out telling it about rulebook"; "report telling it about rulebook"; "check asking it about rulebook"; "carry out asking it about rulebook"; "report asking it about rulebook"; "check asking it for rulebook"; "carry out asking it for rulebook"; "report asking it for rulebook"; "check waiting rulebook"; "carry out waiting rulebook"; "report waiting rulebook"; "check touching rulebook"; "carry out touching rulebook"; "report touching rulebook"; "check waving rulebook"; "carry out waving rulebook"; "report waving rulebook"; "check pulling rulebook"; "carry out pulling rulebook"; "report pulling rulebook"; "check pushing rulebook"; "carry out pushing rulebook"; "report pushing rulebook"; "check turning rulebook"; "carry out turning rulebook"; "report turning rulebook"; "check pushing it to rulebook"; "carry out pushing it to rulebook"; "report pushing it to rulebook"; "check squeezing rulebook"; "carry out squeezing rulebook"; "report squeezing rulebook"; "check saying yes rulebook"; "carry out saying yes rulebook"; "report saying yes rulebook"; "check saying no rulebook"; "carry out saying no rulebook"; "report saying no rulebook"; "check burning rulebook"; "carry out burning rulebook"; "report burning rulebook"; "check waking up rulebook"; "carry out waking up rulebook"; "report waking up rulebook"; "check thinking rulebook"; "carry out thinking rulebook"; "report thinking rulebook"; "check smelling rulebook"; "carry out smelling rulebook"; "report smelling rulebook"; "check listening to rulebook"; "carry out listening to rulebook"; "report listening to rulebook"; "check tasting rulebook"; "carry out tasting rulebook"; "report tasting rulebook"; "check cutting rulebook"; "carry out cutting rulebook"; "report cutting rulebook"; "check jumping rulebook"; "carry out jumping rulebook"; "report jumping rulebook"; "check tying it to rulebook"; "carry out tying it to rulebook"; "report tying it to rulebook"; "check drinking rulebook"; "carry out drinking rulebook"; "report drinking rulebook"; "check saying sorry rulebook"; "carry out saying sorry rulebook"; "report saying sorry rulebook"; "check swinging rulebook"; "carry out swinging rulebook"; "report swinging rulebook"; "check rubbing rulebook"; "carry out rubbing rulebook"; "report rubbing rulebook"; "check setting it to rulebook"; "carry out setting it to rulebook"; "report setting it to rulebook"; "check waving hands rulebook"; "carry out waving hands rulebook"; "report waving hands rulebook"; "check buying rulebook"; "carry out buying rulebook"; "report buying rulebook"; "check climbing rulebook"; "carry out climbing rulebook"; "report climbing rulebook"; "check sleeping rulebook"; "carry out sleeping rulebook"; "report sleeping rulebook"; "check quitting the game rulebook"; "carry out quitting the game rulebook"; "report quitting the game rulebook"; "check saving the game rulebook"; "carry out saving the game rulebook"; "report saving the game rulebook"; "check restoring the game rulebook"; "carry out restoring the game rulebook"; "report restoring the game rulebook"; "check restarting the game rulebook"; "carry out restarting the game rulebook"; "report restarting the game rulebook"; "check verifying the story file rulebook"; "carry out verifying the story file rulebook"; "report verifying the story file rulebook"; "check switching the story transcript on rulebook"; "carry out switching the story transcript on rulebook"; "report switching the story transcript on rulebook"; "check switching the story transcript off rulebook"; "carry out switching the story transcript off rulebook"; "report switching the story transcript off rulebook"; "check requesting the story file version rulebook"; "carry out requesting the story file version rulebook"; "report requesting the story file version rulebook"; "check requesting the score rulebook"; "carry out requesting the score rulebook"; "report requesting the score rulebook"; "check preferring abbreviated room descriptions rulebook"; "carry out preferring abbreviated room descriptions rulebook"; "report preferring abbreviated room descriptions rulebook"; "check preferring unabbreviated room descriptions rulebook"; "carry out preferring unabbreviated room descriptions rulebook"; "report preferring unabbreviated room descriptions rulebook"; "check preferring sometimes abbreviated room descriptions rulebook"; "carry out preferring sometimes abbreviated room descriptions rulebook"; "report preferring sometimes abbreviated room descriptions rulebook"; "check switching score notification on rulebook"; "carry out switching score notification on rulebook"; "report switching score notification on rulebook"; "check switching score notification off rulebook"; "carry out switching score notification off rulebook"; "report switching score notification off rulebook"; "check requesting the pronoun meanings rulebook"; "carry out requesting the pronoun meanings rulebook"; "report requesting the pronoun meanings rulebook"; "when ACT I begins rulebook"; "when ACT I ends rulebook"; "when ACT II begins rulebook"; "when ACT II ends rulebook"; "check going by name rulebook"; "carry out going by name rulebook"; "report going by name rulebook"; "check going inside rulebook"; "carry out going inside rulebook"; "report going inside rulebook"; "check going outside rulebook"; "carry out going outside rulebook"; "report going outside rulebook"; "check getting out of rulebook"; "carry out getting out of rulebook"; "report getting out of rulebook"; "check getting out of without a noun supplied rulebook"; "carry out getting out of without a noun supplied rulebook"; "report getting out of without a noun supplied rulebook"; ];
+Array rulebook_var_creators --> [ 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; call_U409; 0; call_U412; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; ];
+Array rulebooks_array --> [ call_U134; call_U135; call_U136; call_U137; call_U138; call_U139; call_U140; call_U141; call_U142; call_U143; call_U144; call_U401; call_U402; call_U403; call_U404; call_U405; call_U406; call_U407; call_U408; call_U410; call_U411; call_U413; call_U414; call_U415; call_U416; call_U417; call_U418; call_U419; call_U420; call_U421; call_U422; call_U423; call_U424; call_U425; call_U426; call_U427; call_U428; call_U429; call_U430; call_U431; call_U432; call_U433; call_U434; call_U435; call_U436; call_U437; call_U438; call_U439; call_U440; call_U441; call_U442; call_U443; call_U444; call_U445; call_U446; call_U447; call_U448; call_U449; call_U450; call_U451; call_U452; call_U453; call_U454; call_U455; call_U456; call_U457; call_U458; call_U459; call_U460; call_U461; call_U462; call_U463; call_U464; call_U465; call_U466; call_U467; call_U468; call_U469; call_U470; call_U471; call_U472; call_U473; call_U474; call_U475; call_U476; call_U477; call_U478; call_U479; call_U480; call_U481; call_U482; call_U483; call_U484; call_U485; call_U486; call_U487; call_U488; call_U489; call_U490; call_U491; call_U492; call_U493; call_U494; call_U495; call_U496; call_U497; call_U498; call_U499; call_U500; call_U501; call_U502; call_U503; call_U504; call_U505; call_U506; call_U507; call_U508; call_U509; call_U510; call_U511; call_U512; call_U513; call_U514; call_U515; call_U516; call_U517; call_U518; call_U519; call_U520; call_U521; call_U522; call_U523; call_U524; call_U525; call_U526; call_U527; call_U528; call_U529; call_U530; call_U531; call_U532; call_U533; call_U534; call_U535; call_U536; call_U537; call_U538; call_U539; call_U540; call_U541; call_U542; call_U543; call_U544; call_U545; call_U546; call_U548; call_U549; call_U550; call_U551; call_U552; call_U553; call_U555; call_U556; call_U557; call_U558; call_U559; call_U560; call_U562; call_U563; call_U564; call_U566; call_U567; call_U568; call_U569; call_U570; call_U571; call_U572; call_U573; call_U574; call_U575; call_U576; call_U577; call_U578; call_U579; call_U580; call_U581; call_U582; call_U583; call_U584; call_U585; call_U586; call_U587; call_U588; call_U589; call_U590; call_U591; call_U592; call_U593; call_U594; call_U595; call_U596; call_U597; call_U598; call_U599; call_U600; call_U601; call_U602; call_U603; call_U604; call_U605; call_U606; call_U607; call_U608; call_U609; call_U610; call_U611; call_U612; call_U613; call_U614; call_U615; call_U616; call_U617; call_U618; call_U619; call_U620; call_U621; call_U622; call_U623; call_U624; call_U625; call_U626; call_U627; call_U628; call_U629; call_U630; call_U631; call_U632; call_U633; call_U634; call_U635; call_U636; call_U637; call_U638; call_U639; call_U640; call_U641; call_U642; call_U643; call_U644; call_U645; call_U646; call_U647; call_U648; call_U649; call_U650; call_U651; call_U652; call_U653; call_U654; call_U655; call_U656; call_U657; call_U658; call_U659; call_U660; call_U661; call_U662; call_U663; call_U664; call_U665; call_U666; call_U667; call_U668; call_U669; call_U670; call_U671; call_U672; call_U673; call_U674; call_U675; call_U676; call_U677; call_U678; call_U679; call_U680; call_U681; call_U682; call_U683; call_U684; call_U685; call_U686; call_U687; call_U688; call_U689; call_U690; call_U691; call_U692; call_U693; call_U694; call_U695; call_U696; call_U697; call_U698; call_U699; call_U700; call_U701; call_U702; call_U703; call_U704; call_U705; call_U706; call_U707; call_U708; call_U709; call_U710; call_U711; call_U712; call_U713; call_U714; call_U715; call_U716; call_U717; call_U718; call_U719; call_U720; call_U721; call_U722; call_U723; call_U724; call_U725; call_U726; call_U727; call_U728; call_U729; call_U730; call_U731; call_U732; call_U733; call_U734; call_U735; call_U736; call_U737; call_U738; call_U739; call_U740; call_U741; call_U742; call_U743; call_U744; call_U745; call_U746; call_U747; call_U748; call_U749; call_U750; call_U751; call_U752; call_U753; call_U754; call_U755; call_U756; call_U757; call_U1965; call_U1966; call_U1967; call_U1968; call_U1969; call_U1970; call_U1971; call_U1972; call_U1973; call_U1974; call_U1975; call_U1976; call_U1977; call_U1978; call_U1979; call_U1980; call_U1981; call_U1982; call_U1983; 0; ];
 Array ResponseTexts --> [ ts_array_U1; ts_array_U2; ts_array_U3; ts_array_U4; ts_array_U5; ts_array_U6; ts_array_U7; ts_array_U8; ts_array_U9; ts_array_U10; ts_array_U11; ts_array_U12; ts_array_U13; ts_array_U14; ts_array_U15; ts_array_U16; ts_array_U17; ts_array_U18; ts_array_U19; ts_array_U20; ts_array_U21; ts_array_U22; ts_array_U23; ts_array_U24; ts_array_U25; ts_array_U26; ts_array_U27; ts_array_U28; ts_array_U29; ts_array_U30; ts_array_U31; ts_array_U32; ts_array_U33; ts_array_U34; ts_array_U35; ts_array_U36; ts_array_U37; ts_array_U38; ts_array_U39; ts_array_U40; ts_array_U41; ts_array_U42; ts_array_U43; ts_array_U44; ts_array_U45; ts_array_U46; ts_array_U47; ts_array_U48; ts_array_U49; ts_array_U50; ts_array_U51; ts_array_U52; ts_array_U53; ts_array_U54; ts_array_U55; ts_array_U56; ts_array_U57; ts_array_U58; ts_array_U59; ts_array_U60; ts_array_U61; ts_array_U62; ts_array_U63; ts_array_U64; ts_array_U65; ts_array_U66; ts_array_U67; ts_array_U68; ts_array_U69; ts_array_U70; ts_array_U71; ts_array_U72; ts_array_U73; ts_array_U74; ts_array_U75; ts_array_U76; ts_array_U77; ts_array_U78; ts_array_U79; ts_array_U80; ts_array_U81; ts_array_U82; ts_array_U83; ts_array_U84; ts_array_U85; ts_array_U86; ts_array_U87; ts_array_U88; ts_array_U89; ts_array_U90; ts_array_U91; ts_array_U92; ts_array_U93; ts_array_U94; ts_array_U95; ts_array_U96; ts_array_U97; ts_array_U98; ts_array_U99; ts_array_U100; ts_array_U101; ts_array_U102; ts_array_U103; ts_array_U104; ts_array_U105; ts_array_U106; ts_array_U107; ts_array_U108; ts_array_U109; ts_array_U110; ts_array_U111; ts_array_U112; ts_array_U113; ts_array_U114; ts_array_U115; ts_array_U116; ts_array_U117; ts_array_U118; ts_array_U119; ts_array_U120; ts_array_U121; ts_array_U122; ts_array_U123; ts_array_U124; ts_array_U125; ts_array_U126; ts_array_U127; ts_array_U128; ts_array_U129; ts_array_U130; ts_array_U131; ts_array_U132; ts_array_U133; ts_array_U134; ts_array_U135; ts_array_U136; ts_array_U137; ts_array_U138; ts_array_U139; ts_array_U140; ts_array_U141; ts_array_U142; ts_array_U143; ts_array_U144; ts_array_U145; ts_array_U146; ts_array_U147; ts_array_U148; ts_array_U149; ts_array_U150; ts_array_U151; ts_array_U152; ts_array_U153; ts_array_U154; ts_array_U155; ts_array_U156; ts_array_U157; ts_array_U158; ts_array_U159; ts_array_U160; ts_array_U161; ts_array_U162; ts_array_U163; ts_array_U164; ts_array_U165; ts_array_U166; ts_array_U167; ts_array_U168; ts_array_U169; ts_array_U170; ts_array_U171; ts_array_U172; ts_array_U173; ts_array_U174; ts_array_U175; ts_array_U176; ts_array_U177; ts_array_U178; ts_array_U179; ts_array_U180; ts_array_U181; ts_array_U182; ts_array_U183; ts_array_U184; ts_array_U185; ts_array_U186; ts_array_U187; ts_array_U188; ts_array_U189; ts_array_U190; ts_array_U191; ts_array_U192; ts_array_U193; ts_array_U194; ts_array_U195; ts_array_U196; ts_array_U197; ts_array_U198; ts_array_U199; ts_array_U200; ts_array_U201; ts_array_U202; ts_array_U203; ts_array_U204; ts_array_U205; ts_array_U206; ts_array_U207; ts_array_U208; ts_array_U209; ts_array_U210; ts_array_U211; ts_array_U212; ts_array_U213; ts_array_U214; ts_array_U215; ts_array_U216; ts_array_U217; ts_array_U218; ts_array_U219; ts_array_U220; ts_array_U221; ts_array_U222; ts_array_U223; ts_array_U224; ts_array_U225; ts_array_U226; ts_array_U227; ts_array_U228; ts_array_U229; ts_array_U230; ts_array_U231; ts_array_U232; ts_array_U233; ts_array_U234; ts_array_U235; ts_array_U236; ts_array_U237; ts_array_U238; ts_array_U239; ts_array_U240; ts_array_U241; ts_array_U242; ts_array_U243; ts_array_U244; ts_array_U245; ts_array_U246; ts_array_U247; ts_array_U248; ts_array_U249; ts_array_U250; ts_array_U251; ts_array_U252; ts_array_U253; ts_array_U254; ts_array_U255; ts_array_U256; ts_array_U257; ts_array_U258; ts_array_U259; ts_array_U260; ts_array_U261; ts_array_U262; ts_array_U263; ts_array_U264; ts_array_U265; ts_array_U266; ts_array_U267; ts_array_U268; ts_array_U269; ts_array_U270; ts_array_U271; ts_array_U272; ts_array_U273; ts_array_U274; ts_array_U275; ts_array_U276; ts_array_U277; ts_array_U278; ts_array_U279; ts_array_U280; ts_array_U281; ts_array_U282; ts_array_U283; ts_array_U284; ts_array_U285; ts_array_U286; ts_array_U287; ts_array_U288; ts_array_U289; ts_array_U290; ts_array_U291; ts_array_U292; ts_array_U293; ts_array_U294; ts_array_U295; ts_array_U296; ts_array_U297; ts_array_U298; ts_array_U299; ts_array_U300; ts_array_U301; ts_array_U302; ts_array_U303; ts_array_U304; ts_array_U305; ts_array_U306; ts_array_U307; ts_array_U308; ts_array_U309; ts_array_U310; ts_array_U311; ts_array_U312; ts_array_U313; ts_array_U314; ts_array_U315; ts_array_U316; ts_array_U317; ts_array_U318; ts_array_U319; ts_array_U320; ts_array_U321; ts_array_U322; ts_array_U323; ts_array_U324; ts_array_U325; ts_array_U326; ts_array_U327; ts_array_U328; ts_array_U329; ts_array_U330; ts_array_U331; ts_array_U332; ts_array_U333; ts_array_U334; ts_array_U335; ts_array_U336; ts_array_U337; ts_array_U338; ts_array_U339; ts_array_U340; ts_array_U341; ts_array_U342; ts_array_U343; ts_array_U344; ts_array_U345; ts_array_U346; ts_array_U347; ts_array_U348; ts_array_U349; ts_array_U350; ts_array_U351; ts_array_U352; ts_array_U353; ts_array_U354; ts_array_U355; ts_array_U356; ts_array_U357; ts_array_U358; ts_array_U359; ts_array_U360; ts_array_U361; ts_array_U362; ts_array_U363; ts_array_U364; ts_array_U365; ts_array_U366; ts_array_U367; ts_array_U368; ts_array_U369; ts_array_U370; ts_array_U371; ts_array_U372; ts_array_U373; ts_array_U374; ts_array_U375; ts_array_U376; ts_array_U377; ts_array_U378; ts_array_U379; ts_array_U380; ts_array_U381; ts_array_U382; ts_array_U383; ts_array_U384; ts_array_U385; ts_array_U386; ts_array_U387; ts_array_U388; ts_array_U389; ts_array_U390; ts_array_U391; ts_array_U392; ts_array_U393; 0; 0; ];
 Array ResponseDivisions --> [ "Standard Rules"; 1; 393; 0; 0; 0; ];
 Array TableOfTables --> [ TheEmptyTable; table_data_U1; table_data_U2; 0; 0; ];
@@ -4677,12 +4689,12 @@ Array as_block_constant_U146 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1103; ];
 Array ts_array_U146 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1104; ];
 Array bc_U64 --> [ CONSTANT_PACKED_TEXT_STORAGE; EMPTY_TEXT_PACKED; ];
 Array as_block_constant_U147 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1114; ];
-Array ts_array_U147 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1115; ];
+Array ts_array_U147 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U1115; ];
 Array bc_U65 --> [ CONSTANT_PACKED_TEXT_STORAGE; EMPTY_TEXT_PACKED; ];
 Array as_block_constant_U148 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1121; ];
-Array ts_array_U148 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1122; ];
+Array ts_array_U148 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U1122; ];
 Array as_block_constant_U149 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1126; ];
-Array ts_array_U149 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1127; ];
+Array ts_array_U149 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U1127; ];
 Array as_block_constant_U150 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1129; ];
 Array ts_array_U150 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1130; ];
 Array as_block_constant_U151 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1132; ];
@@ -4802,7 +4814,7 @@ Array ts_array_U207 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1317; ];
 Array as_block_constant_U208 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1318; ];
 Array ts_array_U208 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1319; ];
 Array as_block_constant_U209 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1320; ];
-Array ts_array_U209 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1321; ];
+Array ts_array_U209 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U1321; ];
 Array as_block_constant_U210 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1322; ];
 Array ts_array_U210 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1323; ];
 Array as_block_constant_U211 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1324; ];
@@ -4810,7 +4822,7 @@ Array ts_array_U211 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1325; ];
 Array as_block_constant_U212 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1326; ];
 Array ts_array_U212 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1327; ];
 Array as_block_constant_U213 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1328; ];
-Array ts_array_U213 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1329; ];
+Array ts_array_U213 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U1329; ];
 Array as_block_constant_U214 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1330; ];
 Array ts_array_U214 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1331; ];
 Array as_block_constant_U215 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1332; ];
@@ -4870,7 +4882,7 @@ Array ts_array_U241 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1399; ];
 Array as_block_constant_U242 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1404; ];
 Array ts_array_U242 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1405; ];
 Array as_block_constant_U243 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1407; ];
-Array ts_array_U243 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1408; ];
+Array ts_array_U243 --> [ CONSTANT_PERISHABLE_TEXT_STORAGE; call_U1408; ];
 Array as_block_constant_U244 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1412; ];
 Array ts_array_U244 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1413; ];
 Array as_block_constant_U245 --> [ CONSTANT_PACKED_TEXT_STORAGE; call_U1414; ];
@@ -5318,11 +5330,12 @@ Array bc_U195 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U78; ];
 Array bc_U196 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U79; ];
 Array bc_U197 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U80; ];
 Array bc_U198 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U81; ];
+Array bc_U199 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U82; ];
 Array DK3_phrase_real_number____re --> [ PHRASE_TY; 2; REAL_NUMBER_TY; ];
 Array DK4_phrase_real_number____nu --> [ PHRASE_TY; 2; NUMBER_TY; ];
-Array bc_U199 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U82; ];
 Array bc_U200 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U83; ];
 Array bc_U201 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U84; ];
+Array bc_U202 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U85; ];
 Array UUID_ARRAY -> [ 45; 'U'; 'U'; 'I'; 'D'; ':'; '/'; '/'; '0'; '0'; 'A'; '2'; 'A'; '1'; '6'; '0'; '-'; '5'; 'A'; '6'; 'D'; '-'; '4'; '2'; '0'; '9'; '-'; 'A'; '4'; '5'; '5'; '-'; '9'; 'D'; 'F'; 'F'; '6'; 'B'; '7'; 'B'; 'C'; '6'; '6'; 'C'; '/'; '/'; ];
 Array InitialSituation --> [ selfobj; I_insidehouse_U1; I_start_U1; 540; 0; ];
 Array Map_Storage --> [ 0; 0; 0; 0; 0; 0; 0; I_out_U1; 0; 0; 0; 0; 0; 0; 0; I_away_U1; 0; 0; I_start_U1; 0; 0; 0; 0; 0; I_out_U1; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; ];
@@ -5986,7 +5999,7 @@ Global max_z_object;
 ];
 #Endif;
 #Endif;
-[ ConjugateVerb2 fn vp t modal_to;
+[ ConjugateVerb7 fn vp t modal_to;
     switch (fn) {
         1:
             print "be";
@@ -6128,7 +6141,7 @@ Global max_z_object;
     }
 ];
 [ call_U1 fn vp t modal_to;
-    (t = ConjugateVerb2(fn, vp, t, modal_to));
+    (t = ConjugateVerb7(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -6183,7 +6196,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb3 fn vp t modal_to;
+[ ConjugateVerb8 fn vp t modal_to;
     switch (fn) {
         1:
             print "mean";
@@ -6257,7 +6270,7 @@ Global max_z_object;
     }
 ];
 [ call_U2 fn vp t modal_to;
-    (t = ConjugateVerb3(fn, vp, t, modal_to));
+    (t = ConjugateVerb8(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -6265,7 +6278,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb4 fn vp t modal_to;
+[ ConjugateVerb9 fn vp t modal_to;
     switch (fn) {
         1:
             print "do";
@@ -6339,7 +6352,7 @@ Global max_z_object;
     }
 ];
 [ call_U3 fn vp t modal_to;
-    (t = ConjugateVerb4(fn, vp, t, modal_to));
+    (t = ConjugateVerb9(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -6348,7 +6361,7 @@ Global max_z_object;
     }
 ];
 [ call_U4 fn vp t modal_to;
-    (t = ConjugateVerb4(fn, vp, t, modal_to));
+    (t = ConjugateVerb9(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -6357,7 +6370,7 @@ Global max_z_object;
     }
 ];
 [ call_U5 fn vp t modal_to;
-    (t = ConjugateVerb4(fn, vp, t, modal_to));
+    (t = ConjugateVerb9(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -6366,7 +6379,7 @@ Global max_z_object;
     }
 ];
 [ call_U6 fn vp t modal_to;
-    (t = ConjugateVerb4(fn, vp, t, modal_to));
+    (t = ConjugateVerb9(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -8038,6 +8051,9 @@ Global max_z_object;
         ##A_getting_out_of:
             A_getting_out_ofDbg(n, s, for_say);
             ;
+        ##A_getting_out_of_withou:
+            A_getting_out_of_withouDbg(n, s, for_say);
+            ;
     }
 ];
 [ TestSinglePastState past_flag pt turn_end wanted old new trips consecutives;
@@ -8646,7 +8662,7 @@ Global max_z_object;
     return (rulebook_var_creators-->(rb));
 ];
 [ RulePrintingRule R;
-    if ((((R >= 0)) && ((R < 378)))) {
+    if ((((R >= 0)) && ((R < 381)))) {
         print (string) (RulebookNames-->(R));
     } else {
         if ((R == FINAL_CODE_STARTUP_R)) {
@@ -10045,31 +10061,35 @@ Global max_z_object;
             print "switch score notification off rule";
             rtrue;
         }
-        if ((R == call_U1981)) {
+        if ((R == call_U1984)) {
             print "Rule for printing the locale description of InsideHouse";
             rtrue;
         }
-        if ((R == call_U1982)) {
+        if ((R == call_U1985)) {
             print "When play begins";
             rtrue;
         }
-        if ((R == call_U1983)) {
+        if ((R == call_U1986)) {
             print "Carry out going by name";
             rtrue;
         }
-        if ((R == call_U1984)) {
+        if ((R == call_U1987)) {
             print "Carry out going inside";
             rtrue;
         }
-        if ((R == call_U1985)) {
+        if ((R == call_U1988)) {
             print "Carry out going outside";
             rtrue;
         }
-        if ((R == call_U1986)) {
+        if ((R == call_U1989)) {
+            print "InsideHouse rule";
+            rtrue;
+        }
+        if ((R == call_U1990)) {
             print "Carry out getting out of something";
             rtrue;
         }
-        if ((R == call_U1987)) {
+        if ((R == call_U1991)) {
             print "When ACT II begins";
             rtrue;
         }
@@ -15373,7 +15393,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb5 fn vp t modal_to;
+[ ConjugateVerb10 fn vp t modal_to;
     switch (fn) {
         1:
             print "imply";
@@ -15447,7 +15467,7 @@ Global max_z_object;
     }
 ];
 [ call_U154 fn vp t modal_to;
-    (t = ConjugateVerb5(fn, vp, t, modal_to));
+    (t = ConjugateVerb10(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -15528,7 +15548,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb6 fn vp t modal_to;
+[ ConjugateVerb11 fn vp t modal_to;
     switch (fn) {
         1:
             print "be able to be";
@@ -15606,7 +15626,7 @@ Global max_z_object;
     }
 ];
 [ call_U155 fn vp t modal_to;
-    (t = ConjugateVerb6(fn, vp, t, modal_to));
+    (t = ConjugateVerb11(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -15614,7 +15634,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb7 fn vp t modal_to;
+[ ConjugateVerb12 fn vp t modal_to;
     switch (fn) {
         1:
             print "be able to";
@@ -16102,7 +16122,7 @@ Global max_z_object;
     }
 ];
 [ call_U156 fn vp t modal_to;
-    (t = ConjugateVerb7(fn, vp, t, modal_to));
+    (t = ConjugateVerb12(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -16110,7 +16130,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb8 fn vp t modal_to;
+[ ConjugateVerb13 fn vp t modal_to;
     switch (fn) {
         1:
             print "have";
@@ -16184,7 +16204,7 @@ Global max_z_object;
     }
 ];
 [ call_U157 fn vp t modal_to;
-    (t = ConjugateVerb8(fn, vp, t, modal_to));
+    (t = ConjugateVerb13(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -16192,7 +16212,7 @@ Global max_z_object;
         return Rel_Record5;
     }
 ];
-[ ConjugateVerb9 fn vp t modal_to;
+[ ConjugateVerb14 fn vp t modal_to;
     switch (fn) {
         1:
             print "specify";
@@ -16266,7 +16286,7 @@ Global max_z_object;
     }
 ];
 [ call_U158 fn vp t modal_to;
-    (t = ConjugateVerb9(fn, vp, t, modal_to));
+    (t = ConjugateVerb14(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -16274,7 +16294,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb10 fn vp t modal_to;
+[ ConjugateVerb15 fn vp t modal_to;
     switch (fn) {
         1:
             print "relate";
@@ -16348,7 +16368,7 @@ Global max_z_object;
     }
 ];
 [ call_U159 fn vp t modal_to;
-    (t = ConjugateVerb10(fn, vp, t, modal_to));
+    (t = ConjugateVerb15(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -16429,7 +16449,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb11 fn vp t modal_to;
+[ ConjugateVerb16 fn vp t modal_to;
     switch (fn) {
         1:
             print "substitute";
@@ -16503,7 +16523,7 @@ Global max_z_object;
     }
 ];
 [ call_U160 fn vp t modal_to;
-    (t = ConjugateVerb11(fn, vp, t, modal_to));
+    (t = ConjugateVerb16(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -16512,7 +16532,7 @@ Global max_z_object;
     }
 ];
 [ call_U161 fn vp t modal_to;
-    (t = ConjugateVerb11(fn, vp, t, modal_to));
+    (t = ConjugateVerb16(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -16813,7 +16833,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb12 fn vp t modal_to;
+[ ConjugateVerb17 fn vp t modal_to;
     switch (fn) {
         1:
             print "translate";
@@ -16887,7 +16907,7 @@ Global max_z_object;
     }
 ];
 [ call_U162 fn vp t modal_to;
-    (t = ConjugateVerb12(fn, vp, t, modal_to));
+    (t = ConjugateVerb17(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -16896,7 +16916,7 @@ Global max_z_object;
     }
 ];
 [ call_U163 fn vp t modal_to;
-    (t = ConjugateVerb12(fn, vp, t, modal_to));
+    (t = ConjugateVerb17(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -16906,7 +16926,7 @@ Global max_z_object;
     print " into";
 ];
 [ call_U164 fn vp t modal_to;
-    (t = ConjugateVerb12(fn, vp, t, modal_to));
+    (t = ConjugateVerb17(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -17134,7 +17154,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb13 fn vp t modal_to;
+[ ConjugateVerb18 fn vp t modal_to;
     switch (fn) {
         1:
             print "provide";
@@ -17208,7 +17228,7 @@ Global max_z_object;
     }
 ];
 [ call_U165 fn vp t modal_to;
-    (t = ConjugateVerb13(fn, vp, t, modal_to));
+    (t = ConjugateVerb18(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -17216,7 +17236,7 @@ Global max_z_object;
         return Rel_Record7;
     }
 ];
-[ ConjugateVerb14 fn vp t modal_to;
+[ ConjugateVerb19 fn vp t modal_to;
     switch (fn) {
         1:
             print "use";
@@ -17290,7 +17310,7 @@ Global max_z_object;
     }
 ];
 [ call_U166 fn vp t modal_to;
-    (t = ConjugateVerb14(fn, vp, t, modal_to));
+    (t = ConjugateVerb19(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -17298,7 +17318,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb15 fn vp t modal_to;
+[ ConjugateVerb20 fn vp t modal_to;
     switch (fn) {
         1:
             print "include";
@@ -17372,7 +17392,7 @@ Global max_z_object;
     }
 ];
 [ call_U167 fn vp t modal_to;
-    (t = ConjugateVerb15(fn, vp, t, modal_to));
+    (t = ConjugateVerb20(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -17381,7 +17401,7 @@ Global max_z_object;
     }
 ];
 [ call_U168 fn vp t modal_to;
-    (t = ConjugateVerb15(fn, vp, t, modal_to));
+    (t = ConjugateVerb20(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -17389,7 +17409,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb16 fn vp t modal_to;
+[ ConjugateVerb21 fn vp t modal_to;
     switch (fn) {
         1:
             print "omit";
@@ -17463,7 +17483,7 @@ Global max_z_object;
     }
 ];
 [ call_U169 fn vp t modal_to;
-    (t = ConjugateVerb16(fn, vp, t, modal_to));
+    (t = ConjugateVerb21(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -17472,7 +17492,7 @@ Global max_z_object;
     }
 ];
 [ call_U170 fn vp t modal_to;
-    (t = ConjugateVerb16(fn, vp, t, modal_to));
+    (t = ConjugateVerb21(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -17480,7 +17500,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb17 fn vp t modal_to;
+[ ConjugateVerb22 fn vp t modal_to;
     switch (fn) {
         1:
             print "test";
@@ -17554,7 +17574,7 @@ Global max_z_object;
     }
 ];
 [ call_U171 fn vp t modal_to;
-    (t = ConjugateVerb17(fn, vp, t, modal_to));
+    (t = ConjugateVerb22(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -17563,7 +17583,7 @@ Global max_z_object;
     }
 ];
 [ call_U172 fn vp t modal_to;
-    (t = ConjugateVerb17(fn, vp, t, modal_to));
+    (t = ConjugateVerb22(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -19472,6 +19492,90 @@ Global max_z_object;
             ;
     }
 ];
+[ ConjugateVerb6 fn vp t modal_to;
+    switch (fn) {
+        1:
+            print "aren't";
+            ;
+        2:
+            print "aren'ted";
+            ;
+        3:
+            print "aren'ting";
+            ;
+        CV_MODAL:
+            rfalse;
+            ;
+        CV_MEANING:
+            return MEANINGLESS_RR;
+            ;
+        CV_POS:
+            switch (t) {
+                1:
+                    switch (vp) {
+                        1:
+                            print "am not";
+                            ;
+                        4:
+                            print "aren't";
+                            ;
+                        2:
+                            print "aren't";
+                            ;
+                        5:
+                            print "aren't";
+                            ;
+                        3:
+                            print "isn't";
+                            ;
+                        6:
+                            print "aren't";
+                            ;
+                    }
+                    ;
+                2:
+                    switch (vp) {
+                        1:
+                            print "wasn't";
+                            ;
+                        4:
+                            print "weren't";
+                            ;
+                        2:
+                            print "weren't";
+                            ;
+                        5:
+                            print "weren't";
+                            ;
+                        3:
+                            print "wasn't";
+                            ;
+                        6:
+                            print "weren't";
+                            ;
+                    }
+                    ;
+                3:
+                    if ((vp == 3)) {
+                        print "hasn't been";
+                    } else {
+                        print "haven't been";
+                    }
+                    ;
+                4:
+                    print "hadn't been";
+                    ;
+                5:
+                    print "won't be";
+                    ;
+            }
+            ;
+        CV_NEG:
+            switch (t) {
+            }
+            ;
+    }
+];
 [ ConjugateModalVerb29 fn vp t modal_to;
     switch (fn) {
         1:
@@ -19959,7 +20063,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb18 fn vp t modal_to;
+[ ConjugateVerb23 fn vp t modal_to;
     switch (fn) {
         1:
             print "could";
@@ -20447,7 +20551,7 @@ Global max_z_object;
     }
 ];
 [ call_U225 fn vp t modal_to;
-    (t = ConjugateVerb18(fn, vp, t, modal_to));
+    (t = ConjugateVerb23(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -20455,7 +20559,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb19 fn vp t modal_to;
+[ ConjugateVerb24 fn vp t modal_to;
     switch (fn) {
         1:
             print "may";
@@ -20943,7 +21047,7 @@ Global max_z_object;
     }
 ];
 [ call_U226 fn vp t modal_to;
-    (t = ConjugateVerb19(fn, vp, t, modal_to));
+    (t = ConjugateVerb24(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -20951,7 +21055,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb20 fn vp t modal_to;
+[ ConjugateVerb25 fn vp t modal_to;
     switch (fn) {
         1:
             print "might";
@@ -21439,7 +21543,7 @@ Global max_z_object;
     }
 ];
 [ call_U227 fn vp t modal_to;
-    (t = ConjugateVerb20(fn, vp, t, modal_to));
+    (t = ConjugateVerb25(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -21447,7 +21551,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb21 fn vp t modal_to;
+[ ConjugateVerb26 fn vp t modal_to;
     switch (fn) {
         1:
             print "must";
@@ -21935,7 +22039,7 @@ Global max_z_object;
     }
 ];
 [ call_U228 fn vp t modal_to;
-    (t = ConjugateVerb21(fn, vp, t, modal_to));
+    (t = ConjugateVerb26(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -21943,7 +22047,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb22 fn vp t modal_to;
+[ ConjugateVerb27 fn vp t modal_to;
     switch (fn) {
         1:
             print "should";
@@ -22431,7 +22535,7 @@ Global max_z_object;
     }
 ];
 [ call_U229 fn vp t modal_to;
-    (t = ConjugateVerb22(fn, vp, t, modal_to));
+    (t = ConjugateVerb27(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -22439,7 +22543,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb23 fn vp t modal_to;
+[ ConjugateVerb28 fn vp t modal_to;
     switch (fn) {
         1:
             print "would";
@@ -22927,7 +23031,7 @@ Global max_z_object;
     }
 ];
 [ call_U230 fn vp t modal_to;
-    (t = ConjugateVerb23(fn, vp, t, modal_to));
+    (t = ConjugateVerb28(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -22935,7 +23039,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb24 fn vp t modal_to;
+[ ConjugateVerb29 fn vp t modal_to;
     switch (fn) {
         1:
             print "'ve";
@@ -23008,91 +23112,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb25 fn vp t modal_to;
-    switch (fn) {
-        1:
-            print "aren't";
-            ;
-        2:
-            print "aren'ted";
-            ;
-        3:
-            print "aren'ting";
-            ;
-        CV_MODAL:
-            rfalse;
-            ;
-        CV_MEANING:
-            return MEANINGLESS_RR;
-            ;
-        CV_POS:
-            switch (t) {
-                1:
-                    switch (vp) {
-                        1:
-                            print "am not";
-                            ;
-                        4:
-                            print "aren't";
-                            ;
-                        2:
-                            print "aren't";
-                            ;
-                        5:
-                            print "aren't";
-                            ;
-                        3:
-                            print "isn't";
-                            ;
-                        6:
-                            print "aren't";
-                            ;
-                    }
-                    ;
-                2:
-                    switch (vp) {
-                        1:
-                            print "wasn't";
-                            ;
-                        4:
-                            print "weren't";
-                            ;
-                        2:
-                            print "weren't";
-                            ;
-                        5:
-                            print "weren't";
-                            ;
-                        3:
-                            print "wasn't";
-                            ;
-                        6:
-                            print "weren't";
-                            ;
-                    }
-                    ;
-                3:
-                    if ((vp == 3)) {
-                        print "hasn't been";
-                    } else {
-                        print "haven't been";
-                    }
-                    ;
-                4:
-                    print "hadn't been";
-                    ;
-                5:
-                    print "won't be";
-                    ;
-            }
-            ;
-        CV_NEG:
-            switch (t) {
-            }
-            ;
-    }
-];
-[ ConjugateVerb26 fn vp t modal_to;
+[ ConjugateVerb30 fn vp t modal_to;
     switch (fn) {
         1:
             print "can't";
@@ -23349,7 +23369,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb27 fn vp t modal_to;
+[ ConjugateVerb31 fn vp t modal_to;
     switch (fn) {
         1:
             print "haven't";
@@ -23606,7 +23626,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb28 fn vp t modal_to;
+[ ConjugateVerb32 fn vp t modal_to;
     switch (fn) {
         1:
             print "don't";
@@ -24120,7 +24140,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb29 fn vp t modal_to;
+[ ConjugateVerb33 fn vp t modal_to;
     switch (fn) {
         1:
             print "mustn't";
@@ -24377,7 +24397,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb30 fn vp t modal_to;
+[ ConjugateVerb34 fn vp t modal_to;
     switch (fn) {
         1:
             print "mightn't";
@@ -24634,7 +24654,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb31 fn vp t modal_to;
+[ ConjugateVerb35 fn vp t modal_to;
     switch (fn) {
         1:
             print "mayn't";
@@ -24891,7 +24911,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb32 fn vp t modal_to;
+[ ConjugateVerb36 fn vp t modal_to;
     switch (fn) {
         1:
             print "wouldn't";
@@ -25148,7 +25168,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb33 fn vp t modal_to;
+[ ConjugateVerb37 fn vp t modal_to;
     switch (fn) {
         1:
             print "couldn't";
@@ -25405,7 +25425,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb34 fn vp t modal_to;
+[ ConjugateVerb38 fn vp t modal_to;
     switch (fn) {
         1:
             print "shouldn't";
@@ -25662,7 +25682,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb35 fn vp t modal_to;
+[ ConjugateVerb39 fn vp t modal_to;
     switch (fn) {
         1:
             print "won't";
@@ -27433,12 +27453,12 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U403 forbid_breaks rv;
-    (rv = (call_U1982)());
+    (rv = (call_U1985)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U1982;
+        return call_U1985;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -28351,12 +28371,12 @@ Global max_z_object;
     (original_deadflag = deadflag);
     (p = parameter_value);
     (parameter_value = p);
-    (rv = (call_U1981)());
+    (rv = (call_U1984)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U1981;
+        return call_U1984;
     }
     ((latest_rule_result-->(0)) = 0);
     if ((original_deadflag ~= deadflag)) {
@@ -36889,15 +36909,22 @@ Global max_z_object;
     ResponseViaActivity(response_id_U147);
 ];
 [ call_U1115 tmp_0 tmp_1 tmp_2;
+    (tmp_0 = (LocalParking-->(0)));
+    (tmp_1 = (LocalParking-->(1)));
+    (tmp_2 = (LocalParking-->(2)));
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~On [the item] ~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    print "On ";
+    ParaContent();
+    DefArt(tmp_0);
+    ParaContent();
+    print " ";
     rtrue;
 ];
 [ call_U1116 tmp_0 tmp_1 tmp_2;
@@ -37016,15 +37043,22 @@ Global max_z_object;
     ResponseViaActivity(response_id_U148);
 ];
 [ call_U1122 tmp_0 tmp_1 tmp_2;
+    (tmp_0 = (LocalParking-->(0)));
+    (tmp_1 = (LocalParking-->(1)));
+    (tmp_2 = (LocalParking-->(2)));
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~On [the item] ~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    print "On ";
+    ParaContent();
+    DefArt(tmp_0);
+    ParaContent();
+    print " ";
     rtrue;
 ];
 [ call_U1123 tmp_0 tmp_1 tmp_2;
@@ -37096,15 +37130,22 @@ Global max_z_object;
     ResponseViaActivity(response_id_U149);
 ];
 [ call_U1127 tmp_0 tmp_1 tmp_2;
+    (tmp_0 = (LocalParking-->(0)));
+    (tmp_1 = (LocalParking-->(1)));
+    (tmp_2 = (LocalParking-->(2)));
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~On [the item] ~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    print "On ";
+    ParaContent();
+    DefArt(tmp_0);
+    ParaContent();
+    print " ";
     rtrue;
 ];
 [ call_U1128;
@@ -38557,13 +38598,27 @@ Global max_z_object;
 [ call_U1239;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[The actor] [put] [the noun] on [the second noun].~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    CDefArt(actor);
+    ParaContent();
+    print " ";
+    ConjugateVerb2(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " ";
+    ParaContent();
+    DefArt(noun);
+    ParaContent();
+    print " on ";
+    ParaContent();
+    DefArt(second);
+    ParaContent();
+    print ".";
     rtrue;
 ];
 [ call_U1240;
@@ -39783,13 +39838,19 @@ Global max_z_object;
 [ call_U1311;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[The actor] [go] up~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    CDefArt(actor);
+    ParaContent();
+    print " ";
+    ConjugateVerb3(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " up";
     rtrue;
 ];
 [ call_U1312;
@@ -39798,13 +39859,19 @@ Global max_z_object;
 [ call_U1313;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[The actor] [go] down~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    CDefArt(actor);
+    ParaContent();
+    print " ";
+    ConjugateVerb3(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " down";
     rtrue;
 ];
 [ call_U1314;
@@ -39813,13 +39880,21 @@ Global max_z_object;
 [ call_U1315;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[The actor] [go] [noun]~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    CDefArt(actor);
+    ParaContent();
+    print " ";
+    ConjugateVerb3(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " ";
+    ParaContent();
+    PrintShortName(noun);
     rtrue;
 ];
 [ call_U1316;
@@ -39828,13 +39903,19 @@ Global max_z_object;
 [ call_U1317 tmp_0 tmp_1 tmp_2;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[The actor] [arrive] from above~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    CDefArt(actor);
+    ParaContent();
+    print " ";
+    ConjugateVerb4(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " from above";
     rtrue;
 ];
 [ call_U1318;
@@ -39843,28 +39924,45 @@ Global max_z_object;
 [ call_U1319 tmp_0 tmp_1 tmp_2;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[The actor] [arrive] from below~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    CDefArt(actor);
+    ParaContent();
+    print " ";
+    ConjugateVerb4(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " from below";
     rtrue;
 ];
 [ call_U1320;
     ResponseViaActivity(response_id_U209);
 ];
 [ call_U1321 tmp_0 tmp_1 tmp_2;
+    (tmp_0 = (LocalParking-->(0)));
+    (tmp_1 = (LocalParking-->(1)));
+    (tmp_2 = (LocalParking-->(2)));
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[The actor] [arrive] from [the back way]~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    CDefArt(actor);
+    ParaContent();
+    print " ";
+    ConjugateVerb4(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " from ";
+    ParaContent();
+    DefArt(tmp_0);
     rtrue;
 ];
 [ call_U1322;
@@ -39873,13 +39971,17 @@ Global max_z_object;
 [ call_U1323 tmp_0 tmp_1 tmp_2;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[The actor] [arrive]~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    CDefArt(actor);
+    ParaContent();
+    print " ";
+    ConjugateVerb4(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
     rtrue;
 ];
 [ call_U1324;
@@ -39888,13 +39990,23 @@ Global max_z_object;
 [ call_U1325 tmp_0 tmp_1 tmp_2;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[The actor] [arrive] at [the room gone to] from above~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    CDefArt(actor);
+    ParaContent();
+    print " ";
+    ConjugateVerb4(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " at ";
+    ParaContent();
+    DefArt((MStack-->(MstVO(var_id_U42, 1))));
+    ParaContent();
+    print " from above";
     rtrue;
 ];
 [ call_U1326;
@@ -39903,28 +40015,53 @@ Global max_z_object;
 [ call_U1327 tmp_0 tmp_1 tmp_2;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[The actor] [arrive] at [the room gone to] from below~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    CDefArt(actor);
+    ParaContent();
+    print " ";
+    ConjugateVerb4(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " at ";
+    ParaContent();
+    DefArt((MStack-->(MstVO(var_id_U42, 1))));
+    ParaContent();
+    print " from below";
     rtrue;
 ];
 [ call_U1328;
     ResponseViaActivity(response_id_U213);
 ];
 [ call_U1329 tmp_0 tmp_1 tmp_2;
+    (tmp_0 = (LocalParking-->(0)));
+    (tmp_1 = (LocalParking-->(1)));
+    (tmp_2 = (LocalParking-->(2)));
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[The actor] [arrive] at [the room gone to] from [the back way]~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    CDefArt(actor);
+    ParaContent();
+    print " ";
+    ConjugateVerb4(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " at ";
+    ParaContent();
+    DefArt((MStack-->(MstVO(var_id_U42, 1))));
+    ParaContent();
+    print " from ";
+    ParaContent();
+    DefArt(tmp_0);
     rtrue;
 ];
 [ call_U1330;
@@ -39933,13 +40070,21 @@ Global max_z_object;
 [ call_U1331 tmp_0 tmp_1 tmp_2;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[The actor] [go] through [the noun]~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    CDefArt(actor);
+    ParaContent();
+    print " ";
+    ConjugateVerb3(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " through ";
+    ParaContent();
+    DefArt(noun);
     rtrue;
 ];
 [ call_U1332;
@@ -39948,13 +40093,21 @@ Global max_z_object;
 [ call_U1333 tmp_0 tmp_1 tmp_2;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[The actor] [arrive] from [the noun]~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    CDefArt(actor);
+    ParaContent();
+    print " ";
+    ConjugateVerb4(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " from ";
+    ParaContent();
+    DefArt(noun);
     rtrue;
 ];
 [ call_U1334;
@@ -39963,13 +40116,15 @@ Global max_z_object;
 [ call_U1335 tmp_0 tmp_1 tmp_2;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~on [the vehicle gone by]~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    print "on ";
+    ParaContent();
+    DefArt((MStack-->(MstVO(var_id_U42, 3))));
     rtrue;
 ];
 [ call_U1336;
@@ -39978,13 +40133,15 @@ Global max_z_object;
 [ call_U1337 tmp_0 tmp_1 tmp_2;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~in [the vehicle gone by]~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    print "in ";
+    ParaContent();
+    DefArt((MStack-->(MstVO(var_id_U42, 3))));
     rtrue;
 ];
 [ call_U1338;
@@ -39993,13 +40150,21 @@ Global max_z_object;
 [ call_U1339 tmp_0 tmp_1 tmp_2;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~, pushing [the thing gone with] in front, and [us] along too~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    print ", pushing ";
+    ParaContent();
+    DefArt((MStack-->(MstVO(var_id_U42, 4))));
+    ParaContent();
+    print " in front, and ";
+    ParaContent();
+    call_U190();
+    ParaContent();
+    print " along too";
     rtrue;
 ];
 [ call_U1340;
@@ -40008,13 +40173,17 @@ Global max_z_object;
 [ call_U1341 tmp_0 tmp_1 tmp_2;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~, pushing [the thing gone with] in front~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    print ", pushing ";
+    ParaContent();
+    DefArt((MStack-->(MstVO(var_id_U42, 4))));
+    ParaContent();
+    print " in front";
     rtrue;
 ];
 [ call_U1342;
@@ -40023,13 +40192,17 @@ Global max_z_object;
 [ call_U1343 tmp_0 tmp_1 tmp_2;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~, pushing [the thing gone with] away~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    print ", pushing ";
+    ParaContent();
+    DefArt((MStack-->(MstVO(var_id_U42, 4))));
+    ParaContent();
+    print " away";
     rtrue;
 ];
 [ call_U1344;
@@ -40038,13 +40211,17 @@ Global max_z_object;
 [ call_U1345 tmp_0 tmp_1 tmp_2;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~, pushing [the thing gone with] in~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    print ", pushing ";
+    ParaContent();
+    DefArt((MStack-->(MstVO(var_id_U42, 4))));
+    ParaContent();
+    print " in";
     rtrue;
 ];
 [ call_U1346;
@@ -40053,13 +40230,17 @@ Global max_z_object;
 [ call_U1347 tmp_0 tmp_1 tmp_2;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~, taking [us] along~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    print ", taking ";
+    ParaContent();
+    call_U190();
+    ParaContent();
+    print " along";
     rtrue;
 ];
 [ call_U1348 tmp_0;
@@ -40684,13 +40865,23 @@ Global max_z_object;
 [ call_U1393;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[We] [get] onto [the noun].~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    call_U194();
+    ParaContent();
+    print " ";
+    ConjugateVerb5(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " onto ";
+    ParaContent();
+    DefArt(noun);
+    ParaContent();
+    print ".";
     rtrue;
 ];
 [ call_U1394;
@@ -40699,13 +40890,23 @@ Global max_z_object;
 [ call_U1395;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[We] [get] into [the noun].~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    call_U194();
+    ParaContent();
+    print " ";
+    ConjugateVerb5(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " into ";
+    ParaContent();
+    DefArt(noun);
+    ParaContent();
+    print ".";
     rtrue;
 ];
 [ call_U1396;
@@ -40714,13 +40915,23 @@ Global max_z_object;
 [ call_U1397;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[The actor] [get] into [the noun].~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    CDefArt(actor);
+    ParaContent();
+    print " ";
+    ConjugateVerb5(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " into ";
+    ParaContent();
+    DefArt(noun);
+    ParaContent();
+    print ".";
     rtrue;
 ];
 [ call_U1398;
@@ -40729,13 +40940,23 @@ Global max_z_object;
 [ call_U1399;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~[The actor] [get] onto [the noun].~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    CDefArt(actor);
+    ParaContent();
+    print " ";
+    ConjugateVerb5(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " onto ";
+    ParaContent();
+    DefArt(noun);
+    ParaContent();
+    print ".";
     rtrue;
 ];
 [ call_U1400;
@@ -40816,13 +41037,33 @@ Global max_z_object;
 [ call_U1405 tmp_0;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~But [we] [aren't] in anything at the [if story tense is present^tense]moment[otherwise]time[end if].~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    print "But ";
+    ParaContent();
+    call_U189();
+    ParaContent();
+    print " ";
+    ConjugateVerb6(CV_POS, PNToVP(), story_tense);
+    (say__p = 1);
+    ParaContent();
+    print " in anything at the ";
+    if ((~~((story_tense == I_present_tense_U1)))) {
+        jump L_Say0;
+    }
+    ParaContent();
+    print "moment";
+    jump L_SayX0;
+    .L_Say0;
+    ParaContent();
+    print "time";
+    .L_SayX0;
+    ParaContent();
+    print ".";
     rtrue;
 ];
 [ call_U1406 tmp_0;
@@ -40851,15 +41092,20 @@ Global max_z_object;
     ResponseViaActivity(response_id_U243);
 ];
 [ call_U1408 tmp_0;
+    (tmp_0 = (LocalParking-->(0)));
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~You can't get out of the closed [cage].~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    print "You can't get out of the closed ";
+    ParaContent();
+    PrintShortName(tmp_0);
+    ParaContent();
+    print ".";
     rtrue;
 ];
 [ call_U1409 tmp_0;
@@ -40933,13 +41179,13 @@ Global max_z_object;
 [ call_U1413;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~I'm out...~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    print "I'm out...";
     rtrue;
 ];
 [ call_U1414;
@@ -40948,13 +41194,13 @@ Global max_z_object;
 [ call_U1415;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~I'm out...~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    print "I'm out...";
     rtrue;
 ];
 [ call_U1416;
@@ -40963,13 +41209,13 @@ Global max_z_object;
 [ call_U1417;
     #ifdef DEBUG;
         if (suppress_text_substitution) {
-            print "~Can't.~";
+            print "~I'm out...~";
             rtrue;
         }
     #endif;
     (say__p = 1);
     ParaContent();
-    print "Can't.";
+    print "I'm out...";
     rtrue;
 ];
 [ call_U1418;
@@ -47072,7 +47318,335 @@ Global max_z_object;
     CarryOutActivity(V4_issuing_the_response_text, t_0);
     rfalse;
 ];
-[ ConjugateVerb36 fn vp t modal_to;
+[ ConjugateVerb2 fn vp t modal_to;
+    switch (fn) {
+        1:
+            print "put";
+            ;
+        2:
+            print "put";
+            ;
+        3:
+            print "putting";
+            ;
+        CV_MODAL:
+            rfalse;
+            ;
+        CV_MEANING:
+            return MEANINGLESS_RR;
+            ;
+        CV_POS:
+            switch (t) {
+                1:
+                    if ((vp == 3)) {
+                        print "puts";
+                    } else {
+                        print "put";
+                    }
+                    ;
+                2:
+                    print "put";
+                    ;
+                3:
+                    if ((vp == 3)) {
+                        print "has put";
+                    } else {
+                        print "have put";
+                    }
+                    ;
+                4:
+                    print "had put";
+                    ;
+                5:
+                    print "will put";
+                    ;
+            }
+            ;
+        CV_NEG:
+            switch (t) {
+                1:
+                    if ((vp == 3)) {
+                        print "does not put";
+                    } else {
+                        print "do not put";
+                    }
+                    ;
+                2:
+                    print "did not put";
+                    ;
+                3:
+                    if ((vp == 3)) {
+                        print "has not put";
+                    } else {
+                        print "have not put";
+                    }
+                    ;
+                4:
+                    print "had not put";
+                    ;
+                5:
+                    print "will not put";
+                    ;
+            }
+            ;
+    }
+];
+[ call_U1890 fn vp t modal_to;
+    (t = ConjugateVerb2(fn, vp, t, modal_to));
+    if ((fn == CV_MODAL)) {
+        return t;
+    }
+    if ((fn == CV_MEANING)) {
+        return MEANINGLESS_RR;
+    }
+];
+[ ConjugateVerb3 fn vp t modal_to;
+    switch (fn) {
+        1:
+            print "go";
+            ;
+        2:
+            print "gone";
+            ;
+        3:
+            print "going";
+            ;
+        CV_MODAL:
+            rfalse;
+            ;
+        CV_MEANING:
+            return MEANINGLESS_RR;
+            ;
+        CV_POS:
+            switch (t) {
+                1:
+                    if ((vp == 3)) {
+                        print "goes";
+                    } else {
+                        print "go";
+                    }
+                    ;
+                2:
+                    print "went";
+                    ;
+                3:
+                    if ((vp == 3)) {
+                        print "has gone";
+                    } else {
+                        print "have gone";
+                    }
+                    ;
+                4:
+                    print "had gone";
+                    ;
+                5:
+                    print "will go";
+                    ;
+            }
+            ;
+        CV_NEG:
+            switch (t) {
+                1:
+                    if ((vp == 3)) {
+                        print "does not go";
+                    } else {
+                        print "do not go";
+                    }
+                    ;
+                2:
+                    print "did not go";
+                    ;
+                3:
+                    if ((vp == 3)) {
+                        print "has not gone";
+                    } else {
+                        print "have not gone";
+                    }
+                    ;
+                4:
+                    print "had not gone";
+                    ;
+                5:
+                    print "will not go";
+                    ;
+            }
+            ;
+    }
+];
+[ call_U1891 fn vp t modal_to;
+    (t = ConjugateVerb3(fn, vp, t, modal_to));
+    if ((fn == CV_MODAL)) {
+        return t;
+    }
+    if ((fn == CV_MEANING)) {
+        return MEANINGLESS_RR;
+    }
+];
+[ ConjugateVerb4 fn vp t modal_to;
+    switch (fn) {
+        1:
+            print "arrive";
+            ;
+        2:
+            print "arrived";
+            ;
+        3:
+            print "arriving";
+            ;
+        CV_MODAL:
+            rfalse;
+            ;
+        CV_MEANING:
+            return MEANINGLESS_RR;
+            ;
+        CV_POS:
+            switch (t) {
+                1:
+                    if ((vp == 3)) {
+                        print "arrives";
+                    } else {
+                        print "arrive";
+                    }
+                    ;
+                2:
+                    print "arrived";
+                    ;
+                3:
+                    if ((vp == 3)) {
+                        print "has arrived";
+                    } else {
+                        print "have arrived";
+                    }
+                    ;
+                4:
+                    print "had arrived";
+                    ;
+                5:
+                    print "will arrive";
+                    ;
+            }
+            ;
+        CV_NEG:
+            switch (t) {
+                1:
+                    if ((vp == 3)) {
+                        print "does not arrive";
+                    } else {
+                        print "do not arrive";
+                    }
+                    ;
+                2:
+                    print "did not arrive";
+                    ;
+                3:
+                    if ((vp == 3)) {
+                        print "has not arrived";
+                    } else {
+                        print "have not arrived";
+                    }
+                    ;
+                4:
+                    print "had not arrived";
+                    ;
+                5:
+                    print "will not arrive";
+                    ;
+            }
+            ;
+    }
+];
+[ call_U1892 fn vp t modal_to;
+    (t = ConjugateVerb4(fn, vp, t, modal_to));
+    if ((fn == CV_MODAL)) {
+        return t;
+    }
+    if ((fn == CV_MEANING)) {
+        return MEANINGLESS_RR;
+    }
+];
+[ ConjugateVerb5 fn vp t modal_to;
+    switch (fn) {
+        1:
+            print "get";
+            ;
+        2:
+            print "got";
+            ;
+        3:
+            print "getting";
+            ;
+        CV_MODAL:
+            rfalse;
+            ;
+        CV_MEANING:
+            return MEANINGLESS_RR;
+            ;
+        CV_POS:
+            switch (t) {
+                1:
+                    if ((vp == 3)) {
+                        print "gets";
+                    } else {
+                        print "get";
+                    }
+                    ;
+                2:
+                    print "got";
+                    ;
+                3:
+                    if ((vp == 3)) {
+                        print "has got";
+                    } else {
+                        print "have got";
+                    }
+                    ;
+                4:
+                    print "had got";
+                    ;
+                5:
+                    print "will get";
+                    ;
+            }
+            ;
+        CV_NEG:
+            switch (t) {
+                1:
+                    if ((vp == 3)) {
+                        print "does not get";
+                    } else {
+                        print "do not get";
+                    }
+                    ;
+                2:
+                    print "did not get";
+                    ;
+                3:
+                    if ((vp == 3)) {
+                        print "has not got";
+                    } else {
+                        print "have not got";
+                    }
+                    ;
+                4:
+                    print "had not got";
+                    ;
+                5:
+                    print "will not get";
+                    ;
+            }
+            ;
+    }
+];
+[ call_U1893 fn vp t modal_to;
+    (t = ConjugateVerb5(fn, vp, t, modal_to));
+    if ((fn == CV_MODAL)) {
+        return t;
+    }
+    if ((fn == CV_MEANING)) {
+        return MEANINGLESS_RR;
+    }
+];
+[ ConjugateVerb40 fn vp t modal_to;
     switch (fn) {
         1:
             print "begin";
@@ -47145,8 +47719,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1890 fn vp t modal_to;
-    (t = ConjugateVerb36(fn, vp, t, modal_to));
+[ call_U1894 fn vp t modal_to;
+    (t = ConjugateVerb40(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -47154,8 +47728,8 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ call_U1891 fn vp t modal_to;
-    (t = ConjugateVerb36(fn, vp, t, modal_to));
+[ call_U1895 fn vp t modal_to;
+    (t = ConjugateVerb40(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -47164,7 +47738,7 @@ Global max_z_object;
     }
     print " when";
 ];
-[ ConjugateVerb37 fn vp t modal_to;
+[ ConjugateVerb41 fn vp t modal_to;
     switch (fn) {
         1:
             print "end";
@@ -47237,8 +47811,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1892 fn vp t modal_to;
-    (t = ConjugateVerb37(fn, vp, t, modal_to));
+[ call_U1896 fn vp t modal_to;
+    (t = ConjugateVerb41(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -47246,8 +47820,8 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ call_U1893 fn vp t modal_to;
-    (t = ConjugateVerb37(fn, vp, t, modal_to));
+[ call_U1897 fn vp t modal_to;
+    (t = ConjugateVerb41(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -47256,8 +47830,8 @@ Global max_z_object;
     }
     print " when";
 ];
-[ call_U1894 fn vp t modal_to;
-    (t = ConjugateVerb37(fn, vp, t, modal_to));
+[ call_U1898 fn vp t modal_to;
+    (t = ConjugateVerb41(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -47338,7 +47912,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb38 fn vp t modal_to;
+[ ConjugateVerb42 fn vp t modal_to;
     switch (fn) {
         1:
             print "understand";
@@ -47411,8 +47985,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1895 fn vp t modal_to;
-    (t = ConjugateVerb38(fn, vp, t, modal_to));
+[ call_U1899 fn vp t modal_to;
+    (t = ConjugateVerb42(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -47420,8 +47994,8 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ call_U1896 fn vp t modal_to;
-    (t = ConjugateVerb38(fn, vp, t, modal_to));
+[ call_U1900 fn vp t modal_to;
+    (t = ConjugateVerb42(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -47429,7 +48003,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb39 fn vp t modal_to;
+[ ConjugateVerb43 fn vp t modal_to;
     switch (fn) {
         1:
             print "release";
@@ -47502,8 +48076,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1897 fn vp t modal_to;
-    (t = ConjugateVerb39(fn, vp, t, modal_to));
+[ call_U1901 fn vp t modal_to;
+    (t = ConjugateVerb43(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -47511,8 +48085,8 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ call_U1898 fn vp t modal_to;
-    (t = ConjugateVerb39(fn, vp, t, modal_to));
+[ call_U1902 fn vp t modal_to;
+    (t = ConjugateVerb43(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -47521,7 +48095,7 @@ Global max_z_object;
     }
     print " along with";
 ];
-[ ConjugateVerb40 fn vp t modal_to;
+[ ConjugateVerb44 fn vp t modal_to;
     switch (fn) {
         1:
             print "index";
@@ -47594,8 +48168,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1899 fn vp t modal_to;
-    (t = ConjugateVerb40(fn, vp, t, modal_to));
+[ call_U1903 fn vp t modal_to;
+    (t = ConjugateVerb44(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -47603,8 +48177,8 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ call_U1900 fn vp t modal_to;
-    (t = ConjugateVerb40(fn, vp, t, modal_to));
+[ call_U1904 fn vp t modal_to;
+    (t = ConjugateVerb44(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -48318,7 +48892,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb41 fn vp t modal_to;
+[ ConjugateVerb45 fn vp t modal_to;
     switch (fn) {
         1:
             print "contain";
@@ -48391,8 +48965,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1901 fn vp t modal_to;
-    (t = ConjugateVerb41(fn, vp, t, modal_to));
+[ call_U1905 fn vp t modal_to;
+    (t = ConjugateVerb45(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -48823,7 +49397,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb42 fn vp t modal_to;
+[ ConjugateVerb46 fn vp t modal_to;
     switch (fn) {
         1:
             print "support";
@@ -48896,8 +49470,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1902 fn vp t modal_to;
-    (t = ConjugateVerb42(fn, vp, t, modal_to));
+[ call_U1906 fn vp t modal_to;
+    (t = ConjugateVerb46(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -49046,7 +49620,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb43 fn vp t modal_to;
+[ ConjugateVerb47 fn vp t modal_to;
     switch (fn) {
         1:
             print "incorporate";
@@ -49119,8 +49693,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1903 fn vp t modal_to;
-    (t = ConjugateVerb43(fn, vp, t, modal_to));
+[ call_U1907 fn vp t modal_to;
+    (t = ConjugateVerb47(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -49551,7 +50125,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb44 fn vp t modal_to;
+[ ConjugateVerb48 fn vp t modal_to;
     switch (fn) {
         1:
             print "enclose";
@@ -49624,8 +50198,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1904 fn vp t modal_to;
-    (t = ConjugateVerb44(fn, vp, t, modal_to));
+[ call_U1908 fn vp t modal_to;
+    (t = ConjugateVerb48(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -49633,7 +50207,7 @@ Global max_z_object;
         return Rel_Record11;
     }
 ];
-[ ConjugateVerb45 fn vp t modal_to;
+[ ConjugateVerb49 fn vp t modal_to;
     switch (fn) {
         1:
             print "carry";
@@ -49706,8 +50280,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1905 fn vp t modal_to;
-    (t = ConjugateVerb45(fn, vp, t, modal_to));
+[ call_U1909 fn vp t modal_to;
+    (t = ConjugateVerb49(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -49715,7 +50289,7 @@ Global max_z_object;
         return Rel_Record12;
     }
 ];
-[ ConjugateVerb46 fn vp t modal_to;
+[ ConjugateVerb50 fn vp t modal_to;
     switch (fn) {
         1:
             print "hold";
@@ -49788,8 +50362,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1906 fn vp t modal_to;
-    (t = ConjugateVerb46(fn, vp, t, modal_to));
+[ call_U1910 fn vp t modal_to;
+    (t = ConjugateVerb50(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -49797,7 +50371,7 @@ Global max_z_object;
         return Rel_Record13;
     }
 ];
-[ ConjugateVerb47 fn vp t modal_to;
+[ ConjugateVerb51 fn vp t modal_to;
     switch (fn) {
         1:
             print "wear";
@@ -49870,8 +50444,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1907 fn vp t modal_to;
-    (t = ConjugateVerb47(fn, vp, t, modal_to));
+[ call_U1911 fn vp t modal_to;
+    (t = ConjugateVerb51(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -49879,7 +50453,7 @@ Global max_z_object;
         return Rel_Record14;
     }
 ];
-[ ConjugateVerb48 fn vp t modal_to;
+[ ConjugateVerb52 fn vp t modal_to;
     switch (fn) {
         1:
             print "be able to see";
@@ -49956,8 +50530,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1908 fn vp t modal_to;
-    (t = ConjugateVerb48(fn, vp, t, modal_to));
+[ call_U1912 fn vp t modal_to;
+    (t = ConjugateVerb52(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -49965,7 +50539,7 @@ Global max_z_object;
         return Rel_Record15;
     }
 ];
-[ ConjugateVerb49 fn vp t modal_to;
+[ ConjugateVerb53 fn vp t modal_to;
     switch (fn) {
         1:
             print "see";
@@ -50038,8 +50612,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1909 fn vp t modal_to;
-    (t = ConjugateVerb49(fn, vp, t, modal_to));
+[ call_U1913 fn vp t modal_to;
+    (t = ConjugateVerb53(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -50047,7 +50621,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb50 fn vp t modal_to;
+[ ConjugateVerb54 fn vp t modal_to;
     switch (fn) {
         1:
             print "be able to touch";
@@ -50124,8 +50698,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1910 fn vp t modal_to;
-    (t = ConjugateVerb50(fn, vp, t, modal_to));
+[ call_U1914 fn vp t modal_to;
+    (t = ConjugateVerb54(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -50133,7 +50707,7 @@ Global max_z_object;
         return Rel_Record16;
     }
 ];
-[ ConjugateVerb51 fn vp t modal_to;
+[ ConjugateVerb55 fn vp t modal_to;
     switch (fn) {
         1:
             print "touch";
@@ -50206,8 +50780,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1911 fn vp t modal_to;
-    (t = ConjugateVerb51(fn, vp, t, modal_to));
+[ call_U1915 fn vp t modal_to;
+    (t = ConjugateVerb55(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -50215,7 +50789,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb52 fn vp t modal_to;
+[ ConjugateVerb56 fn vp t modal_to;
     switch (fn) {
         1:
             print "conceal";
@@ -50288,8 +50862,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1912 fn vp t modal_to;
-    (t = ConjugateVerb52(fn, vp, t, modal_to));
+[ call_U1916 fn vp t modal_to;
+    (t = ConjugateVerb56(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -51284,7 +51858,7 @@ Global max_z_object;
             ;
     }
 ];
-[ ConjugateVerb53 fn vp t modal_to;
+[ ConjugateVerb57 fn vp t modal_to;
     switch (fn) {
         1:
             print "unlock";
@@ -51357,8 +51931,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1913 fn vp t modal_to;
-    (t = ConjugateVerb53(fn, vp, t, modal_to));
+[ call_U1917 fn vp t modal_to;
+    (t = ConjugateVerb57(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -51366,7 +51940,7 @@ Global max_z_object;
         return Rel_Record2;
     }
 ];
-[ ConjugateVerb54 fn vp t modal_to;
+[ ConjugateVerb58 fn vp t modal_to;
     switch (fn) {
         1:
             print "achieve";
@@ -51439,8 +52013,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1914 fn vp t modal_to;
-    (t = ConjugateVerb54(fn, vp, t, modal_to));
+[ call_U1918 fn vp t modal_to;
+    (t = ConjugateVerb58(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -51448,7 +52022,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb55 fn vp t modal_to;
+[ ConjugateVerb59 fn vp t modal_to;
     switch (fn) {
         1:
             print "appreciate";
@@ -51521,8 +52095,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1915 fn vp t modal_to;
-    (t = ConjugateVerb55(fn, vp, t, modal_to));
+[ call_U1919 fn vp t modal_to;
+    (t = ConjugateVerb59(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -51530,89 +52104,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb56 fn vp t modal_to;
-    switch (fn) {
-        1:
-            print "arrive";
-            ;
-        2:
-            print "arrived";
-            ;
-        3:
-            print "arriving";
-            ;
-        CV_MODAL:
-            rfalse;
-            ;
-        CV_MEANING:
-            return MEANINGLESS_RR;
-            ;
-        CV_POS:
-            switch (t) {
-                1:
-                    if ((vp == 3)) {
-                        print "arrives";
-                    } else {
-                        print "arrive";
-                    }
-                    ;
-                2:
-                    print "arrived";
-                    ;
-                3:
-                    if ((vp == 3)) {
-                        print "has arrived";
-                    } else {
-                        print "have arrived";
-                    }
-                    ;
-                4:
-                    print "had arrived";
-                    ;
-                5:
-                    print "will arrive";
-                    ;
-            }
-            ;
-        CV_NEG:
-            switch (t) {
-                1:
-                    if ((vp == 3)) {
-                        print "does not arrive";
-                    } else {
-                        print "do not arrive";
-                    }
-                    ;
-                2:
-                    print "did not arrive";
-                    ;
-                3:
-                    if ((vp == 3)) {
-                        print "has not arrived";
-                    } else {
-                        print "have not arrived";
-                    }
-                    ;
-                4:
-                    print "had not arrived";
-                    ;
-                5:
-                    print "will not arrive";
-                    ;
-            }
-            ;
-    }
-];
-[ call_U1916 fn vp t modal_to;
-    (t = ConjugateVerb56(fn, vp, t, modal_to));
-    if ((fn == CV_MODAL)) {
-        return t;
-    }
-    if ((fn == CV_MEANING)) {
-        return MEANINGLESS_RR;
-    }
-];
-[ ConjugateVerb57 fn vp t modal_to;
+[ ConjugateVerb60 fn vp t modal_to;
     switch (fn) {
         1:
             print "care";
@@ -51685,8 +52177,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1917 fn vp t modal_to;
-    (t = ConjugateVerb57(fn, vp, t, modal_to));
+[ call_U1920 fn vp t modal_to;
+    (t = ConjugateVerb60(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -51694,7 +52186,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb58 fn vp t modal_to;
+[ ConjugateVerb61 fn vp t modal_to;
     switch (fn) {
         1:
             print "close";
@@ -51767,8 +52259,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1918 fn vp t modal_to;
-    (t = ConjugateVerb58(fn, vp, t, modal_to));
+[ call_U1921 fn vp t modal_to;
+    (t = ConjugateVerb61(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -51776,7 +52268,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb59 fn vp t modal_to;
+[ ConjugateVerb62 fn vp t modal_to;
     switch (fn) {
         1:
             print "die";
@@ -51849,8 +52341,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1919 fn vp t modal_to;
-    (t = ConjugateVerb59(fn, vp, t, modal_to));
+[ call_U1922 fn vp t modal_to;
+    (t = ConjugateVerb62(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -51858,7 +52350,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb60 fn vp t modal_to;
+[ ConjugateVerb63 fn vp t modal_to;
     switch (fn) {
         1:
             print "discover";
@@ -51931,8 +52423,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1920 fn vp t modal_to;
-    (t = ConjugateVerb60(fn, vp, t, modal_to));
+[ call_U1923 fn vp t modal_to;
+    (t = ConjugateVerb63(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -51940,7 +52432,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb61 fn vp t modal_to;
+[ ConjugateVerb64 fn vp t modal_to;
     switch (fn) {
         1:
             print "drop";
@@ -52013,8 +52505,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1921 fn vp t modal_to;
-    (t = ConjugateVerb61(fn, vp, t, modal_to));
+[ call_U1924 fn vp t modal_to;
+    (t = ConjugateVerb64(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -52022,7 +52514,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb62 fn vp t modal_to;
+[ ConjugateVerb65 fn vp t modal_to;
     switch (fn) {
         1:
             print "eat";
@@ -52095,8 +52587,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1922 fn vp t modal_to;
-    (t = ConjugateVerb62(fn, vp, t, modal_to));
+[ call_U1925 fn vp t modal_to;
+    (t = ConjugateVerb65(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -52104,7 +52596,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb63 fn vp t modal_to;
+[ ConjugateVerb66 fn vp t modal_to;
     switch (fn) {
         1:
             print "feel";
@@ -52177,8 +52669,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1923 fn vp t modal_to;
-    (t = ConjugateVerb63(fn, vp, t, modal_to));
+[ call_U1926 fn vp t modal_to;
+    (t = ConjugateVerb66(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -52186,7 +52678,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb64 fn vp t modal_to;
+[ ConjugateVerb67 fn vp t modal_to;
     switch (fn) {
         1:
             print "find";
@@ -52259,8 +52751,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1924 fn vp t modal_to;
-    (t = ConjugateVerb64(fn, vp, t, modal_to));
+[ call_U1927 fn vp t modal_to;
+    (t = ConjugateVerb67(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -52268,89 +52760,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb65 fn vp t modal_to;
-    switch (fn) {
-        1:
-            print "get";
-            ;
-        2:
-            print "got";
-            ;
-        3:
-            print "getting";
-            ;
-        CV_MODAL:
-            rfalse;
-            ;
-        CV_MEANING:
-            return MEANINGLESS_RR;
-            ;
-        CV_POS:
-            switch (t) {
-                1:
-                    if ((vp == 3)) {
-                        print "gets";
-                    } else {
-                        print "get";
-                    }
-                    ;
-                2:
-                    print "got";
-                    ;
-                3:
-                    if ((vp == 3)) {
-                        print "has got";
-                    } else {
-                        print "have got";
-                    }
-                    ;
-                4:
-                    print "had got";
-                    ;
-                5:
-                    print "will get";
-                    ;
-            }
-            ;
-        CV_NEG:
-            switch (t) {
-                1:
-                    if ((vp == 3)) {
-                        print "does not get";
-                    } else {
-                        print "do not get";
-                    }
-                    ;
-                2:
-                    print "did not get";
-                    ;
-                3:
-                    if ((vp == 3)) {
-                        print "has not got";
-                    } else {
-                        print "have not got";
-                    }
-                    ;
-                4:
-                    print "had not got";
-                    ;
-                5:
-                    print "will not get";
-                    ;
-            }
-            ;
-    }
-];
-[ call_U1925 fn vp t modal_to;
-    (t = ConjugateVerb65(fn, vp, t, modal_to));
-    if ((fn == CV_MODAL)) {
-        return t;
-    }
-    if ((fn == CV_MEANING)) {
-        return MEANINGLESS_RR;
-    }
-];
-[ ConjugateVerb66 fn vp t modal_to;
+[ ConjugateVerb68 fn vp t modal_to;
     switch (fn) {
         1:
             print "give";
@@ -52423,8 +52833,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1926 fn vp t modal_to;
-    (t = ConjugateVerb66(fn, vp, t, modal_to));
+[ call_U1928 fn vp t modal_to;
+    (t = ConjugateVerb68(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -52432,89 +52842,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb67 fn vp t modal_to;
-    switch (fn) {
-        1:
-            print "go";
-            ;
-        2:
-            print "gone";
-            ;
-        3:
-            print "going";
-            ;
-        CV_MODAL:
-            rfalse;
-            ;
-        CV_MEANING:
-            return MEANINGLESS_RR;
-            ;
-        CV_POS:
-            switch (t) {
-                1:
-                    if ((vp == 3)) {
-                        print "goes";
-                    } else {
-                        print "go";
-                    }
-                    ;
-                2:
-                    print "went";
-                    ;
-                3:
-                    if ((vp == 3)) {
-                        print "has gone";
-                    } else {
-                        print "have gone";
-                    }
-                    ;
-                4:
-                    print "had gone";
-                    ;
-                5:
-                    print "will go";
-                    ;
-            }
-            ;
-        CV_NEG:
-            switch (t) {
-                1:
-                    if ((vp == 3)) {
-                        print "does not go";
-                    } else {
-                        print "do not go";
-                    }
-                    ;
-                2:
-                    print "did not go";
-                    ;
-                3:
-                    if ((vp == 3)) {
-                        print "has not gone";
-                    } else {
-                        print "have not gone";
-                    }
-                    ;
-                4:
-                    print "had not gone";
-                    ;
-                5:
-                    print "will not go";
-                    ;
-            }
-            ;
-    }
-];
-[ call_U1927 fn vp t modal_to;
-    (t = ConjugateVerb67(fn, vp, t, modal_to));
-    if ((fn == CV_MODAL)) {
-        return t;
-    }
-    if ((fn == CV_MEANING)) {
-        return MEANINGLESS_RR;
-    }
-];
-[ ConjugateVerb68 fn vp t modal_to;
+[ ConjugateVerb69 fn vp t modal_to;
     switch (fn) {
         1:
             print "happen";
@@ -52587,8 +52915,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1928 fn vp t modal_to;
-    (t = ConjugateVerb68(fn, vp, t, modal_to));
+[ call_U1929 fn vp t modal_to;
+    (t = ConjugateVerb69(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -52596,7 +52924,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb69 fn vp t modal_to;
+[ ConjugateVerb70 fn vp t modal_to;
     switch (fn) {
         1:
             print "hear";
@@ -52669,8 +52997,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1929 fn vp t modal_to;
-    (t = ConjugateVerb69(fn, vp, t, modal_to));
+[ call_U1930 fn vp t modal_to;
+    (t = ConjugateVerb70(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -52678,7 +53006,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb70 fn vp t modal_to;
+[ ConjugateVerb71 fn vp t modal_to;
     switch (fn) {
         1:
             print "jump";
@@ -52751,8 +53079,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1930 fn vp t modal_to;
-    (t = ConjugateVerb70(fn, vp, t, modal_to));
+[ call_U1931 fn vp t modal_to;
+    (t = ConjugateVerb71(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -52760,7 +53088,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb71 fn vp t modal_to;
+[ ConjugateVerb72 fn vp t modal_to;
     switch (fn) {
         1:
             print "lack";
@@ -52833,8 +53161,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1931 fn vp t modal_to;
-    (t = ConjugateVerb71(fn, vp, t, modal_to));
+[ call_U1932 fn vp t modal_to;
+    (t = ConjugateVerb72(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -52842,7 +53170,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb72 fn vp t modal_to;
+[ ConjugateVerb73 fn vp t modal_to;
     switch (fn) {
         1:
             print "lead";
@@ -52915,8 +53243,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1932 fn vp t modal_to;
-    (t = ConjugateVerb72(fn, vp, t, modal_to));
+[ call_U1933 fn vp t modal_to;
+    (t = ConjugateVerb73(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -52924,7 +53252,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb73 fn vp t modal_to;
+[ ConjugateVerb74 fn vp t modal_to;
     switch (fn) {
         1:
             print "like";
@@ -52997,8 +53325,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1933 fn vp t modal_to;
-    (t = ConjugateVerb73(fn, vp, t, modal_to));
+[ call_U1934 fn vp t modal_to;
+    (t = ConjugateVerb74(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -53006,7 +53334,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb74 fn vp t modal_to;
+[ ConjugateVerb75 fn vp t modal_to;
     switch (fn) {
         1:
             print "listen";
@@ -53079,8 +53407,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1934 fn vp t modal_to;
-    (t = ConjugateVerb74(fn, vp, t, modal_to));
+[ call_U1935 fn vp t modal_to;
+    (t = ConjugateVerb75(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -53088,7 +53416,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb75 fn vp t modal_to;
+[ ConjugateVerb76 fn vp t modal_to;
     switch (fn) {
         1:
             print "lock";
@@ -53161,8 +53489,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1935 fn vp t modal_to;
-    (t = ConjugateVerb75(fn, vp, t, modal_to));
+[ call_U1936 fn vp t modal_to;
+    (t = ConjugateVerb76(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -53170,7 +53498,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb76 fn vp t modal_to;
+[ ConjugateVerb77 fn vp t modal_to;
     switch (fn) {
         1:
             print "look";
@@ -53243,8 +53571,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1936 fn vp t modal_to;
-    (t = ConjugateVerb76(fn, vp, t, modal_to));
+[ call_U1937 fn vp t modal_to;
+    (t = ConjugateVerb77(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -53252,7 +53580,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb77 fn vp t modal_to;
+[ ConjugateVerb78 fn vp t modal_to;
     switch (fn) {
         1:
             print "need";
@@ -53325,8 +53653,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1937 fn vp t modal_to;
-    (t = ConjugateVerb77(fn, vp, t, modal_to));
+[ call_U1938 fn vp t modal_to;
+    (t = ConjugateVerb78(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -53334,7 +53662,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb78 fn vp t modal_to;
+[ ConjugateVerb79 fn vp t modal_to;
     switch (fn) {
         1:
             print "open";
@@ -53407,8 +53735,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1938 fn vp t modal_to;
-    (t = ConjugateVerb78(fn, vp, t, modal_to));
+[ call_U1939 fn vp t modal_to;
+    (t = ConjugateVerb79(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -53416,7 +53744,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb79 fn vp t modal_to;
+[ ConjugateVerb80 fn vp t modal_to;
     switch (fn) {
         1:
             print "pass";
@@ -53489,8 +53817,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1939 fn vp t modal_to;
-    (t = ConjugateVerb79(fn, vp, t, modal_to));
+[ call_U1940 fn vp t modal_to;
+    (t = ConjugateVerb80(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -53498,7 +53826,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb80 fn vp t modal_to;
+[ ConjugateVerb81 fn vp t modal_to;
     switch (fn) {
         1:
             print "pick";
@@ -53571,8 +53899,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1940 fn vp t modal_to;
-    (t = ConjugateVerb80(fn, vp, t, modal_to));
+[ call_U1941 fn vp t modal_to;
+    (t = ConjugateVerb81(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -53580,7 +53908,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb81 fn vp t modal_to;
+[ ConjugateVerb82 fn vp t modal_to;
     switch (fn) {
         1:
             print "provoke";
@@ -53653,8 +53981,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1941 fn vp t modal_to;
-    (t = ConjugateVerb81(fn, vp, t, modal_to));
+[ call_U1942 fn vp t modal_to;
+    (t = ConjugateVerb82(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -53662,7 +53990,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb82 fn vp t modal_to;
+[ ConjugateVerb83 fn vp t modal_to;
     switch (fn) {
         1:
             print "pull";
@@ -53735,8 +54063,8 @@ Global max_z_object;
             ;
     }
 ];
-[ call_U1942 fn vp t modal_to;
-    (t = ConjugateVerb82(fn, vp, t, modal_to));
+[ call_U1943 fn vp t modal_to;
+    (t = ConjugateVerb83(fn, vp, t, modal_to));
     if ((fn == CV_MODAL)) {
         return t;
     }
@@ -53744,7 +54072,7 @@ Global max_z_object;
         return MEANINGLESS_RR;
     }
 ];
-[ ConjugateVerb83 fn vp t modal_to;
+[ ConjugateVerb84 fn vp t modal_to;
     switch (fn) {
         1:
             print "push";
@@ -53812,88 +54140,6 @@ Global max_z_object;
                     ;
                 5:
                     print "will not push";
-                    ;
-            }
-            ;
-    }
-];
-[ call_U1943 fn vp t modal_to;
-    (t = ConjugateVerb83(fn, vp, t, modal_to));
-    if ((fn == CV_MODAL)) {
-        return t;
-    }
-    if ((fn == CV_MEANING)) {
-        return MEANINGLESS_RR;
-    }
-];
-[ ConjugateVerb84 fn vp t modal_to;
-    switch (fn) {
-        1:
-            print "put";
-            ;
-        2:
-            print "put";
-            ;
-        3:
-            print "putting";
-            ;
-        CV_MODAL:
-            rfalse;
-            ;
-        CV_MEANING:
-            return MEANINGLESS_RR;
-            ;
-        CV_POS:
-            switch (t) {
-                1:
-                    if ((vp == 3)) {
-                        print "puts";
-                    } else {
-                        print "put";
-                    }
-                    ;
-                2:
-                    print "put";
-                    ;
-                3:
-                    if ((vp == 3)) {
-                        print "has put";
-                    } else {
-                        print "have put";
-                    }
-                    ;
-                4:
-                    print "had put";
-                    ;
-                5:
-                    print "will put";
-                    ;
-            }
-            ;
-        CV_NEG:
-            switch (t) {
-                1:
-                    if ((vp == 3)) {
-                        print "does not put";
-                    } else {
-                        print "do not put";
-                    }
-                    ;
-                2:
-                    print "did not put";
-                    ;
-                3:
-                    if ((vp == 3)) {
-                        print "has not put";
-                    } else {
-                        print "have not put";
-                    }
-                    ;
-                4:
-                    print "had not put";
-                    ;
-                5:
-                    print "will not put";
                     ;
             }
             ;
@@ -55464,23 +55710,23 @@ Global max_z_object;
     #endif;
 ];
 [ call_U1967 forbid_breaks rv;
-    (rv = (call_U1987)());
+    (rv = (call_U1991)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U1987;
+        return call_U1991;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
 ];
 [ call_U1970 forbid_breaks rv;
-    (rv = (call_U1983)());
+    (rv = (call_U1986)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U1983;
+        return call_U1986;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -55496,12 +55742,12 @@ Global max_z_object;
     }
 ];
 [ call_U1973 forbid_breaks rv;
-    (rv = (call_U1984)());
+    (rv = (call_U1987)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U1984;
+        return call_U1987;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -55517,12 +55763,12 @@ Global max_z_object;
     }
 ];
 [ call_U1976 forbid_breaks rv;
-    (rv = (call_U1985)());
+    (rv = (call_U1988)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U1985;
+        return call_U1988;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -55538,12 +55784,12 @@ Global max_z_object;
     }
 ];
 [ call_U1979 forbid_breaks rv;
-    (rv = (call_U1986)());
+    (rv = (call_U1990)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U1986;
+        return call_U1990;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -55558,32 +55804,49 @@ Global max_z_object;
         (DA_Name)(n);
     }
 ];
-[ call_U1981;
+[ call_U1981 forbid_breaks rv;
+    (rv = (call_U1989)());
+    if (rv) {
+        if ((rv == 2)) {
+            return reason_the_action_failed;
+        }
+        return call_U1989;
+    }
+    ((latest_rule_result-->(0)) = 0);
+    rfalse;
+];
+[ A_getting_out_of_withouSub;
+    return GenericVerbSub(rulebook_id_U379, rulebook_id_U380, rulebook_id_U381);
+];
+[ A_getting_out_of_withouDbg n s for_say;
+    print "getting out of without a noun supplied";
+];
+[ call_U1984;
     if ((parameter_value == I_insidehouse_U1)) {
         if (debug_rules) {
-            DB_Rule(call_U1981, 800, 0);
+            DB_Rule(call_U1984, 800, 0);
         }
         RulebookSucceeds(0, 0);
         rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U1981, 800, 2);
+            DB_Rule(call_U1984, 800, 2);
         }
     }
     rfalse;
 ];
-[ call_U1982;
+[ call_U1985;
     if (debug_rules) {
-        DB_Rule(call_U1982, 801, 0);
+        DB_Rule(call_U1985, 801, 0);
     }
     BlkValueCopy(left_hand_status_line, bc_U190);
     BlkValueCopy(right_hand_status_line, bc_U191);
     rfalse;
 ];
-[ call_U1983;
+[ call_U1986;
     if ((actor == player)) {
         if (debug_rules) {
-            DB_Rule(call_U1983, 802, 0);
+            DB_Rule(call_U1986, 802, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -55596,63 +55859,80 @@ Global max_z_object;
         MoveObject(player, noun, 0, 0);
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U1983, 802, 3);
-        }
-    }
-    rfalse;
-];
-[ call_U1984;
-    if ((actor == player)) {
-        if (debug_rules) {
-            DB_Rule(call_U1984, 803, 0);
-        }
-        MoveObject(player, I_start_U1, 0, 0);
-    } else {
-        if ((debug_rules > 1)) {
-            DB_Rule(call_U1984, 803, 3);
-        }
-    }
-    rfalse;
-];
-[ call_U1985;
-    if ((actor == player)) {
-        if (debug_rules) {
-            DB_Rule(call_U1985, 804, 0);
-        }
-        MoveObject(player, I_out_U1, 0, 0);
-    } else {
-        if ((debug_rules > 1)) {
-            DB_Rule(call_U1985, 804, 3);
-        }
-    }
-    rfalse;
-];
-[ call_U1986;
-    if ((((actor == player)) && ((noun ofclass K2_thing)))) {
-        (self = noun);
-        if (debug_rules) {
-            DB_Rule(call_U1986, 805, 0);
-        }
-        TryAction(0, player, ##Exit, 0, 0);
-        rtrue;
-    } else {
-        if ((debug_rules > 1)) {
-            DB_Rule(call_U1986, 805, 2);
+            DB_Rule(call_U1986, 802, 3);
         }
     }
     rfalse;
 ];
 [ call_U1987;
-    if (debug_rules) {
-        DB_Rule(call_U1987, 806, 0);
+    if ((actor == player)) {
+        if (debug_rules) {
+            DB_Rule(call_U1987, 803, 0);
+        }
+        MoveObject(player, I_start_U1, 0, 0);
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U1987, 803, 3);
+        }
     }
-    BlkValueCopy(left_hand_status_line, bc_U192);
-    BlkValueCopy(right_hand_status_line, bc_U193);
-    BlkValueCopy(GProperty(OBJECT_TY, I_away_U1, A_short_name), bc_U194);
-    BlkValueCopy(GProperty(OBJECT_TY, I_out_U1, A_short_name), bc_U195);
-    BlkValueCopy(GProperty(OBJECT_TY, I_out_U1, A_description), bc_U196);
-    BlkValueCopy(GProperty(OBJECT_TY, I_start_U1, A_short_name), bc_U197);
-    BlkValueCopy((ResponseTexts-->((response_id_U202 - 1))), bc_U198);
+    rfalse;
+];
+[ call_U1988;
+    if ((actor == player)) {
+        if (debug_rules) {
+            DB_Rule(call_U1988, 804, 0);
+        }
+        MoveObject(player, I_out_U1, 0, 0);
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U1988, 804, 3);
+        }
+    }
+    rfalse;
+];
+[ call_U1989;
+    if ((act_requester == 0)) {
+        (self = noun);
+        if (debug_rules) {
+            DB_Rule(call_U1989, 805, 0);
+        }
+        if (IndirectlyContains(I_insidehouse_U1, player)) {
+            return GVS_Convert(##A_getting_out_of, player, 0);
+        }
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U1989, 805, 2);
+        }
+    }
+    rfalse;
+];
+[ call_U1990;
+    if ((((actor == player)) && ((noun ofclass K2_thing)))) {
+        (self = noun);
+        if (debug_rules) {
+            DB_Rule(call_U1990, 806, 0);
+        }
+        TryAction(0, player, ##Exit, 0, 0);
+        rtrue;
+        BlkValueCopy(GProperty(OBJECT_TY, I_start_U1, A_short_name), bc_U192);
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U1990, 806, 2);
+        }
+    }
+    rfalse;
+];
+[ call_U1991;
+    if (debug_rules) {
+        DB_Rule(call_U1991, 807, 0);
+    }
+    BlkValueCopy(left_hand_status_line, bc_U193);
+    BlkValueCopy(right_hand_status_line, bc_U194);
+    BlkValueCopy(GProperty(OBJECT_TY, I_away_U1, A_short_name), bc_U195);
+    BlkValueCopy(GProperty(OBJECT_TY, I_out_U1, A_short_name), bc_U196);
+    BlkValueCopy(GProperty(OBJECT_TY, I_out_U1, A_description), bc_U197);
+    BlkValueCopy(GProperty(OBJECT_TY, I_start_U1, A_short_name), bc_U198);
+    BlkValueCopy((ResponseTexts-->((response_id_U202 - 1))), bc_U199);
     AssertMapConnection(I_away_U1, I_south_U1, I_sidewalk_U1);
     AssertMapConnection(I_sidewalk_U1, I_north_U1, I_away_U1);
     MoveObject(player, I_away_U1, 0, 0);
@@ -78892,6 +79172,7 @@ Verb 'take' 'carry' 'hold'
 Verb 'get' 
 	* 'out' / 'off' / 'down' / 'up' -> Exit 
 	* 'in' / 'on' -> Enter 
+	* 'out' -> A_getting_out_of_withou 
 	* multi -> Take 
 	* 'in' / 'into' / 'on' / 'onto' noun -> Enter 
 	* 'off' / 'down' noun -> GetOff 
@@ -78933,8 +79214,8 @@ Verb 'show' 'present' 'display'
 	* held 'to' creature -> Show;
 Verb 'go' 'walk' 'run' 
 	* -> Go 
-	* 'out' -> A_getting_out_of 
-	* 'outside' -> A_getting_out_of 
+	* 'out' -> A_getting_out_of_withou 
+	* 'outside' -> A_getting_out_of_withou 
 	*  noun=Noun_Filter1 -> Go 
 	* noun -> Enter 
 	* 'into' / 'in' / 'inside' / 'through' noun -> Enter;
@@ -78964,8 +79245,8 @@ Verb 'sit'
 	* 'on' 'top' 'of' noun -> Enter;
 Verb 'exit' 'leave' 'out' 
 	* -> Exit 
-	* -> A_getting_out_of 
-	* -> A_going_outside;
+	* -> A_going_outside 
+	* -> A_getting_out_of_withou;
 Verb 'examine' 'x//' 'watch' 'describe' 'check' 
 	* noun -> Examine;
 Verb 'read' 
@@ -79116,7 +79397,8 @@ Verb 'no.verb'
 Verb 'inside' 
 	* -> A_going_inside;
 Verb 'outside' 
-	* -> A_going_outside;
+	* -> A_going_outside 
+	* -> A_getting_out_of_withou;
 Verb meta 'glklist' 
 	* -> GlkList;
 Verb meta 'abstract' 
