@@ -146,12 +146,14 @@ The print the final prompt rule response (A) is "Can't."
 The print the final question rule response (A) is "Can't."
 The print the final question rule response (B) is "Can't."
 The standard respond to final question rule response (A) is "Can't."
-The you-can-also-see rule response (A) is "Can't."
-The you-can-also-see rule response (B) is "Can't."
-The you-can-also-see rule response (C) is "Can't."
-The you-can-also-see rule response (D) is "Can't."
-The you-can-also-see rule response (E) is "Can't."
-The you-can-also-see rule response (F) is "Can't."
+
+
+[The you-can-also-see rule response (A) is "Please..."
+The you-can-also-see rule response (B) is "Please..."
+The you-can-also-see rule response (C) is "Please..."
+The you-can-also-see rule response (D) is "Please..."
+The you-can-also-see rule response (E) is "Please..."
+The you-can-also-see rule response (F) is "Please..."]
 [The use initial appearance in room descriptions rule response (A) is "Can't."]
 [The describe what's on scenery supporters in room descriptions rule response (A) is "Can't."
 The describe what's on mentioned supporters in room descriptions rule response (A) is "Can't."]
@@ -399,14 +401,16 @@ The block buying rule response (A) is "Can't."
 The block climbing rule response (A) is "Can't."
 The block sleeping rule response (A) is "Can't."                                 []
 
-Start is a room. The printed name of Start is "Inside". Start is east of Out.
+Start is a room. The printed name of Start is "Inside".
 
 InsideHouse is an enterable scenery container in Start. The printed name of InsideHouse is "Room". The player is in InsideHouse.
 
 Rule for printing the locale description of InsideHouse:
 	do nothing.
 
-Out is a room west of Start and north of Away.  The printed name of Out is "The Porch".
+Out is a room. The printed name of Out is "Outside".
+
+The oak door is a door. The oak door is west of Start and east of Out. The oak door is open.
 
 Away is a room south of Out.
 
@@ -471,10 +475,24 @@ Understand "outside" as getting out of without a noun supplied.
 Understand "go out" as getting out of without a noun supplied. 
 Understand "go outside" as getting out of without a noun supplied.
 
+
+
+roomname is a truth state that varies.
+[The room description heading rule does nothing when InTheHouse is false.]
+The you-can-also-see rule does nothing when roomname is false.
+
+
 Carry out getting out of something:
 	try exiting instead.
 
-
+Every turn when the player is in Start:
+	now roomname is false;
+	roomname returns in zero turns from now;
+	now the player is in Out.
+	
+At the time when roomname returns:
+	now roomname is true.
+	
 
 ACT II is a scene. "I can breathe.".
 
