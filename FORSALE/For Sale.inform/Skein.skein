@@ -3,7 +3,7 @@
   <generator>Windows Inform 10.1.2</generator>
   <item nodeId="node-1">
     <command xml:space="preserve">For Sale</command>
-    <result xml:space="preserve">Help.&#x000A;&#x000A;For Sale&#x000A;An Interactive Fiction by zlaqafor&#x000A;Release 1 / Serial number 250214 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Inside...&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Help.&#x000A;&#x000A;For Sale&#x000A;An Interactive Fiction by zlaqafor&#x000A;Release 1 / Serial number 250312 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Inside&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -18,6 +18,7 @@
       <child nodeId="node-98"/>
       <child nodeId="node-103"/>
       <child nodeId="node-42"/>
+      <child nodeId="node-133"/>
       <child nodeId="node-43"/>
       <child nodeId="node-47"/>
       <child nodeId="node-67"/>
@@ -245,7 +246,7 @@
   </item>
   <item nodeId="node-131">
     <command xml:space="preserve">get out</command>
-    <result xml:space="preserve">I'm out...&#x000A;&#x000A;Inside&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">I'm out...&#x000A;&#x000A;Inside&#x000A;Outside&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
@@ -314,7 +315,7 @@
   </item>
   <item nodeId="node-36">
     <command xml:space="preserve">go out</command>
-    <result xml:space="preserve">I'm out...&#x000A;&#x000A;Inside&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">I'm out...&#x000A;&#x000A;Inside&#x000A;The Porch&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -363,7 +364,7 @@
   </item>
   <item nodeId="node-98">
     <command xml:space="preserve">go outside</command>
-    <result xml:space="preserve">You must supply a noun.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">I'm out...&#x000A;&#x000A;Inside&#x000A;Outside&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -562,6 +563,21 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">I'm out...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
   <item nodeId="node-43">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Can't.&#x000A;&#x000A;&gt;</result>
@@ -597,7 +613,7 @@
   </item>
   <item nodeId="node-47">
     <command xml:space="preserve">out</command>
-    <result xml:space="preserve">I'm out...&#x000A;&#x000A;Inside&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">I'm out...&#x000A;&#x000A;Outside&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -606,8 +622,11 @@
       <child nodeId="node-55"/>
       <child nodeId="node-56"/>
       <child nodeId="node-58"/>
+      <child nodeId="node-137"/>
+      <child nodeId="node-138"/>
       <child nodeId="node-122"/>
       <child nodeId="node-61"/>
+      <child nodeId="node-135"/>
       <child nodeId="node-63"/>
       <child nodeId="node-66"/>
       <child nodeId="node-116"/>
@@ -715,9 +734,21 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">in</command>
+    <result xml:space="preserve">Can't.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">inside</command>
+    <result xml:space="preserve">Can't.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
   <item nodeId="node-122">
     <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Inside&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Inside&#x000A;You can see an oak door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -750,7 +781,7 @@
   </item>
   <item nodeId="node-61">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">In&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Outside&#x000A;You can see an oak door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -763,15 +794,37 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-63">
-    <command xml:space="preserve">out</command>
+  <item nodeId="node-135">
+    <command xml:space="preserve">lookj</command>
     <result xml:space="preserve">Can't.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Inside&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
       <child nodeId="node-64"/>
       <child nodeId="node-121"/>
     </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Outside&#x000A;You can see an oak door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
   </item>
   <item nodeId="node-64">
     <command xml:space="preserve">s</command>

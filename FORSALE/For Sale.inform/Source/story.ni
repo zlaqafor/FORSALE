@@ -420,7 +420,9 @@ Sidewalk is a room. The printed name of Sidewalk is "The Sidewalk.". The descrip
 
 When play begins:
 	now the left hand status line is "Me";
-	now the right hand status line is "Him".
+	now the right hand status line is "Him";
+
+After printing the banner text, say "[line break][bold type]Inside[line break]".
 
 ACT I is a scene. "Help."
 
@@ -478,20 +480,23 @@ Understand "go outside" as getting out of without a noun supplied.
 
 
 roomname is a truth state that varies.
-[The room description heading rule does nothing when InTheHouse is false.]
+The room description heading rule does nothing when roomname is false.
 The you-can-also-see rule does nothing when roomname is false.
+The you-can-also-see rule does nothing when roomname is true.
 
 
 Carry out getting out of something:
 	try exiting instead.
 
 Every turn when the player is in Start:
-	now roomname is false;
+	now roomname is true;
 	roomname returns in zero turns from now;
 	now the player is in Out.
 	
 At the time when roomname returns:
+	now the printed name of Start is " ";
 	now roomname is true.
+
 	
 
 ACT II is a scene. "I can breathe.".

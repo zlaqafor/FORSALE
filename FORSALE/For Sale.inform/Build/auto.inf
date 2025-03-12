@@ -1138,7 +1138,6 @@ Constant call_U472 = EMPTY_RULEBOOK;
 Constant rulebook_id_U81 = 80;
 Constant call_U473 = EMPTY_RULEBOOK;
 Constant rulebook_id_U82 = 81;
-Constant call_U474 = EMPTY_RULEBOOK;
 Constant rulebook_id_U83 = 82;
 Constant activity_id_U18 = 17;
 Constant var_id_U18 = 10017;
@@ -2608,6 +2607,7 @@ Constant anchor_U356 = 1105;
 Constant anchor_U357 = 1105;
 Constant anchor_U358 = 1105;
 Constant anchor_U359 = 1105;
+Constant anchor_U360 = 1105;
 Release 1;
 Constant No_Directions = 12;
 Constant line_ref_U1 = 561;
@@ -3803,49 +3803,50 @@ Constant PREFER_HELD = 0;
 Constant HIGHEST_DPMR_SCORE = 4;
 Constant Computed_Constant_Value_0_U4 = 1;
 Constant EMPTY_TEXT_PACKED = "";
-Constant I7_VERSION_NUMBER = "10.1.2";
+Constant alphabetised_text_0 = " ";
 Constant I7_FULL_VERSION_NUMBER = "10.1.2";
-Serial "250214";
-Constant alphabetised_text_0 = ">";
-Constant alphabetised_text_1 = "An Interactive Fiction";
-Constant alphabetised_text_2 = "As good-looking as ever.";
-Constant alphabetised_text_3 = "Away";
-Constant alphabetised_text_4 = "Fiction";
-Constant alphabetised_text_5 = "For Sale";
-Constant alphabetised_text_6 = "He's gone.";
-Constant alphabetised_text_7 = "Help.";
-Constant alphabetised_text_8 = "Henry";
-Constant alphabetised_text_9 = "Him";
-Constant alphabetised_text_10 = "His Door.";
-Constant alphabetised_text_11 = "His Room.";
-Constant alphabetised_text_12 = "I can breathe.";
-Constant alphabetised_text_13 = "Inside";
-Constant alphabetised_text_14 = "May";
-Constant alphabetised_text_15 = "Me";
-Constant alphabetised_text_16 = "Need out.";
-Constant alphabetised_text_17 = "No... I can't.";
-Constant alphabetised_text_18 = "Our House.";
-Constant alphabetised_text_19 = "Outside";
-Constant alphabetised_text_20 = "QUIT";
-Constant alphabetised_text_21 = "RESTART";
-Constant alphabetised_text_22 = "RESTORE a saved game";
-Constant alphabetised_text_23 = "Room";
-Constant alphabetised_text_24 = "The Sidewalk.";
-Constant alphabetised_text_25 = "UNDO the last command";
-Constant alphabetised_text_26 = "Yourself";
+Constant I7_VERSION_NUMBER = "10.1.2";
+Serial "250312";
+Constant alphabetised_text_1 = ">";
+Constant alphabetised_text_2 = "An Interactive Fiction";
+Constant alphabetised_text_3 = "As good-looking as ever.";
+Constant alphabetised_text_4 = "Away";
+Constant alphabetised_text_5 = "Fiction";
+Constant alphabetised_text_6 = "For Sale";
+Constant alphabetised_text_7 = "He's gone.";
+Constant alphabetised_text_8 = "Help.";
+Constant alphabetised_text_9 = "Henry";
+Constant alphabetised_text_10 = "Him";
+Constant alphabetised_text_11 = "His Door.";
+Constant alphabetised_text_12 = "His Room.";
+Constant alphabetised_text_13 = "I can breathe.";
+Constant alphabetised_text_14 = "Inside";
+Constant alphabetised_text_15 = "May";
+Constant alphabetised_text_16 = "Me";
+Constant alphabetised_text_17 = "Need out.";
+Constant alphabetised_text_18 = "No... I can't.";
+Constant alphabetised_text_19 = "Our House.";
+Constant alphabetised_text_20 = "Outside";
+Constant alphabetised_text_21 = "QUIT";
+Constant alphabetised_text_22 = "RESTART";
+Constant alphabetised_text_23 = "RESTORE a saved game";
+Constant alphabetised_text_24 = "Room";
+Constant alphabetised_text_25 = "The Sidewalk.";
+Constant alphabetised_text_26 = "UNDO the last command";
+Constant alphabetised_text_27 = "Yourself";
 Constant outcome_allow_access_U1 = "allow access";
 Constant outcome_allow_startup_U1 = "allow startup";
-Constant alphabetised_text_27 = "animals";
-Constant alphabetised_text_28 = "backdrops";
-Constant alphabetised_text_29 = "containers";
+Constant alphabetised_text_28 = "animals";
+Constant alphabetised_text_29 = "backdrops";
+Constant alphabetised_text_30 = "containers";
 Constant outcome_deny_access_U1 = "deny access";
 Constant outcome_deny_startup_U1 = "deny startup";
-Constant alphabetised_text_30 = "devices";
-Constant alphabetised_text_31 = "directions";
-Constant alphabetised_text_32 = "doors";
-Constant alphabetised_text_33 = "down";
-Constant alphabetised_text_34 = "east";
-Constant alphabetised_text_35 = "inside";
+Constant alphabetised_text_31 = "devices";
+Constant alphabetised_text_32 = "directions";
+Constant alphabetised_text_33 = "doors";
+Constant alphabetised_text_34 = "down";
+Constant alphabetised_text_35 = "east";
+Constant alphabetised_text_36 = "inside";
 Constant outcome_it_does_U1 = "it does";
 Constant outcome_it_does_not_U1 = "it does not";
 Constant outcome_it_is_likely_U1 = "it is likely";
@@ -3853,32 +3854,31 @@ Constant outcome_it_is_possible_U1 = "it is possible";
 Constant outcome_it_is_unlikely_U1 = "it is unlikely";
 Constant outcome_it_is_very_likely_U1 = "it is very likely";
 Constant outcome_it_is_very_unlikely_U1 = "it is very unlikely";
-Constant alphabetised_text_36 = "men";
-Constant alphabetised_text_37 = "north";
-Constant alphabetised_text_38 = "northeast";
-Constant alphabetised_text_39 = "northwest";
-Constant alphabetised_text_40 = "oak door";
-Constant alphabetised_text_41 = "outside";
-Constant alphabetised_text_42 = "people";
+Constant alphabetised_text_37 = "men";
+Constant alphabetised_text_38 = "north";
+Constant alphabetised_text_39 = "northeast";
+Constant alphabetised_text_40 = "northwest";
+Constant alphabetised_text_41 = "oak door";
+Constant alphabetised_text_42 = "outside";
+Constant alphabetised_text_43 = "people";
 Constant outcome_persuasion_fails_U1 = "persuasion fails";
 Constant outcome_persuasion_succeeds_U1 = "persuasion succeeds";
-Constant alphabetised_text_43 = "player's holdalls";
-Constant alphabetised_text_44 = "regions";
-Constant alphabetised_text_45 = "see some suggestions for AMUSING things to do";
-Constant alphabetised_text_46 = "south";
-Constant alphabetised_text_47 = "southeast";
-Constant alphabetised_text_48 = "southwest";
-Constant alphabetised_text_49 = "supporters";
-Constant alphabetised_text_50 = "the";
+Constant alphabetised_text_44 = "player's holdalls";
+Constant alphabetised_text_45 = "regions";
+Constant alphabetised_text_46 = "see some suggestions for AMUSING things to do";
+Constant alphabetised_text_47 = "south";
+Constant alphabetised_text_48 = "southeast";
+Constant alphabetised_text_49 = "southwest";
+Constant alphabetised_text_50 = "supporters";
+Constant alphabetised_text_51 = "the";
 Constant outcome_there_is_insufficien_U1 = "there is insufficient light";
 Constant outcome_there_is_sufficient__U1 = "there is sufficient light";
-Constant alphabetised_text_51 = "up";
-Constant alphabetised_text_52 = "vehicles";
-Constant alphabetised_text_53 = "west";
-Constant alphabetised_text_54 = "women";
-Constant alphabetised_text_55 = "yourself";
-Constant alphabetised_text_56 = "zlaqafor";
-Constant alphabetised_text_57 = "~I'm...";
+Constant alphabetised_text_52 = "up";
+Constant alphabetised_text_53 = "vehicles";
+Constant alphabetised_text_54 = "west";
+Constant alphabetised_text_55 = "women";
+Constant alphabetised_text_56 = "yourself";
+Constant alphabetised_text_57 = "zlaqafor";
 Constant abilities_U1 = (RELS_TEST);
 Constant abilities_U2 = (RELS_TEST);
 Constant abilities_U4 = (RELS_TEST);
@@ -3886,47 +3886,47 @@ Constant abilities_U5 = (RELS_TEST);
 Constant V1_starting_the_virtual_mach = activity_id_U1;
 Constant V2_printing_the_name = activity_id_U2;
 Constant V3_printing_the_plural_name = activity_id_U3;
-Constant text_U1 = alphabetised_text_37;
-Constant text_U2 = alphabetised_text_50;
-Constant text_U3 = alphabetised_text_31;
-Constant text_U4 = alphabetised_text_38;
-Constant text_U5 = alphabetised_text_50;
-Constant text_U6 = alphabetised_text_31;
-Constant text_U7 = alphabetised_text_39;
-Constant text_U8 = alphabetised_text_50;
-Constant text_U9 = alphabetised_text_31;
-Constant text_U10 = alphabetised_text_46;
-Constant text_U11 = alphabetised_text_50;
-Constant text_U12 = alphabetised_text_31;
-Constant text_U13 = alphabetised_text_47;
-Constant text_U14 = alphabetised_text_50;
-Constant text_U15 = alphabetised_text_31;
-Constant text_U16 = alphabetised_text_48;
-Constant text_U17 = alphabetised_text_50;
-Constant text_U18 = alphabetised_text_31;
-Constant text_U19 = alphabetised_text_34;
-Constant text_U20 = alphabetised_text_50;
-Constant text_U21 = alphabetised_text_31;
-Constant text_U22 = alphabetised_text_53;
-Constant text_U23 = alphabetised_text_50;
-Constant text_U24 = alphabetised_text_31;
-Constant text_U25 = alphabetised_text_51;
-Constant text_U26 = alphabetised_text_50;
-Constant text_U27 = alphabetised_text_31;
-Constant text_U28 = alphabetised_text_33;
-Constant text_U29 = alphabetised_text_50;
-Constant text_U30 = alphabetised_text_31;
-Constant text_U31 = alphabetised_text_35;
-Constant text_U32 = alphabetised_text_50;
-Constant text_U33 = alphabetised_text_31;
-Constant text_U34 = alphabetised_text_41;
-Constant text_U35 = alphabetised_text_50;
-Constant text_U36 = alphabetised_text_31;
-Constant text_U37 = alphabetised_text_55;
-Constant text_U38 = alphabetised_text_2;
-Constant text_U39 = alphabetised_text_26;
-Constant text_U40 = alphabetised_text_55;
-Constant text_U41 = alphabetised_text_42;
+Constant text_U1 = alphabetised_text_38;
+Constant text_U2 = alphabetised_text_51;
+Constant text_U3 = alphabetised_text_32;
+Constant text_U4 = alphabetised_text_39;
+Constant text_U5 = alphabetised_text_51;
+Constant text_U6 = alphabetised_text_32;
+Constant text_U7 = alphabetised_text_40;
+Constant text_U8 = alphabetised_text_51;
+Constant text_U9 = alphabetised_text_32;
+Constant text_U10 = alphabetised_text_47;
+Constant text_U11 = alphabetised_text_51;
+Constant text_U12 = alphabetised_text_32;
+Constant text_U13 = alphabetised_text_48;
+Constant text_U14 = alphabetised_text_51;
+Constant text_U15 = alphabetised_text_32;
+Constant text_U16 = alphabetised_text_49;
+Constant text_U17 = alphabetised_text_51;
+Constant text_U18 = alphabetised_text_32;
+Constant text_U19 = alphabetised_text_35;
+Constant text_U20 = alphabetised_text_51;
+Constant text_U21 = alphabetised_text_32;
+Constant text_U22 = alphabetised_text_54;
+Constant text_U23 = alphabetised_text_51;
+Constant text_U24 = alphabetised_text_32;
+Constant text_U25 = alphabetised_text_52;
+Constant text_U26 = alphabetised_text_51;
+Constant text_U27 = alphabetised_text_32;
+Constant text_U28 = alphabetised_text_34;
+Constant text_U29 = alphabetised_text_51;
+Constant text_U30 = alphabetised_text_32;
+Constant text_U31 = alphabetised_text_36;
+Constant text_U32 = alphabetised_text_51;
+Constant text_U33 = alphabetised_text_32;
+Constant text_U34 = alphabetised_text_42;
+Constant text_U35 = alphabetised_text_51;
+Constant text_U36 = alphabetised_text_32;
+Constant text_U37 = alphabetised_text_56;
+Constant text_U38 = alphabetised_text_3;
+Constant text_U39 = alphabetised_text_27;
+Constant text_U40 = alphabetised_text_56;
+Constant text_U41 = alphabetised_text_43;
 Constant RBNO0_OUTCOME_U1 = outcome_it_is_very_unlikely_U1;
 Constant RBNO4_OUTCOME_U1 = outcome_it_is_very_likely_U1;
 Constant RBNO3_OUTCOME_U1 = outcome_it_is_likely_U1;
@@ -3963,68 +3963,68 @@ Constant V31_handling_the_final_questi = activity_id_U31;
 Constant V32_printing_the_locale_descr = activity_id_U32;
 Constant V33_choosing_notable_locale_o = activity_id_U33;
 Constant V34_printing_a_locale_paragra = activity_id_U34;
-Constant text_U42 = alphabetised_text_31;
-Constant text_U43 = alphabetised_text_32;
-Constant text_U44 = alphabetised_text_29;
+Constant text_U42 = alphabetised_text_32;
+Constant text_U43 = alphabetised_text_33;
+Constant text_U44 = alphabetised_text_30;
 Constant K6_supporter_First = nothing;
-Constant text_U45 = alphabetised_text_49;
+Constant text_U45 = alphabetised_text_50;
 Constant K7_backdrop_First = nothing;
-Constant text_U46 = alphabetised_text_28;
-Constant text_U47 = alphabetised_text_42;
+Constant text_U46 = alphabetised_text_29;
+Constant text_U47 = alphabetised_text_43;
 Constant K9_region_First = nothing;
-Constant text_U48 = alphabetised_text_44;
+Constant text_U48 = alphabetised_text_45;
 Constant K10_man_First = nothing;
-Constant text_U49 = alphabetised_text_36;
+Constant text_U49 = alphabetised_text_37;
 Constant K11_woman_First = nothing;
-Constant text_U50 = alphabetised_text_54;
+Constant text_U50 = alphabetised_text_55;
 Constant K12_animal_First = nothing;
-Constant text_U51 = alphabetised_text_27;
+Constant text_U51 = alphabetised_text_28;
 Constant K13_device_First = nothing;
-Constant text_U52 = alphabetised_text_30;
+Constant text_U52 = alphabetised_text_31;
 Constant K14_vehicle_First = nothing;
-Constant text_U53 = alphabetised_text_52;
+Constant text_U53 = alphabetised_text_53;
 Constant K15_player_s_holdall_First = nothing;
-Constant text_U54 = alphabetised_text_43;
-Constant text_U55 = alphabetised_text_0;
-Constant text_U56 = alphabetised_text_56;
-Constant text_U57 = alphabetised_text_1;
-Constant text_U58 = alphabetised_text_4;
+Constant text_U54 = alphabetised_text_44;
+Constant text_U55 = alphabetised_text_1;
+Constant text_U56 = alphabetised_text_57;
+Constant text_U57 = alphabetised_text_2;
+Constant text_U58 = alphabetised_text_5;
 Constant column_identity_U1 = table_column_id_U1;
-Constant text_U59 = alphabetised_text_21;
-Constant text_U60 = alphabetised_text_22;
-Constant text_U61 = alphabetised_text_45;
-Constant text_U62 = alphabetised_text_20;
-Constant text_U63 = alphabetised_text_25;
+Constant text_U59 = alphabetised_text_22;
+Constant text_U60 = alphabetised_text_23;
+Constant text_U61 = alphabetised_text_46;
+Constant text_U62 = alphabetised_text_21;
+Constant text_U63 = alphabetised_text_26;
 Constant column_identity_U2 = table_column_id_U2;
 Constant column_identity_U3 = table_column_id_U3;
 Constant column_identity_U4 = table_column_id_U4;
 Constant column_identity_U5 = table_column_id_U5;
 Constant column_identity_U6 = table_column_id_U6;
 Constant column_identity_U7 = table_column_id_U7;
-Constant text_U64 = alphabetised_text_13;
-Constant text_U65 = alphabetised_text_23;
-Constant text_U66 = alphabetised_text_29;
-Constant text_U67 = alphabetised_text_19;
-Constant text_U68 = alphabetised_text_40;
-Constant text_U69 = alphabetised_text_32;
-Constant text_U70 = alphabetised_text_3;
-Constant text_U71 = alphabetised_text_24;
-Constant text_U72 = alphabetised_text_16;
-Constant text_U73 = alphabetised_text_7;
-Constant text_U74 = alphabetised_text_12;
-Constant text_U75 = alphabetised_text_15;
-Constant text_U76 = alphabetised_text_9;
-Constant text_U77 = alphabetised_text_57;
-Constant text_U78 = alphabetised_text_14;
-Constant text_U79 = alphabetised_text_8;
-Constant text_U80 = alphabetised_text_18;
-Constant text_U81 = alphabetised_text_10;
-Constant text_U82 = alphabetised_text_6;
-Constant text_U83 = alphabetised_text_11;
-Constant text_U84 = alphabetised_text_17;
-Constant text_U85 = alphabetised_text_5;
-Constant text_U86 = alphabetised_text_1;
-Constant text_U87 = alphabetised_text_56;
+Constant text_U64 = alphabetised_text_14;
+Constant text_U65 = alphabetised_text_24;
+Constant text_U66 = alphabetised_text_30;
+Constant text_U67 = alphabetised_text_20;
+Constant text_U68 = alphabetised_text_41;
+Constant text_U69 = alphabetised_text_33;
+Constant text_U70 = alphabetised_text_4;
+Constant text_U71 = alphabetised_text_25;
+Constant text_U72 = alphabetised_text_17;
+Constant text_U73 = alphabetised_text_8;
+Constant text_U74 = alphabetised_text_13;
+Constant text_U75 = alphabetised_text_16;
+Constant text_U76 = alphabetised_text_10;
+Constant text_U77 = alphabetised_text_0;
+Constant text_U78 = alphabetised_text_15;
+Constant text_U79 = alphabetised_text_9;
+Constant text_U80 = alphabetised_text_19;
+Constant text_U81 = alphabetised_text_11;
+Constant text_U82 = alphabetised_text_7;
+Constant text_U83 = alphabetised_text_12;
+Constant text_U84 = alphabetised_text_18;
+Constant text_U85 = alphabetised_text_6;
+Constant text_U86 = alphabetised_text_2;
+Constant text_U87 = alphabetised_text_57;
 Constant GPR_REPARSE = REPARSE_CODE;
 Constant TABLE_NOVALUE = IMPROBABLE_VALUE;
 Constant RC_INFINITY = MAX_POSITIVE_NUMBER;
@@ -10107,34 +10107,38 @@ Global max_z_object;
             rtrue;
         }
         if ((R == call_U1986)) {
-            print "Carry out going by name";
+            print "After printing the banner text";
             rtrue;
         }
         if ((R == call_U1987)) {
-            print "Carry out going inside";
+            print "Carry out going by name";
             rtrue;
         }
         if ((R == call_U1988)) {
-            print "Carry out going outside";
+            print "Carry out going inside";
             rtrue;
         }
         if ((R == call_U1989)) {
-            print "InsideHouse rule";
+            print "Carry out going outside";
             rtrue;
         }
         if ((R == call_U1990)) {
-            print "Carry out getting out of something";
+            print "InsideHouse rule";
             rtrue;
         }
         if ((R == call_U1991)) {
-            print "Every turn when the player is in Start";
+            print "Carry out getting out of something";
             rtrue;
         }
         if ((R == call_U1992)) {
-            print "roomname returns";
+            print "Every turn when the player is in Start";
             rtrue;
         }
         if ((R == call_U1993)) {
+            print "roomname returns";
+            rtrue;
+        }
+        if ((R == call_U1994)) {
             print "When ACT II begins";
             rtrue;
         }
@@ -27522,12 +27526,12 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U407 forbid_breaks rv;
-    (rv = (call_U1991)());
+    (rv = (call_U1992)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U1991;
+        return call_U1992;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -28128,6 +28132,19 @@ Global max_z_object;
             return reason_the_action_failed;
         }
         return call_U1062;
+    }
+    ((latest_rule_result-->(0)) = 0);
+    rfalse;
+];
+[ call_U474 forbid_breaks rv p;
+    (p = parameter_value);
+    (parameter_value = p);
+    (rv = (call_U1986)());
+    if (rv) {
+        if ((rv == 2)) {
+            return reason_the_action_failed;
+        }
+        return call_U1986;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -36419,6 +36436,9 @@ Global max_z_object;
     if (((Global_Vars-->43) == 0)) {
         rfalse;
     }
+    if (((Global_Vars-->43) == 1)) {
+        rfalse;
+    }
     if (debug_rules) {
         DB_Rule(call_U1087, 418, 0);
     }
@@ -41488,6 +41508,9 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U1430 tmp_0 tmp_1;
+    if (((Global_Vars-->43) == 0)) {
+        rfalse;
+    }
     if ((actor == player)) {
         if (debug_rules) {
             DB_Rule(call_U1430, 521, 0);
@@ -55827,23 +55850,23 @@ Global max_z_object;
     #endif;
 ];
 [ call_U1967 forbid_breaks rv;
-    (rv = (call_U1993)());
+    (rv = (call_U1994)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U1993;
+        return call_U1994;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
 ];
 [ call_U1970 forbid_breaks rv;
-    (rv = (call_U1986)());
+    (rv = (call_U1987)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U1986;
+        return call_U1987;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -55859,12 +55882,12 @@ Global max_z_object;
     }
 ];
 [ call_U1973 forbid_breaks rv;
-    (rv = (call_U1987)());
+    (rv = (call_U1988)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U1987;
+        return call_U1988;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -55880,12 +55903,12 @@ Global max_z_object;
     }
 ];
 [ call_U1976 forbid_breaks rv;
-    (rv = (call_U1988)());
+    (rv = (call_U1989)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U1988;
+        return call_U1989;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -55901,12 +55924,12 @@ Global max_z_object;
     }
 ];
 [ call_U1979 forbid_breaks rv;
-    (rv = (call_U1990)());
+    (rv = (call_U1991)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U1990;
+        return call_U1991;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -55922,12 +55945,12 @@ Global max_z_object;
     }
 ];
 [ call_U1981 forbid_breaks rv;
-    (rv = (call_U1989)());
+    (rv = (call_U1990)());
     if (rv) {
         if ((rv == 2)) {
             return reason_the_action_failed;
         }
-        return call_U1989;
+        return call_U1990;
     }
     ((latest_rule_result-->(0)) = 0);
     rfalse;
@@ -55961,9 +55984,24 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U1986;
+    if (debug_rules) {
+        DB_Rule(call_U1986, 802, 0);
+    }
+    (say__p = 1);
+    ParaContent();
+    print "^";
+    ParaContent();
+    style bold;
+    ParaContent();
+    print "Inside";
+    ParaContent();
+    print "^";
+    rfalse;
+];
+[ call_U1987;
     if ((actor == player)) {
         if (debug_rules) {
-            DB_Rule(call_U1986, 802, 0);
+            DB_Rule(call_U1987, 803, 0);
         }
         (say__p = 1);
         ParaContent();
@@ -55976,19 +56014,6 @@ Global max_z_object;
         MoveObject(player, noun, 0, 0);
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U1986, 802, 3);
-        }
-    }
-    rfalse;
-];
-[ call_U1987;
-    if ((actor == player)) {
-        if (debug_rules) {
-            DB_Rule(call_U1987, 803, 0);
-        }
-        MoveObject(player, I_start_U1, 0, 0);
-    } else {
-        if ((debug_rules > 1)) {
             DB_Rule(call_U1987, 803, 3);
         }
     }
@@ -55999,7 +56024,7 @@ Global max_z_object;
         if (debug_rules) {
             DB_Rule(call_U1988, 804, 0);
         }
-        MoveObject(player, I_out_U1, 0, 0);
+        MoveObject(player, I_start_U1, 0, 0);
     } else {
         if ((debug_rules > 1)) {
             DB_Rule(call_U1988, 804, 3);
@@ -56008,29 +56033,27 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U1989;
-    if ((act_requester == 0)) {
-        (self = noun);
+    if ((actor == player)) {
         if (debug_rules) {
             DB_Rule(call_U1989, 805, 0);
         }
-        if (IndirectlyContains(I_insidehouse_U1, player)) {
-            return GVS_Convert(##A_getting_out_of, player, 0);
-        }
+        MoveObject(player, I_out_U1, 0, 0);
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U1989, 805, 2);
+            DB_Rule(call_U1989, 805, 3);
         }
     }
     rfalse;
 ];
 [ call_U1990;
-    if ((((actor == player)) && ((noun ofclass K2_thing)))) {
+    if ((act_requester == 0)) {
         (self = noun);
         if (debug_rules) {
             DB_Rule(call_U1990, 806, 0);
         }
-        TryAction(0, player, ##Exit, 0, 0);
-        rtrue;
+        if (IndirectlyContains(I_insidehouse_U1, player)) {
+            return GVS_Convert(##A_getting_out_of, player, 0);
+        }
     } else {
         if ((debug_rules > 1)) {
             DB_Rule(call_U1990, 806, 2);
@@ -56039,31 +56062,46 @@ Global max_z_object;
     rfalse;
 ];
 [ call_U1991;
-    if ((I_start_U1 == ContainerOf(player))) {
+    if ((((actor == player)) && ((noun ofclass K2_thing)))) {
+        (self = noun);
         if (debug_rules) {
             DB_Rule(call_U1991, 807, 0);
         }
-        BlkValueCopy(GProperty(OBJECT_TY, I_start_U1, A_short_name), bc_U198);
-        ((Global_Vars-->43) = 0);
-        SetTimedEvent(call_U1992, 1, 0);
-        MoveObject(player, I_out_U1);
+        TryAction(0, player, ##Exit, 0, 0);
+        rtrue;
     } else {
         if ((debug_rules > 1)) {
-            DB_Rule(call_U1991, 807, 4);
+            DB_Rule(call_U1991, 807, 2);
         }
     }
     rfalse;
 ];
 [ call_U1992;
-    if (debug_rules) {
-        DB_Rule(call_U1992, 808, 0);
+    if ((I_start_U1 == ContainerOf(player))) {
+        if (debug_rules) {
+            DB_Rule(call_U1992, 808, 0);
+        }
+        ((Global_Vars-->43) = 1);
+        SetTimedEvent(call_U1993, 1, 0);
+        MoveObject(player, I_out_U1);
+    } else {
+        if ((debug_rules > 1)) {
+            DB_Rule(call_U1992, 808, 4);
+        }
     }
-    ((Global_Vars-->43) = 1);
     rfalse;
 ];
 [ call_U1993;
     if (debug_rules) {
         DB_Rule(call_U1993, 809, 0);
+    }
+    BlkValueCopy(GProperty(OBJECT_TY, I_start_U1, A_short_name), bc_U198);
+    ((Global_Vars-->43) = 1);
+    rfalse;
+];
+[ call_U1994;
+    if (debug_rules) {
+        DB_Rule(call_U1994, 810, 0);
     }
     BlkValueCopy(left_hand_status_line, bc_U199);
     BlkValueCopy(right_hand_status_line, bc_U200);
