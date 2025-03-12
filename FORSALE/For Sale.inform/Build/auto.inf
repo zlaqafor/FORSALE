@@ -761,7 +761,7 @@ Constant property_id_U53 = 93;
 Constant property_id_U54 = 94;
 Constant CCOUNT_ACTION_NAME = 105;
 Constant AD_RECORDS = 105;
-Constant NO_PAST_TENSE_CONDS = 0;
+Constant NO_PAST_TENSE_CONDS = 1;
 Constant NO_PAST_TENSE_ACTIONS = 0;
 Constant BASE_KIND_HWM = 68;
 Constant RUCKSACK_CLASS = K15_player_s_holdall;
@@ -2608,6 +2608,7 @@ Constant anchor_U357 = 1105;
 Constant anchor_U358 = 1105;
 Constant anchor_U359 = 1105;
 Constant anchor_U360 = 1105;
+Constant ptc_id_U1 = 0;
 Release 1;
 Constant No_Directions = 12;
 Constant line_ref_U1 = 561;
@@ -3820,33 +3821,34 @@ Constant alphabetised_text_10 = "Him";
 Constant alphabetised_text_11 = "His Door.";
 Constant alphabetised_text_12 = "His Room.";
 Constant alphabetised_text_13 = "I can breathe.";
-Constant alphabetised_text_14 = "Inside";
-Constant alphabetised_text_15 = "May";
-Constant alphabetised_text_16 = "Me";
-Constant alphabetised_text_17 = "Need out.";
-Constant alphabetised_text_18 = "No... I can't.";
-Constant alphabetised_text_19 = "Our House.";
-Constant alphabetised_text_20 = "Outside";
-Constant alphabetised_text_21 = "QUIT";
-Constant alphabetised_text_22 = "RESTART";
-Constant alphabetised_text_23 = "RESTORE a saved game";
-Constant alphabetised_text_24 = "Room";
-Constant alphabetised_text_25 = "The Sidewalk.";
-Constant alphabetised_text_26 = "UNDO the last command";
-Constant alphabetised_text_27 = "Yourself";
+Constant alphabetised_text_14 = "I need to leave.";
+Constant alphabetised_text_15 = "Inside";
+Constant alphabetised_text_16 = "May";
+Constant alphabetised_text_17 = "Me";
+Constant alphabetised_text_18 = "Need out.";
+Constant alphabetised_text_19 = "No... I can't.";
+Constant alphabetised_text_20 = "Our House.";
+Constant alphabetised_text_21 = "Outside";
+Constant alphabetised_text_22 = "QUIT";
+Constant alphabetised_text_23 = "RESTART";
+Constant alphabetised_text_24 = "RESTORE a saved game";
+Constant alphabetised_text_25 = "Room";
+Constant alphabetised_text_26 = "The Sidewalk.";
+Constant alphabetised_text_27 = "UNDO the last command";
+Constant alphabetised_text_28 = "Yourself";
 Constant outcome_allow_access_U1 = "allow access";
 Constant outcome_allow_startup_U1 = "allow startup";
-Constant alphabetised_text_28 = "animals";
-Constant alphabetised_text_29 = "backdrops";
-Constant alphabetised_text_30 = "containers";
+Constant alphabetised_text_29 = "animals";
+Constant alphabetised_text_30 = "backdrops";
+Constant alphabetised_text_31 = "containers";
 Constant outcome_deny_access_U1 = "deny access";
 Constant outcome_deny_startup_U1 = "deny startup";
-Constant alphabetised_text_31 = "devices";
-Constant alphabetised_text_32 = "directions";
-Constant alphabetised_text_33 = "doors";
-Constant alphabetised_text_34 = "down";
-Constant alphabetised_text_35 = "east";
-Constant alphabetised_text_36 = "inside";
+Constant alphabetised_text_32 = "devices";
+Constant alphabetised_text_33 = "directions";
+Constant alphabetised_text_34 = "doors";
+Constant alphabetised_text_35 = "down";
+Constant alphabetised_text_36 = "east";
+Constant alphabetised_text_37 = "inside";
 Constant outcome_it_does_U1 = "it does";
 Constant outcome_it_does_not_U1 = "it does not";
 Constant outcome_it_is_likely_U1 = "it is likely";
@@ -3854,31 +3856,31 @@ Constant outcome_it_is_possible_U1 = "it is possible";
 Constant outcome_it_is_unlikely_U1 = "it is unlikely";
 Constant outcome_it_is_very_likely_U1 = "it is very likely";
 Constant outcome_it_is_very_unlikely_U1 = "it is very unlikely";
-Constant alphabetised_text_37 = "men";
-Constant alphabetised_text_38 = "north";
-Constant alphabetised_text_39 = "northeast";
-Constant alphabetised_text_40 = "northwest";
-Constant alphabetised_text_41 = "oak door";
-Constant alphabetised_text_42 = "outside";
-Constant alphabetised_text_43 = "people";
+Constant alphabetised_text_38 = "men";
+Constant alphabetised_text_39 = "north";
+Constant alphabetised_text_40 = "northeast";
+Constant alphabetised_text_41 = "northwest";
+Constant alphabetised_text_42 = "oak door";
+Constant alphabetised_text_43 = "outside";
+Constant alphabetised_text_44 = "people";
 Constant outcome_persuasion_fails_U1 = "persuasion fails";
 Constant outcome_persuasion_succeeds_U1 = "persuasion succeeds";
-Constant alphabetised_text_44 = "player's holdalls";
-Constant alphabetised_text_45 = "regions";
-Constant alphabetised_text_46 = "see some suggestions for AMUSING things to do";
-Constant alphabetised_text_47 = "south";
-Constant alphabetised_text_48 = "southeast";
-Constant alphabetised_text_49 = "southwest";
-Constant alphabetised_text_50 = "supporters";
-Constant alphabetised_text_51 = "the";
+Constant alphabetised_text_45 = "player's holdalls";
+Constant alphabetised_text_46 = "regions";
+Constant alphabetised_text_47 = "see some suggestions for AMUSING things to do";
+Constant alphabetised_text_48 = "south";
+Constant alphabetised_text_49 = "southeast";
+Constant alphabetised_text_50 = "southwest";
+Constant alphabetised_text_51 = "supporters";
+Constant alphabetised_text_52 = "the";
 Constant outcome_there_is_insufficien_U1 = "there is insufficient light";
 Constant outcome_there_is_sufficient__U1 = "there is sufficient light";
-Constant alphabetised_text_52 = "up";
-Constant alphabetised_text_53 = "vehicles";
-Constant alphabetised_text_54 = "west";
-Constant alphabetised_text_55 = "women";
-Constant alphabetised_text_56 = "yourself";
-Constant alphabetised_text_57 = "zlaqafor";
+Constant alphabetised_text_53 = "up";
+Constant alphabetised_text_54 = "vehicles";
+Constant alphabetised_text_55 = "west";
+Constant alphabetised_text_56 = "women";
+Constant alphabetised_text_57 = "yourself";
+Constant alphabetised_text_58 = "zlaqafor";
 Constant abilities_U1 = (RELS_TEST);
 Constant abilities_U2 = (RELS_TEST);
 Constant abilities_U4 = (RELS_TEST);
@@ -3886,47 +3888,47 @@ Constant abilities_U5 = (RELS_TEST);
 Constant V1_starting_the_virtual_mach = activity_id_U1;
 Constant V2_printing_the_name = activity_id_U2;
 Constant V3_printing_the_plural_name = activity_id_U3;
-Constant text_U1 = alphabetised_text_38;
-Constant text_U2 = alphabetised_text_51;
-Constant text_U3 = alphabetised_text_32;
-Constant text_U4 = alphabetised_text_39;
-Constant text_U5 = alphabetised_text_51;
-Constant text_U6 = alphabetised_text_32;
-Constant text_U7 = alphabetised_text_40;
-Constant text_U8 = alphabetised_text_51;
-Constant text_U9 = alphabetised_text_32;
-Constant text_U10 = alphabetised_text_47;
-Constant text_U11 = alphabetised_text_51;
-Constant text_U12 = alphabetised_text_32;
-Constant text_U13 = alphabetised_text_48;
-Constant text_U14 = alphabetised_text_51;
-Constant text_U15 = alphabetised_text_32;
-Constant text_U16 = alphabetised_text_49;
-Constant text_U17 = alphabetised_text_51;
-Constant text_U18 = alphabetised_text_32;
-Constant text_U19 = alphabetised_text_35;
-Constant text_U20 = alphabetised_text_51;
-Constant text_U21 = alphabetised_text_32;
-Constant text_U22 = alphabetised_text_54;
-Constant text_U23 = alphabetised_text_51;
-Constant text_U24 = alphabetised_text_32;
-Constant text_U25 = alphabetised_text_52;
-Constant text_U26 = alphabetised_text_51;
-Constant text_U27 = alphabetised_text_32;
-Constant text_U28 = alphabetised_text_34;
-Constant text_U29 = alphabetised_text_51;
-Constant text_U30 = alphabetised_text_32;
-Constant text_U31 = alphabetised_text_36;
-Constant text_U32 = alphabetised_text_51;
-Constant text_U33 = alphabetised_text_32;
-Constant text_U34 = alphabetised_text_42;
-Constant text_U35 = alphabetised_text_51;
-Constant text_U36 = alphabetised_text_32;
-Constant text_U37 = alphabetised_text_56;
+Constant text_U1 = alphabetised_text_39;
+Constant text_U2 = alphabetised_text_52;
+Constant text_U3 = alphabetised_text_33;
+Constant text_U4 = alphabetised_text_40;
+Constant text_U5 = alphabetised_text_52;
+Constant text_U6 = alphabetised_text_33;
+Constant text_U7 = alphabetised_text_41;
+Constant text_U8 = alphabetised_text_52;
+Constant text_U9 = alphabetised_text_33;
+Constant text_U10 = alphabetised_text_48;
+Constant text_U11 = alphabetised_text_52;
+Constant text_U12 = alphabetised_text_33;
+Constant text_U13 = alphabetised_text_49;
+Constant text_U14 = alphabetised_text_52;
+Constant text_U15 = alphabetised_text_33;
+Constant text_U16 = alphabetised_text_50;
+Constant text_U17 = alphabetised_text_52;
+Constant text_U18 = alphabetised_text_33;
+Constant text_U19 = alphabetised_text_36;
+Constant text_U20 = alphabetised_text_52;
+Constant text_U21 = alphabetised_text_33;
+Constant text_U22 = alphabetised_text_55;
+Constant text_U23 = alphabetised_text_52;
+Constant text_U24 = alphabetised_text_33;
+Constant text_U25 = alphabetised_text_53;
+Constant text_U26 = alphabetised_text_52;
+Constant text_U27 = alphabetised_text_33;
+Constant text_U28 = alphabetised_text_35;
+Constant text_U29 = alphabetised_text_52;
+Constant text_U30 = alphabetised_text_33;
+Constant text_U31 = alphabetised_text_37;
+Constant text_U32 = alphabetised_text_52;
+Constant text_U33 = alphabetised_text_33;
+Constant text_U34 = alphabetised_text_43;
+Constant text_U35 = alphabetised_text_52;
+Constant text_U36 = alphabetised_text_33;
+Constant text_U37 = alphabetised_text_57;
 Constant text_U38 = alphabetised_text_3;
-Constant text_U39 = alphabetised_text_27;
-Constant text_U40 = alphabetised_text_56;
-Constant text_U41 = alphabetised_text_43;
+Constant text_U39 = alphabetised_text_28;
+Constant text_U40 = alphabetised_text_57;
+Constant text_U41 = alphabetised_text_44;
 Constant RBNO0_OUTCOME_U1 = outcome_it_is_very_unlikely_U1;
 Constant RBNO4_OUTCOME_U1 = outcome_it_is_very_likely_U1;
 Constant RBNO3_OUTCOME_U1 = outcome_it_is_likely_U1;
@@ -3963,68 +3965,69 @@ Constant V31_handling_the_final_questi = activity_id_U31;
 Constant V32_printing_the_locale_descr = activity_id_U32;
 Constant V33_choosing_notable_locale_o = activity_id_U33;
 Constant V34_printing_a_locale_paragra = activity_id_U34;
-Constant text_U42 = alphabetised_text_32;
-Constant text_U43 = alphabetised_text_33;
-Constant text_U44 = alphabetised_text_30;
+Constant text_U42 = alphabetised_text_33;
+Constant text_U43 = alphabetised_text_34;
+Constant text_U44 = alphabetised_text_31;
 Constant K6_supporter_First = nothing;
-Constant text_U45 = alphabetised_text_50;
+Constant text_U45 = alphabetised_text_51;
 Constant K7_backdrop_First = nothing;
-Constant text_U46 = alphabetised_text_29;
-Constant text_U47 = alphabetised_text_43;
+Constant text_U46 = alphabetised_text_30;
+Constant text_U47 = alphabetised_text_44;
 Constant K9_region_First = nothing;
-Constant text_U48 = alphabetised_text_45;
+Constant text_U48 = alphabetised_text_46;
 Constant K10_man_First = nothing;
-Constant text_U49 = alphabetised_text_37;
+Constant text_U49 = alphabetised_text_38;
 Constant K11_woman_First = nothing;
-Constant text_U50 = alphabetised_text_55;
+Constant text_U50 = alphabetised_text_56;
 Constant K12_animal_First = nothing;
-Constant text_U51 = alphabetised_text_28;
+Constant text_U51 = alphabetised_text_29;
 Constant K13_device_First = nothing;
-Constant text_U52 = alphabetised_text_31;
+Constant text_U52 = alphabetised_text_32;
 Constant K14_vehicle_First = nothing;
-Constant text_U53 = alphabetised_text_53;
+Constant text_U53 = alphabetised_text_54;
 Constant K15_player_s_holdall_First = nothing;
-Constant text_U54 = alphabetised_text_44;
+Constant text_U54 = alphabetised_text_45;
 Constant text_U55 = alphabetised_text_1;
-Constant text_U56 = alphabetised_text_57;
+Constant text_U56 = alphabetised_text_58;
 Constant text_U57 = alphabetised_text_2;
 Constant text_U58 = alphabetised_text_5;
 Constant column_identity_U1 = table_column_id_U1;
-Constant text_U59 = alphabetised_text_22;
-Constant text_U60 = alphabetised_text_23;
-Constant text_U61 = alphabetised_text_46;
-Constant text_U62 = alphabetised_text_21;
-Constant text_U63 = alphabetised_text_26;
+Constant text_U59 = alphabetised_text_23;
+Constant text_U60 = alphabetised_text_24;
+Constant text_U61 = alphabetised_text_47;
+Constant text_U62 = alphabetised_text_22;
+Constant text_U63 = alphabetised_text_27;
 Constant column_identity_U2 = table_column_id_U2;
 Constant column_identity_U3 = table_column_id_U3;
 Constant column_identity_U4 = table_column_id_U4;
 Constant column_identity_U5 = table_column_id_U5;
 Constant column_identity_U6 = table_column_id_U6;
 Constant column_identity_U7 = table_column_id_U7;
-Constant text_U64 = alphabetised_text_14;
-Constant text_U65 = alphabetised_text_24;
-Constant text_U66 = alphabetised_text_30;
-Constant text_U67 = alphabetised_text_20;
-Constant text_U68 = alphabetised_text_41;
-Constant text_U69 = alphabetised_text_33;
+Constant text_U64 = alphabetised_text_15;
+Constant text_U65 = alphabetised_text_25;
+Constant text_U66 = alphabetised_text_31;
+Constant text_U67 = alphabetised_text_21;
+Constant text_U68 = alphabetised_text_42;
+Constant text_U69 = alphabetised_text_34;
 Constant text_U70 = alphabetised_text_4;
-Constant text_U71 = alphabetised_text_25;
-Constant text_U72 = alphabetised_text_17;
+Constant text_U71 = alphabetised_text_26;
+Constant text_U72 = alphabetised_text_18;
 Constant text_U73 = alphabetised_text_8;
 Constant text_U74 = alphabetised_text_13;
-Constant text_U75 = alphabetised_text_16;
+Constant text_U75 = alphabetised_text_17;
 Constant text_U76 = alphabetised_text_10;
 Constant text_U77 = alphabetised_text_0;
-Constant text_U78 = alphabetised_text_15;
+Constant text_U78 = alphabetised_text_16;
 Constant text_U79 = alphabetised_text_9;
-Constant text_U80 = alphabetised_text_19;
+Constant text_U80 = alphabetised_text_20;
 Constant text_U81 = alphabetised_text_11;
 Constant text_U82 = alphabetised_text_7;
-Constant text_U83 = alphabetised_text_12;
-Constant text_U84 = alphabetised_text_18;
-Constant text_U85 = alphabetised_text_6;
-Constant text_U86 = alphabetised_text_2;
-Constant text_U87 = alphabetised_text_57;
+Constant text_U83 = alphabetised_text_14;
+Constant text_U84 = alphabetised_text_12;
+Constant text_U85 = alphabetised_text_19;
+Constant text_U86 = alphabetised_text_6;
+Constant text_U87 = alphabetised_text_2;
+Constant text_U88 = alphabetised_text_58;
 Constant GPR_REPARSE = REPARSE_CODE;
 Constant TABLE_NOVALUE = IMPROBABLE_VALUE;
 Constant RC_INFINITY = MAX_POSITIVE_NUMBER;
@@ -4134,9 +4137,9 @@ Constant Computed_Constant_Value_23_U1 = (BLK_DATA_OFFSET + Computed_Constant_Va
 Constant VALENCY_MASK = Computed_Constant_Value_60_U1;
 Constant Computed_Constant_Value_39_U1 = (Computed_Constant_Value_38_U1 * TEXT_TY_NoBuffers);
 Constant BLK_DATA_MULTI_OFFSET = Computed_Constant_Value_23_U1;
-Constant Story = bc_U206;
-Constant Headline = bc_U207;
-Constant Story_Author = bc_U208;
+Constant Story = bc_U207;
+Constant Headline = bc_U208;
+Constant Story_Author = bc_U209;
 Constant Computed_Constant_Value_24_U1 = (MEMORY_HEAP_SIZE + BLK_DATA_MULTI_OFFSET);
 Constant abilities_U3 = (RELS_TEST + RELS_LOOKUP_ANY + RELS_LOOKUP_ALL_X + RELS_LOOKUP_ALL_X + RELS_LIST + RELS_ASSERT_TRUE + RELS_ASSERT_FALSE + RELS_LOOKUP_ANY);
 Constant abilities_U6 = (RELS_TEST + RELS_LOOKUP_ANY + RELS_LOOKUP_ALL_X + RELS_LOOKUP_ALL_X + RELS_LIST + RELS_ASSERT_TRUE + RELS_ASSERT_FALSE + RELS_LOOKUP_ANY);
@@ -5346,11 +5349,12 @@ Array bc_U202 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U81; ];
 Array bc_U203 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U82; ];
 Array bc_U204 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U83; ];
 Array bc_U205 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U84; ];
+Array bc_U206 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U85; ];
 Array DK3_phrase_real_number____re --> [ PHRASE_TY; 2; REAL_NUMBER_TY; ];
 Array DK4_phrase_real_number____nu --> [ PHRASE_TY; 2; NUMBER_TY; ];
-Array bc_U206 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U85; ];
 Array bc_U207 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U86; ];
 Array bc_U208 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U87; ];
+Array bc_U209 --> [ CONSTANT_PACKED_TEXT_STORAGE; text_U88; ];
 Array UUID_ARRAY -> [ 45; 'U'; 'U'; 'I'; 'D'; ':'; '/'; '/'; '0'; '0'; 'A'; '2'; 'A'; '1'; '6'; '0'; '-'; '5'; 'A'; '6'; 'D'; '-'; '4'; '2'; '0'; '9'; '-'; 'A'; '4'; '5'; '5'; '-'; '9'; 'D'; 'F'; 'F'; '6'; 'B'; '7'; 'B'; 'C'; '6'; '6'; 'C'; '/'; '/'; ];
 Array InitialSituation --> [ selfobj; I_insidehouse_U1; I_start_U1; 540; 0; ];
 Array Map_Storage --> [ 0; 0; 0; 0; 0; 0; 0; I_oak_door_U1; 0; 0; 0; 0; 0; 0; 0; I_away_U1; 0; 0; I_oak_door_U1; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; ];
@@ -5431,8 +5435,8 @@ Array TimesActionHasHappened --> 1; ! blank with extent 1
 Array TurnsActionHasBeenHappening --> 1; ! blank with extent 1
 Array LastTurnActionHappenedOn --> 1; ! blank with extent 1
 Array ActionCurrentlyHappeningFlag -> 1; ! blank with extent 1
-Array past_chronological_record --> 1; ! blank with extent 1
-Array present_chronological_record --> 1; ! blank with extent 1
+Array past_chronological_record --> 2; ! blank with extent 2
+Array present_chronological_record --> 2; ! blank with extent 2
 Array SAT_Tmp --> 7; ! blank with extent 7
 Array pattern --> 32; ! blank with extent 32
 Array pattern2 --> 32; ! blank with extent 32
@@ -8094,6 +8098,67 @@ Global max_z_object;
     }
 ];
 [ TestSinglePastState past_flag pt turn_end wanted old new trips consecutives;
+    if (past_flag) {
+        (new = (((past_chronological_record-->(pt)))&(1)));
+        (trips = ((((past_chronological_record-->(pt)))&(254))/2));
+        (consecutives = ((((past_chronological_record-->(pt)))&(65280))/256));
+    } else {
+        (old = (((present_chronological_record-->(pt)))&(1)));
+        (trips = ((((present_chronological_record-->(pt)))&(254))/2));
+        (consecutives = ((((present_chronological_record-->(pt)))&(65280))/256));
+        switch (pt) {
+            0:
+                (new = PCONR1());
+                ;
+            default:
+                print "*** No such past tense condition ***^";
+                (new = 0);
+                ;
+        }
+        if (new) {
+            if ((old == 0)) {
+                (trips)++;
+                if ((trips > 127)) {
+                    (trips = 127);
+                }
+            }
+            if (turn_end) {
+                (consecutives)++;
+                if ((consecutives > 127)) {
+                    (consecutives = 127);
+                }
+            }
+        } else {
+            (consecutives = 0);
+        }
+        ((present_chronological_record-->(pt)) = (new + ((trips*2) + (consecutives*256))));
+    }
+    switch (wanted) {
+        0:
+            if (new) {
+                return new;
+            }
+            ;
+        1:
+            if (new) {
+                return trips;
+            }
+            ;
+        2:
+            if (new) {
+                return (consecutives + 1);
+            }
+            ;
+        4:
+            return new;
+            ;
+        5:
+            return trips;
+            ;
+        6:
+            return consecutives;
+            ;
+    }
     rfalse;
 ];
 [ ShowExtensionVersions;
@@ -55770,7 +55835,7 @@ Global max_z_object;
 ];
 [ call_U1961 ch;
     if (((scene_status-->(1)) == 1)) {
-        if ((real_location == I_away_U1)) {
+        if ((TestSinglePastState(0, ptc_id_U1, 0, 2) == 3)) {
             (ch = 1);
             if (debug_scenes) {
                 print "[Scene 'ACT I' ends]^";
@@ -56103,17 +56168,23 @@ Global max_z_object;
     if (debug_rules) {
         DB_Rule(call_U1994, 810, 0);
     }
+    ((Global_Vars-->43) = 1);
+    SetTimedEvent(call_U1993, 1, 0);
     BlkValueCopy(left_hand_status_line, bc_U199);
     BlkValueCopy(right_hand_status_line, bc_U200);
     BlkValueCopy(GProperty(OBJECT_TY, I_away_U1, A_short_name), bc_U201);
     BlkValueCopy(GProperty(OBJECT_TY, I_out_U1, A_short_name), bc_U202);
     BlkValueCopy(GProperty(OBJECT_TY, I_out_U1, A_description), bc_U203);
-    BlkValueCopy(GProperty(OBJECT_TY, I_start_U1, A_short_name), bc_U204);
-    BlkValueCopy((ResponseTexts-->((response_id_U202 - 1))), bc_U205);
+    BlkValueCopy(GProperty(OBJECT_TY, I_away_U1, A_description), bc_U204);
+    BlkValueCopy(GProperty(OBJECT_TY, I_start_U1, A_short_name), bc_U205);
+    BlkValueCopy((ResponseTexts-->((response_id_U202 - 1))), bc_U206);
     AssertMapConnection(I_away_U1, I_south_U1, I_sidewalk_U1);
     AssertMapConnection(I_sidewalk_U1, I_north_U1, I_away_U1);
     MoveObject(player, I_away_U1, 0, 0);
     rfalse;
+];
+[ PCONR1;
+    return (real_location == I_out_U1);
 ];
 [ Scope_Filter1 obj o2;
     switch (scope_stage) {

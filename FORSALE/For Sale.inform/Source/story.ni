@@ -428,7 +428,7 @@ ACT I is a scene. "Help."
 
 ACT I begins when play begins.
 
-ACT I ends when the location is Away.
+ACT I ends when the location is Out for the third turn.
 
 [To find is a verb. To lack is a verb. To head is a verb. To go is a verb.
 
@@ -497,18 +497,19 @@ At the time when roomname returns:
 	now the printed name of Start is " ";
 	now roomname is true.
 
-	
-
 ACT II is a scene. "I can breathe.".
 
 ACT II begins when ACT I ends.
 
 When ACT II begins:
+	now roomname is true;
+	roomname returns in zero turns from now;
 	now the left hand status line is "May";
 	now the right hand status line is "Henry";
 	now the printed name of Away is "Our House.";
 	now the printed name of Out is "His Door.";
 	now the description of Out is "He's gone.";
+	now the description of Away is "I need to leave.";
 	now the printed name of Start is "His Room.";
 	now the can't go that way rule response (A) is "No... I can't.";
 	now Sidewalk is south of Away;
